@@ -1,0 +1,10 @@
+{
+  "name": "landscape-parser",
+  "private": true,
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+}
