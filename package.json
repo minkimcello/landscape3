@@ -8,6 +8,7 @@
     "yaml": "^2.3.4"
   },
   "scripts": {
-    "parse": "node ./src/metadataParser.js"
+    "parse": "node ./src/metadataParser.js",
+    "generate": "node ./src/convertToCatalogInfo.js"
   }
 }
