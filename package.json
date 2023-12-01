@@ -6,5 +6,8 @@
   "type": "module",
   "dependencies": {
     "yaml": "^2.3.4"
+  },
+  "scripts": {
+    "parse": "node ./src/metadataParser.js"
   }
 }
