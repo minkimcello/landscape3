@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CDK for Kubernetes (CDK8s)
+  description: CDK8s lets you define Kubernetes apps and components using familiar
+    programming languages and object-oriented APIs.
+  links:
+    - url: https://cdk8s.io/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hello

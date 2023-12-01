@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Akri
+  links:
+    - url: https://docs.akri.sh
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hello

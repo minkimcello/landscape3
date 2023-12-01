@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Apollo
+  description: Apollo is a reliable open-source configuration management system
+  links:
+    - url: https://www.apolloconfig.com/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hello

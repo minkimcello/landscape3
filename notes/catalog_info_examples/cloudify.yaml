@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cloudify
+  links:
+    - url: https://cloudify.co
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hello

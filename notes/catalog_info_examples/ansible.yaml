@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Ansible
+  links:
+    - url: https://www.ansible.com/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hello

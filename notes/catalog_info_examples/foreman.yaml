@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Foreman
+  links:
+    - url: https://theforeman.org/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hello

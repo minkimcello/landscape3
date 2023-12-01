@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Digital Rebar
+  links:
+    - url: https://rackn.com/rebar/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hello
