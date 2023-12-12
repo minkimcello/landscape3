@@ -1,12 +1,10 @@
-import { parse, stringify } from 'yaml';
+import { stringify } from 'yaml';
 import fs from 'fs';
+import { readLandscapeData } from './utils/readLandscapeData';
 
 const CATALOG_INFO_COUNT = 20;
 
-const landscapeFile = fs.readFileSync('landscape.yml', 'utf8');
-const data = parse(landscapeFile);
-
-const products_combined = data.landscape.slice(0,7).reduce((acc, item) => {
+const products_combined = readLandscapeData().slice(0,7).reduce((acc, item) => {
   return [...acc, {
     category: item.name,
     subcategories: item.subcategories,
