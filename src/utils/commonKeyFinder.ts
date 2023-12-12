@@ -1,5 +1,9 @@
-function getKeys(obj) {
-  let keys = [];
+import type { Item } from '../types';
+
+function getKeys(obj: { [key: string]: any }) {
+  // WIP: using `[key: string]: any` instead of `Item` as a workaround for
+  // the error "Expression of type string can't be used to index type"
+  let keys: string[] = [];
   for (const key in obj) {
     keys.push(key);
     if (typeof obj[key] == "object") {
@@ -14,18 +18,23 @@ function getKeys(obj) {
   return keys;
 }
 
-const listOfKeys = (items) => {
+const listOfKeys = (items: Item[]) => {
   return items.reduce((acc, item) => {  
     const listOfKeys = getKeys(item);
     const newKey = listOfKeys.filter(key => {
       return !acc.includes(key);
     });
     return [...acc, ...newKey];
-  }, []);
+  }, [] as string[]);
 }
 
-export const commonKeyFinder = (items) => {
-  const keys = listOfKeys(items);
+interface KeysReport {
+  uniqueKeys: string,
+  commonKeys: string[]
+}
+
+export const commonKeyFinder = (items: Item[]): KeysReport => {
+  const keys: string[] = listOfKeys(items);
   
   const commonKeys = keys.reduce((acc, key) => {
     let doesNotExistInAllItems = false;
@@ -41,7 +50,7 @@ export const commonKeyFinder = (items) => {
     } else {
       return [...acc, key];
     }
-  }, []);
+  }, [] as string[]);
 
   const uniqueKeys = keys.filter(key => {
     return !commonKeys.includes(key);

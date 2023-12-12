@@ -1,15 +1,25 @@
 import { stringify } from 'yaml';
 import fs from 'fs';
-import { readLandscapeData } from './utils/readLandscapeData';
+import { readLandscapeData } from './utils';
+import { SubCategory, Item } from './types';
 
-const CATALOG_INFO_COUNT = 20;
+const CATALOG_INFO_COUNT = 1;
+const OUTPUT_DIR = './output';
+
+interface ItemWithCategory extends Item {
+  category: string;
+  subcategory: string;
+}
 
 const products_combined = readLandscapeData().slice(0,7).reduce((acc, item) => {
   return [...acc, {
     category: item.name,
     subcategories: item.subcategories,
   }];
-}, []).reduce((acc, item) => {
+}, [] as {
+  category: string,
+  subcategories: SubCategory[],
+}[]).reduce((acc, item) => {
   const category = item.category;
   const subcategoriesItems = item.subcategories.reduce((acc, item) => {
     return [...acc, ...item.items.map(x => {
@@ -19,11 +29,13 @@ const products_combined = readLandscapeData().slice(0,7).reduce((acc, item) => {
         category,
       }
     })];
-  }, []);
+  }, [] as ItemWithCategory[]);
   return [...acc, ...subcategoriesItems];
-}, []);
+}, [] as ItemWithCategory[]);
 
 const example_catalog_infos = products_combined.slice(0,CATALOG_INFO_COUNT);
+
+if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
 
 example_catalog_infos.forEach(product => {
   const { name, description, homepage_url } = product;
@@ -46,5 +58,5 @@ example_catalog_infos.forEach(product => {
       owner: "hello",
     }
   }
-  fs.writeFileSync(`./notes/catalog_info_examples/${name.toLowerCase().replace(/\ /g, '_')}.yaml`, stringify(spec));
+  fs.writeFileSync(`${OUTPUT_DIR}/${name.toLowerCase().replace(/\ /g, '_')}.yaml`, stringify(spec));
 });

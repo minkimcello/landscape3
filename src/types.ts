@@ -2,46 +2,16 @@ export interface Landscape {
   landscape: Category[];
 }
 
-interface Category {
+export interface Category {
   category: never;
   name: string;
-  subcategories: SubCategory;
+  subcategories: SubCategory[];
 }
 
-interface SubCategory {
+export interface SubCategory {
   subcategory: never;
   name: string;
   items: Item[];
-}
-
-interface Item {
-  item: never;
-  name: string;
-  logo: string;
-  homepage_url: string;
-  
-  additional_repos?: {
-    repo_url: string;
-  }[];
-  allow_duplicate_repo?: boolean;
-  branch?: string;
-  crunchbase?: string;
-  description?: string;
-  enduser?: boolean
-  joined?: string;
-  open_source?: boolean;
-  organization?: {
-    name: string;
-  } | string;
-  project?: string;
-  project_org?: string;
-  repo_url?: string;
-  second_path?: string[];
-  stock_ticker?: string;
-  twitter?: string;
-  unnamed_organization?: boolean;
-  url_for_bestpractices?: string;
-  extra?: ExtraDetails;
 }
 
 interface ExtraDetails {
@@ -90,4 +60,34 @@ interface ExtraDetails {
   training_type?: string;
   url_for_bestpractices?: string;
   youtube_url?: string;
+}
+
+export interface Item {
+  item: never;
+  name: string;
+  logo: string;
+  homepage_url: string;
+  
+  additional_repos?: {
+    repo_url: string;
+  }[];
+  allow_duplicate_repo?: boolean;
+  branch?: string;
+  crunchbase?: string;
+  description?: string;
+  enduser?: boolean
+  joined?: string;
+  open_source?: boolean;
+  organization?: {
+    name: string;
+  } | string;
+  project?: string;
+  project_org?: string;
+  repo_url?: string;
+  second_path?: string[];
+  stock_ticker?: string;
+  twitter?: string;
+  unnamed_organization?: boolean;
+  url_for_bestpractices?: string;
+  extra?: ExtraDetails;
 }

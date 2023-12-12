@@ -3,12 +3,17 @@
   "private": true,
   "version": "1.0.0",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "yaml": "^2.3.4"
   },
   "scripts": {
-    "parse": "node index.js",
-    "generate": "node ./src/convertToCatalogInfo.js"
+    "parse": "ts-node index.ts",
+    "generate": "ts-node ./src/convertToCatalogInfo.ts"
+  },
+  "devDependencies": {
+    "@frontside/eslint-config": "^3.1.0",
+    "@frontside/typescript": "^4.0.0",
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2"
   }
 }
