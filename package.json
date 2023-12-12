@@ -8,12 +8,15 @@
   },
   "scripts": {
     "parse": "ts-node index.ts",
-    "generate": "ts-node ./src/convertToCatalogInfo.ts"
+    "generate:entities": "ts-node ./src/convertToCatalogInfo.ts",
+    "generate:json": "ts-node ./src/convertLandscapeToJson.ts",
+    "generated:types": "yarn generate:json && ./node_modules/maketypes/index.js -i ./output/generated_types.ts ./output/generated_landscape.json Landscape"
   },
   "devDependencies": {
     "@frontside/eslint-config": "^3.1.0",
     "@frontside/typescript": "^4.0.0",
     "@types/node": "^20.10.4",
+    "maketypes": "^1.1.2",
     "ts-node": "^10.9.2"
   }
 }
