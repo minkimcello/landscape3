@@ -11,7 +11,7 @@ interface ItemWithCategory extends Item {
   subcategory: string;
 }
 
-const products_combined = readLandscapeData().slice(0,7).reduce((acc, item) => {
+const products_combined = readLandscapeData().landscape.slice(0,7).reduce((acc, item) => {
   return [...acc, {
     category: item.name,
     subcategories: item.subcategories,

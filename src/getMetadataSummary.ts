@@ -15,7 +15,7 @@ export interface MetadataSummary {
 }
 
 export const getMetadataSummary = (filter: (items: Item[]) => Item[]): MetadataSummary => {
-  const allItems = readLandscapeData().reduce((acc, item) => {
+  const allItems = readLandscapeData().landscape.reduce((acc, item) => {
     return [...acc, ...item.subcategories];
   }, [] as SubCategory[]).reduce((acc, item) => {
     return [...acc, ...item.items];
