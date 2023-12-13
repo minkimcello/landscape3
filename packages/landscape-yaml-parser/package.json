@@ -2,23 +2,39 @@
   "name": "@minkimcello/landscape-yaml-parser",
   "version": "0.1.0",
   "author": "Min Kim <minkimcello@gmail.com>",
-  "license": "ISC",
-  "main": "dist/index.js",
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
   "files": [
-    "dist",
-    "output"
+    "dist"
   ],
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "backstage": {
+    "role": "node-library"
+  },
   "scripts": {
     "parse": "ts-node index.ts",
     "generate:entities": "ts-node ./src/convertToCatalogInfo.ts",
     "generate:json": "ts-node ./src/convertLandscapeToJson.ts",
-    "generated:types": "yarn generate:json && ./node_modules/maketypes/index.js -i ./output/generated_types.ts ./output/generated_landscape.json Landscape"
+    "generated:types": "yarn generate:json && ./node_modules/maketypes/index.js -i ./output/generated_types.ts ./output/generated_landscape.json Landscape",
+    "start": "backstage-cli package start",
+    "build": "backstage-cli package build",
+    "lint": "backstage-cli package lint",
+    "test": "backstage-cli package test",
+    "clean": "backstage-cli package clean",
+    "prepack": "backstage-cli package prepack",
+    "postpack": "backstage-cli package postpack"
   },
   "dependencies": {
     "maketypes": "^1.1.2",
     "yaml": "^2.3.4"
   },
   "devDependencies": {
+    "@backstage/cli": "^0.23.0",
     "@types/node": "^20.10.4",
     "ts-node": "^10.9.2"
   }
