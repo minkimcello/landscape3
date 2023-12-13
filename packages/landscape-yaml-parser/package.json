@@ -1,5 +1,5 @@
 {
-  "name": "@minkimcello/landscape-parser",
+  "name": "@minkimcello/landscape-yaml-parser",
   "version": "0.1.0",
   "author": "Min Kim <minkimcello@gmail.com>",
   "license": "ISC",
