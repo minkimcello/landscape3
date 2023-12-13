@@ -1,0 +1,27 @@
+{
+  "name": "@minkimcello/landscape-yaml-parser",
+  "version": "0.1.0",
+  "author": "Min Kim <minkimcello@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "output"
+  ],
+  "scripts": {
+    "parse": "ts-node index.ts",
+    "generate:entities": "ts-node ./src/convertToCatalogInfo.ts",
+    "generate:json": "ts-node ./src/convertLandscapeToJson.ts",
+    "generated:types": "yarn generate:json && ./node_modules/maketypes/index.js -i ./output/generated_types.ts ./output/generated_landscape.json Landscape"
+  },
+  "dependencies": {
+    "maketypes": "^1.1.2",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "@frontside/eslint-config": "^3.1.0",
+    "@frontside/typescript": "^4.0.0",
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2"
+  }
+}
