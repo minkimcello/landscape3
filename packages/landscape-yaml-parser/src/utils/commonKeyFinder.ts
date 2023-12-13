@@ -5,20 +5,22 @@ function getKeys(obj: { [key: string]: any }) {
   // the error "Expression of type string can't be used to index type"
   let keys: string[] = [];
   for (const key in obj) {
-    keys.push(key);
-    if (typeof obj[key] == "object") {
-      const subkeys = getKeys(obj[key]);
-      keys = keys.concat(
-        subkeys.map((subkey) => {
-          return `${key}.${subkey}`;
-        })
-      );
+    if (key) {
+      keys.push(key);
+      if (typeof obj[key] === "object") {
+        const subkeys = getKeys(obj[key]);
+        keys = keys.concat(
+          subkeys.map((subkey) => {
+            return `${key}.${subkey}`;
+          })
+        );
+      }
     }
   }
   return keys;
 }
 
-const listOfKeys = (items: Item[]) => {
+const listOfUniqueKeys = (items: Item[]) => {
   return items.reduce((acc, item) => {  
     const listOfKeys = getKeys(item);
     const newKey = listOfKeys.filter(key => {
@@ -34,12 +36,12 @@ interface KeysReport {
 }
 
 export const commonKeyFinder = (items: Item[]): KeysReport => {
-  const keys: string[] = listOfKeys(items);
+  const keys: string[] = listOfUniqueKeys(items);
   
   const commonKeys = keys.reduce((acc, key) => {
     let doesNotExistInAllItems = false;
-    for (let item of items) {
-      const itemKeys = listOfKeys([item]);
+    for (const item of items) {
+      const itemKeys = listOfUniqueKeys([item]);
       if (!itemKeys.includes(key)) {
         doesNotExistInAllItems = true;
         break;
@@ -47,9 +49,8 @@ export const commonKeyFinder = (items: Item[]): KeysReport => {
     }
     if (doesNotExistInAllItems) {
       return acc;
-    } else {
-      return [...acc, key];
     }
+    return [...acc, key];
   }, [] as string[]);
 
   const uniqueKeys = keys.filter(key => {

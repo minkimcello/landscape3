@@ -11,7 +11,7 @@ interface ItemWithCategory extends Item {
   subcategory: string;
 }
 
-const products_combined = readLandscapeData().landscape.slice(0,7).reduce((acc, item) => {
+const first_seven_categories = readLandscapeData().landscape.slice(0,7).reduce((acc, item) => {
   return [...acc, {
     category: item.name,
     subcategories: item.subcategories,
@@ -19,13 +19,15 @@ const products_combined = readLandscapeData().landscape.slice(0,7).reduce((acc, 
 }, [] as {
   category: string,
   subcategories: SubCategory[],
-}[]).reduce((acc, item) => {
+}[]);
+
+const products_combined = first_seven_categories.reduce((acc, item) => {
   const category = item.category;
-  const subcategoriesItems = item.subcategories.reduce((acc, item) => {
-    return [...acc, ...item.items.map(x => {
+  const subcategoriesItems = item.subcategories.reduce((acc1, item1) => {
+    return [...acc1, ...item1.items.map(x => {
       return {
         ...x,
-        subcategory: item.name,
+        subcategory: item1.name,
         category,
       }
     })];
