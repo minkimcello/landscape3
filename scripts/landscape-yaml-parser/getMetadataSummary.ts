@@ -1,8 +1,6 @@
-import {
-  checkForDuplicateNames,
-  commonKeyFinder,
-  readLandscapeData,
-} from './utils';
+import { checkForDuplicateNames } from './utils/checkForDuplicateNames';
+import { readLandscapeData } from './utils/readLandscapeData';
+import { commonKeyFinder } from './utils/commonKeyFinder';
 
 import { Item, SubCategory } from './types';
 
@@ -30,3 +28,13 @@ export const getMetadataSummary = (filter: (items: Item[]) => Item[]): MetadataS
     cncfProjectsKeys,
   };
 }
+
+// ------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------
+
+const cncfProjects = getMetadataSummary((items: Item[]) => {
+  // there are two projects that do not have extra.accepted specified
+  return items.filter((item: Item) => item.project).filter((item: Item) => item.extra);
+});
+
+console.log(cncfProjects);

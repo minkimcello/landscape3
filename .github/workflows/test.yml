@@ -12,7 +12,9 @@ jobs:
           fetch-depth: 0
       - name: Install Dependencies
         run: yarn
-      - name: Lint
+      - name: Lint Backstage
         run: yarn lint
+      - name: Lint Scripts
+        run: yarn lint:scripts
       - name: Test
         run: yarn test
