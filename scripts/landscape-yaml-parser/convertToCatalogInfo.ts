@@ -1,10 +1,10 @@
 import { stringify } from 'yaml';
 import fs from 'fs';
-import { readLandscapeData } from './utils';
+import { readLandscapeData } from './utils/readLandscapeData';
 import { SubCategory, Item } from './types';
 
 const CATALOG_INFO_COUNT = 1;
-const OUTPUT_DIR = './output';
+const OUTPUT_DIR = './generated';
 
 interface ItemWithCategory extends Item {
   category: string;
