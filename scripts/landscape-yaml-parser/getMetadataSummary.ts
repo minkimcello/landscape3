@@ -12,8 +12,9 @@ export interface MetadataSummary {
   };
 }
 
-export const getMetadataSummary = (filter: (items: Item[]) => Item[]): MetadataSummary => {
-  const allItems = readLandscapeData().landscape.reduce((acc, item) => {
+export const getMetadataSummary = async (filter: (items: Item[]) => Item[]): Promise<MetadataSummary> => {
+  const landscapeData = await readLandscapeData();
+  const allItems = landscapeData.landscape.reduce((acc, item) => {
     return [...acc, ...item.subcategories];
   }, [] as SubCategory[]).reduce((acc, item) => {
     return [...acc, ...item.items];
@@ -31,10 +32,11 @@ export const getMetadataSummary = (filter: (items: Item[]) => Item[]): MetadataS
 
 // ------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------
-
-const cncfProjects = getMetadataSummary((items: Item[]) => {
-  // there are two projects that do not have extra.accepted specified
-  return items.filter((item: Item) => item.project).filter((item: Item) => item.extra);
-});
-
-console.log(cncfProjects);
+(async () => {
+  const cncfProjects = await getMetadataSummary((items: Item[]) => {
+    // there are two projects that do not have extra.accepted specified
+    return items.filter((item: Item) => item.project).filter((item: Item) => item.extra);
+  });
+  
+  console.log(cncfProjects);
+})();
