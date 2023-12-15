@@ -12,8 +12,9 @@ export interface MetadataSummary {
   };
 }
 
-export const getMetadataSummary = (filter: (items: Item[]) => Item[]): MetadataSummary => {
-  const allItems = readLandscapeData().landscape.reduce((acc, item) => {
+export const getMetadataSummary = async (filter: (items: Item[]) => Item[]): Promise<MetadataSummary> => {
+  const landscapeData = await readLandscapeData();
+  const allItems = landscapeData.landscape.reduce((acc, item) => {
     return [...acc, ...item.subcategories];
   }, [] as SubCategory[]).reduce((acc, item) => {
     return [...acc, ...item.items];
