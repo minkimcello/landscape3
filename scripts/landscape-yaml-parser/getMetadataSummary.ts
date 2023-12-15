@@ -32,10 +32,11 @@ export const getMetadataSummary = async (filter: (items: Item[]) => Item[]): Pro
 
 // ------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------
-
-const cncfProjects = getMetadataSummary((items: Item[]) => {
-  // there are two projects that do not have extra.accepted specified
-  return items.filter((item: Item) => item.project).filter((item: Item) => item.extra);
-});
-
-console.log(cncfProjects);
+(async () => {
+  const cncfProjects = await getMetadataSummary((items: Item[]) => {
+    // there are two projects that do not have extra.accepted specified
+    return items.filter((item: Item) => item.project).filter((item: Item) => item.extra);
+  });
+  
+  console.log(cncfProjects);
+})();
