@@ -2099,6 +2099,15 @@
     yauzl "^2.10.0"
     yn "^4.0.0"
 
+"@backstage/backend-defaults@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.2.7.tgz#1dc08d8ac21d04c184c62fe9f35927ac7f52163d"
+  integrity sha512-w1Ni06n/7mgiWN83s7hDekn0GogfV4c6WaoL7vsQdnx5hdg6USs3/zQL00/UaCgJhXZBNEoBfU4nmdXZAwG3ow==
+  dependencies:
+    "@backstage/backend-app-api" "^0.5.8"
+    "@backstage/backend-common" "^0.19.9"
+    "@backstage/backend-plugin-api" "^0.6.7"
+
 "@backstage/backend-dev-utils@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@backstage/backend-dev-utils/-/backend-dev-utils-0.1.2.tgz#357f2b669bed0452d9dca511e35a61071c57ea20"
@@ -2709,6 +2718,17 @@
     "@backstage/plugin-catalog-common" "^1.0.18"
     "@backstage/plugin-catalog-node" "^1.5.0"
     "@backstage/plugin-scaffolder-common" "^1.4.3"
+
+"@backstage/plugin-catalog-backend-module-unprocessed@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-unprocessed/-/plugin-catalog-backend-module-unprocessed-0.3.4.tgz#3482a37cdf8d231528befd1b52cca9660edac8c8"
+  integrity sha512-+utimX6OEtDQITccVUqUhDPge/98IjsIeLTstZoYwJbcXeOk4Pz+FysGLJUz5pB+88DRP8zgROIwo4mreztrBw==
+  dependencies:
+    "@backstage/backend-plugin-api" "^0.6.7"
+    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/plugin-auth-node" "^0.4.1"
+    express-promise-router "^4.1.1"
+    knex "^3.0.0"
 
 "@backstage/plugin-catalog-backend@^1.14.0", "@backstage/plugin-catalog-backend@^1.15.0":
   version "1.15.0"
@@ -7445,7 +7465,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.7.tgz#50ae4353eaaddc04044279812f52c8c65857dbcb"
   integrity sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
+"@types/react-dom@*", "@types/react-dom@<18.0.0":
   version "17.0.25"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.25.tgz#e0e5b3571e1069625b3a3da2b279379aa33a0cb5"
   integrity sha512-urx7A7UxkZQmThYA4So0NelOVjx3V4rNFVJwp0WZlbIK5eM4rNJDiN3R/E9ix0MBh6kAEojk/9YL+Te6D9zHNA==
@@ -11827,7 +11847,7 @@ express-openapi-validator@^5.0.4:
     ono "^7.1.3"
     path-to-regexp "^6.2.0"
 
-express-promise-router@^4.1.0:
+express-promise-router@^4.1.0, express-promise-router@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/express-promise-router/-/express-promise-router-4.1.1.tgz#8fac102060b9bcc868f84d34fbb12fd8fa494291"
   integrity sha512-Lkvcy/ZGrBhzkl3y7uYBHLMtLI4D6XQ2kiFg9dq7fbktBch5gjqJ0+KovX0cvCAvTJw92raWunRLM/OM+5l4fA==
