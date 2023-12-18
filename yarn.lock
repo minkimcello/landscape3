@@ -2663,7 +2663,7 @@
     yn "^4.0.0"
     zod "^3.21.4"
 
-"@backstage/plugin-catalog-common@^1.0.17", "@backstage/plugin-catalog-common@^1.0.18":
+"@backstage/plugin-catalog-common@^1.0.18":
   version "1.0.18"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.0.18.tgz#c60bc17ac6cf7c112713c9adc2a9eca6c08e0a09"
   integrity sha512-k8EQHv7x6ZmJlkyrC3cQByyiUh/mBxM83LbZcGDVR0WZw2+yP23rV3+NGMYuFW6P9c8jL47YuRFoqQ8FkmDs0Q==
@@ -2693,34 +2693,6 @@
     p-limit "^3.1.0"
     qs "^6.9.4"
     react-use "^17.2.4"
-
-"@backstage/plugin-catalog-import@^0.10.1":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.10.3.tgz#1c956dd8e02022a2a171e571cd1d9ad6117f6807"
-  integrity sha512-r+irIhVsvAyA3HVe/xeFuQ3Kv5h0hW/svC00bpMFABkOC/g2I+oaVUMD6YMYxMtdFAcysTg8sLlNkfmJLiX7+w==
-  dependencies:
-    "@backstage/catalog-client" "^1.4.6"
-    "@backstage/catalog-model" "^1.4.3"
-    "@backstage/config" "^1.1.1"
-    "@backstage/core-components" "^0.13.8"
-    "@backstage/core-plugin-api" "^1.8.0"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/frontend-plugin-api" "^0.3.0"
-    "@backstage/integration" "^1.7.2"
-    "@backstage/integration-react" "^1.1.21"
-    "@backstage/plugin-catalog-common" "^1.0.18"
-    "@backstage/plugin-catalog-react" "^1.9.1"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    "@material-ui/lab" "4.0.0-alpha.61"
-    "@octokit/rest" "^19.0.3"
-    "@types/react" "^16.13.1 || ^17.0.0"
-    git-url-parse "^13.0.0"
-    js-base64 "^3.6.0"
-    lodash "^4.17.21"
-    react-hook-form "^7.12.2"
-    react-use "^17.2.4"
-    yaml "^2.0.0"
 
 "@backstage/plugin-catalog-node@^1.5.0":
   version "1.5.0"
@@ -2874,7 +2846,7 @@
     zod "^3.21.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-react@^0.4.16", "@backstage/plugin-permission-react@^0.4.17":
+"@backstage/plugin-permission-react@^0.4.17":
   version "0.4.17"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.17.tgz#aad235879205b77b7d5045f26c210741c357edf2"
   integrity sha512-Y3D+8mZNjRfeA/b8LDcSE2yxXk9o+AbLoEdgPKNqFNSZILCfX07cwS2GYYcMK6JniSrKETHha2w5c4R7remHDA==
@@ -3380,26 +3352,6 @@
     lodash "^4.17.21"
     react-helmet "6.1.0"
     react-use "^17.2.4"
-
-"@backstage/plugin-user-settings@^0.7.11":
-  version "0.7.13"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.7.13.tgz#5fdc8c6b72590b7d338a463df02b6cffdfecb3f5"
-  integrity sha512-fmL7aUNz6RoiiVPu0HnyPw2j4dhhV7TL9uQ9wFE14d9yGSRIpa6UjfrOpGE+Rz11zXSC+VWXmwyTXsDjaeJydw==
-  dependencies:
-    "@backstage/core-app-api" "^1.11.1"
-    "@backstage/core-components" "^0.13.8"
-    "@backstage/core-plugin-api" "^1.8.0"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/frontend-plugin-api" "^0.3.0"
-    "@backstage/plugin-catalog-react" "^1.9.1"
-    "@backstage/theme" "^0.4.4"
-    "@backstage/types" "^1.1.1"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    "@material-ui/lab" "4.0.0-alpha.61"
-    "@types/react" "^16.13.1 || ^17.0.0"
-    react-use "^17.2.4"
-    zen-observable "^0.10.0"
 
 "@backstage/release-manifests@^0.0.10":
   version "0.0.10"
@@ -8030,13 +7982,10 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/integration-react" "^1.1.20"
     "@backstage/plugin-api-docs" "^0.9.12"
     "@backstage/plugin-catalog" "^1.14.0"
-    "@backstage/plugin-catalog-common" "^1.0.17"
     "@backstage/plugin-catalog-graph" "^0.2.37"
-    "@backstage/plugin-catalog-import" "^0.10.1"
     "@backstage/plugin-catalog-react" "^1.8.5"
     "@backstage/plugin-github-actions" "^0.6.6"
     "@backstage/plugin-org" "^0.6.15"
-    "@backstage/plugin-permission-react" "^0.4.16"
     "@backstage/plugin-scaffolder" "^1.15.1"
     "@backstage/plugin-search" "^1.4.1"
     "@backstage/plugin-search-react" "^1.7.1"
@@ -8044,7 +7993,6 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/plugin-techdocs" "^1.8.0"
     "@backstage/plugin-techdocs-module-addons-contrib" "^1.1.1"
     "@backstage/plugin-techdocs-react" "^1.1.12"
-    "@backstage/plugin-user-settings" "^0.7.11"
     "@backstage/theme" "^0.4.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -14140,11 +14088,6 @@ joycon@^3.0.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/joycon/-/joycon-3.1.1.tgz#bce8596d6ae808f8b68168f5fc69280996894f03"
   integrity sha512-34wB/Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva+KkopW7Qvv/OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw==
-
-js-base64@^3.6.0:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.5.tgz#21e24cf6b886f76d6f5f165bfcd69cc55b9e3fca"
-  integrity sha512-3MEt5DTINKqfScXKfJFrRbxkrnk2AxPWGBL/ycjz4dK8iqiSJ06UxD8jh8xuh6p10TX4t2+7FsBYVxxQbMg+qA==
 
 js-cookie@^2.2.1:
   version "2.2.1"
