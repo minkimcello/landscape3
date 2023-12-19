@@ -33,9 +33,22 @@ import { AppRouter, FlatRoutes } from '@backstage/core-app-api';
 import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
+import { UnifiedThemeProvider } from '@backstage/theme';
+import { CssBaseline } from '@material-ui/core';
+import cncfTheme from './theme';
 
 const app = createApp({
   apis,
+  themes: [{
+    id: 'cncfTheme',
+    title: 'CNCF theme',
+    // variant: 'light',
+    Provider: ({ children }) => (
+      <UnifiedThemeProvider theme={cncfTheme}>
+        <CssBaseline>{children}</CssBaseline>
+      </UnifiedThemeProvider>
+    ),
+  }],
   bindRoutes({ bind }) {
     bind(catalogPlugin.externalRoutes, {
       createComponent: scaffolderPlugin.routes.root,
