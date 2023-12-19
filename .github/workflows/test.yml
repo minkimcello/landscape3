@@ -12,6 +12,8 @@ jobs:
           fetch-depth: 0
       - name: Install Dependencies
         run: yarn
+      - name: Type Check
+        run: yarn tsc
       - name: Lint Backstage
         run: yarn lint
       - name: Lint Scripts
