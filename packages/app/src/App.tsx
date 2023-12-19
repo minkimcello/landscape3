@@ -42,7 +42,7 @@ const app = createApp({
   themes: [{
     id: 'cncfTheme',
     title: 'CNCF theme',
-    // variant: 'light',
+    variant: 'light',
     Provider: ({ children }) => (
       <UnifiedThemeProvider theme={cncfTheme}>
         <CssBaseline>{children}</CssBaseline>
