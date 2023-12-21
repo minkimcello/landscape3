@@ -24,9 +24,23 @@ import { AlertDisplay, OAuthRequestDialog } from '@backstage/core-components';
 import { createApp } from '@backstage/app-defaults';
 import { AppRouter, FlatRoutes } from '@backstage/core-app-api';
 import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
+import { UnifiedThemeProvider } from '@backstage/theme';
+import { CssBaseline } from '@material-ui/core';
+import cncfTheme from './theme';
+
 
 const app = createApp({
   apis,
+  themes: [{
+    id: 'cncfTheme',
+    title: 'CNCF theme',
+    variant: 'light',
+    Provider: ({ children }) => (
+      <UnifiedThemeProvider theme={cncfTheme}>
+        <CssBaseline>{children}</CssBaseline>
+      </UnifiedThemeProvider>
+    ),
+  }],
   bindRoutes({ bind }) {
     bind(catalogPlugin.externalRoutes, {
       createComponent: scaffolderPlugin.routes.root,
