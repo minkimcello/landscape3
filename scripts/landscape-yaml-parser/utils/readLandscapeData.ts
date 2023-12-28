@@ -20,7 +20,7 @@ function getItemsFromSubCategory({ category, categoryName }: {
     return [...acc, ...subcategory.items.map(item => {
       return {
         ...item,
-        subcategory: item.name,
+        subcategory: subcategory.name,
         category: categoryName,
       };
     })];
