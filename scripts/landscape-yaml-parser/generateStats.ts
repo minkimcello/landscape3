@@ -12,12 +12,13 @@ interface Breakdown {
 export interface CategoryStats {
   count: number;
   commonKeys: string[];
+  uniqueKeys: string;
   categoryBreakdown: Breakdown;
   subcategoryBreakdown: Breakdown;
 }
 
 const generateStats = (items: LandscapeItem[]): CategoryStats => {
-  const { commonKeys } = commonKeyFinder(items);
+  const { commonKeys, uniqueKeys } = commonKeyFinder(items);
 
   const categoryBreakdown = items.reduce((acc, item) => {
     if (acc.hasOwnProperty(item.category)) {
@@ -40,6 +41,7 @@ const generateStats = (items: LandscapeItem[]): CategoryStats => {
   return {
     count: items.length,
     commonKeys,
+    uniqueKeys,
     categoryBreakdown,
     subcategoryBreakdown,
   };
