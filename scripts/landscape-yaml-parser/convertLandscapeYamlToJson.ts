@@ -1,5 +1,9 @@
+import fs from 'fs';
 import { readLandscapeData } from './utils/readLandscapeData';
 
-const fs = require('fs');
+async function main() {
+  const landscapeData = await readLandscapeData();
+  fs.writeFileSync('./generated/landscape.json', JSON.stringify(landscapeData, null, 2))
+}
 
-fs.writeFileSync('./generated/landscape.json', JSON.stringify(readLandscapeData(), null, 2))
+main();
