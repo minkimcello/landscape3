@@ -1,0 +1,186 @@
+{
+  "cncfProjectsSummary": {
+    "count": 181,
+    "commonKeys": [
+      "item",
+      "name",
+      "homepage_url",
+      "project",
+      "logo",
+      "crunchbase",
+      "extra",
+      "extra.accepted",
+      "subcategory",
+      "category"
+    ],
+    "categoryBreakdown": {
+      "Provisioning": 45,
+      "Runtime": 28,
+      "Orchestration & Management": 39,
+      "App Definition and Development": 38,
+      "Platform": 2,
+      "Serverless": 6,
+      "Observability and Analysis": 21,
+      "Wasm": 2
+    },
+    "subcategoryBreakdown": {
+      "Automation & Configuration": 13,
+      "Container Registry": 4,
+      "Security & Compliance": 24,
+      "Key Management": 4,
+      "Cloud Native Storage": 11,
+      "Container Runtime": 8,
+      "Cloud Native Network": 9,
+      "Scheduling & Orchestration": 20,
+      "Coordination & Service Discovery": 4,
+      "Remote Procedure Call": 1,
+      "Service Proxy": 5,
+      "API Gateway": 1,
+      "Service Mesh": 8,
+      "Database": 3,
+      "Streaming & Messaging": 5,
+      "Application Definition & Image Build": 22,
+      "Continuous Integration & Delivery": 8,
+      "Certified Kubernetes - Distribution": 1,
+      "Certified Kubernetes - Installer": 1,
+      "Tools": 1,
+      "Framework": 1,
+      "Installable Platform": 4,
+      "Monitoring": 12,
+      "Feature Flagging": 1,
+      "Logging": 1,
+      "Tracing": 3,
+      "Chaos Engineering": 3,
+      "Continuous Optimization": 1,
+      "Runtimes": 2
+    }
+  },
+  "cncfSpecialSummary": {
+    "count": 312,
+    "commonKeys": [
+      "item",
+      "name",
+      "homepage_url",
+      "logo",
+      "crunchbase",
+      "subcategory",
+      "category"
+    ],
+    "categoryBreakdown": {
+      "Special": 312
+    },
+    "subcategoryBreakdown": {
+      "Kubernetes Certified Service Provider": 247,
+      "Kubernetes Training Partner": 59,
+      "Certified CNFs": 6
+    }
+  },
+  "cncfMembersSummary": {
+    "count": 817,
+    "commonKeys": [
+      "item",
+      "name",
+      "homepage_url",
+      "logo",
+      "subcategory",
+      "category"
+    ],
+    "categoryBreakdown": {
+      "CNCF Members": 817
+    },
+    "subcategoryBreakdown": {
+      "Platinum": 24,
+      "Gold": 25,
+      "Silver": 654,
+      "Academic": 4,
+      "Nonprofit": 20,
+      "End User Supporter": 90
+    }
+  },
+  "cncfWasmSummary": {
+    "count": 126,
+    "commonKeys": [
+      "item",
+      "name",
+      "homepage_url",
+      "logo",
+      "subcategory",
+      "category"
+    ],
+    "categoryBreakdown": {
+      "Wasm": 126
+    },
+    "subcategoryBreakdown": {
+      "Languages": 16,
+      "Runtimes": 11,
+      "Application Frameworks": 15,
+      "Edge/Bare metal": 4,
+      "AI/Machine Learning": 7,
+      "Embedded Functions": 17,
+      "Tooling": 13,
+      "Orchestration & Management": 15,
+      "Hosted Platforms": 10,
+      "Decentralized Platforms": 10,
+      "Debugging & Observability": 3,
+      "Packaging, Registries & Application Delivery": 5
+    }
+  },
+  "nonCncfProjectsSummary": {
+    "count": 847,
+    "commonKeys": [
+      "item",
+      "name",
+      "homepage_url",
+      "logo",
+      "subcategory",
+      "category"
+    ],
+    "categoryBreakdown": {
+      "Provisioning": 129,
+      "Runtime": 88,
+      "Orchestration & Management": 83,
+      "App Definition and Development": 194,
+      "Platform": 151,
+      "Serverless": 60,
+      "Observability and Analysis": 142
+    },
+    "subcategoryBreakdown": {
+      "Automation & Configuration": 32,
+      "Container Registry": 9,
+      "Security & Compliance": 78,
+      "Key Management": 10,
+      "Cloud Native Storage": 59,
+      "Container Runtime": 11,
+      "Cloud Native Network": 18,
+      "Scheduling & Orchestration": 15,
+      "Coordination & Service Discovery": 5,
+      "Remote Procedure Call": 12,
+      "Service Proxy": 18,
+      "API Gateway": 20,
+      "Service Mesh": 13,
+      "Database": 71,
+      "Streaming & Messaging": 31,
+      "Application Definition & Image Build": 40,
+      "Continuous Integration & Delivery": 52,
+      "Certified Kubernetes - Distribution": 57,
+      "Certified Kubernetes - Hosted": 52,
+      "Certified Kubernetes - Installer": 21,
+      "PaaS/Container Service": 21,
+      "Security": 3,
+      "Tools": 9,
+      "Framework": 15,
+      "Hosted Platform": 23,
+      "Installable Platform": 10,
+      "Monitoring": 79,
+      "Feature Flagging": 2,
+      "Logging": 20,
+      "Tracing": 16,
+      "Chaos Engineering": 6,
+      "Continuous Optimization": 19
+    }
+  },
+  "duplicateNames": "",
+  "notes": [
+    "The following projects do not have 'extra.accepted' specified: Kubewarden (Wasm), OpenFunction (Wasm)"
+  ]
+}

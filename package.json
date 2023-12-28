@@ -24,7 +24,7 @@
     "lint:all": "backstage-cli repo lint && yarn lint:scripts",
     "prettier:check": "prettier --check .",
     "new": "backstage-cli new --scope internal",
-    "generate:metadata-summary": "ts-node ./scripts/landscape-yaml-parser/getMetadataSummary",
+    "generate:stats": "ts-node ./scripts/landscape-yaml-parser/generateStats",
     "generate:entities": "ts-node ./scripts/landscape-yaml-parser/convertToCatalogInfo",
     "generate:json": "ts-node ./scripts/landscape-yaml-parser/fetchLandscapeYaml",
     "generate:types": "yarn generate:json && ./node_modules/maketypes/index.js -i ./generated/landscape_types.ts ./generated/landscape.json Landscape"
