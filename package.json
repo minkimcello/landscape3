@@ -26,7 +26,7 @@
     "new": "backstage-cli new --scope internal",
     "generate:metadata-summary": "ts-node ./scripts/landscape-yaml-parser/getMetadataSummary",
     "generate:entities": "ts-node ./scripts/landscape-yaml-parser/convertToCatalogInfo",
-    "generate:json": "ts-node ./scripts/landscape-yaml-parser/convertLandscapeYamlToJson",
+    "generate:json": "ts-node ./scripts/landscape-yaml-parser/fetchLandscapeYaml",
     "generate:types": "yarn generate:json && ./node_modules/maketypes/index.js -i ./generated/landscape_types.ts ./generated/landscape.json Landscape"
   },
   "workspaces": {

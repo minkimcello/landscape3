@@ -1,42 +1,38 @@
-import { parse } from 'yaml';
 import {
   Landscape,
   Category,
   LandscapeItem,
 } from '../types';
 
-export async function readLandscapeData(): Promise<Landscape> {
-  const response = await fetch('https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml');
-  if (!response.ok) {
-    throw new Error('Failed to fetch landscape data');
-  }
-  const landscapeFile = await response.text();
-  const landscapeData: Landscape  = parse(landscapeFile);
+const fs = require('fs');
 
-  return landscapeData;
+function readLandscapeData(): Landscape {
+  const landscapePath = `${process.cwd()}/generated/landscape.json`;
+  const landscape = fs.readFileSync(landscapePath);
+  return JSON.parse(landscape);
 }
 
-function getItemsFromSubCategory({ item, category }: {
-  item: Category;
-  category: string;
+function getItemsFromSubCategory({ category, categoryName }: {
+  category: Category;
+  categoryName: string;
 }) {
-  return item.subcategories.reduce((acc, subcategory) => {
+  return category.subcategories.reduce((acc, subcategory) => {
     return [...acc, ...subcategory.items.map(item => {
       return {
         ...item,
         subcategory: item.name,
-        category,
+        category: categoryName,
       };
     })];
   }, [] as LandscapeItem[]);
 }
 
-export async function getAllLandscapeItems(): Promise<LandscapeItem[]> {
-  const landscapeData = await readLandscapeData();
+export function getAllLandscapeItems(): LandscapeItem[] {
+  const landscapeData: Landscape = readLandscapeData();
   const { landscape } = landscapeData;
   
   const allItems = landscape.reduce((acc, item) => {
-    const subcategoriesItems = getItemsFromSubCategory({ item, category: item.name });
+    const subcategoriesItems = getItemsFromSubCategory({ category: item, categoryName: item.name });
     return [...acc, ...subcategoriesItems];
   }, [] as LandscapeItem[]);
 
