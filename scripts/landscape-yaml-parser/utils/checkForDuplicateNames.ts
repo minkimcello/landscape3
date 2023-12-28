@@ -1,4 +1,4 @@
-import { Item } from "../types";
+import { LandscapeItem } from "../types";
 
 interface DuplicateNamesReport {
   unique: string[];
@@ -18,7 +18,7 @@ const findDuplicateNames = (items: string[]): DuplicateNamesReport => {
   } as DuplicateNamesReport);
 }
 
-export const checkForDuplicateNames = (items: Item[]): string => {
+export const checkForDuplicateNames = (items: LandscapeItem[]): string => {
   const { duplicates } = findDuplicateNames(items.map(item => item.name));
   return duplicates.join(' ,');
 };

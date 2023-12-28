@@ -1,8 +1,7 @@
 import { checkForDuplicateNames } from './utils/checkForDuplicateNames';
-import { readLandscapeData } from './utils/readLandscapeData';
+import { getAllLandscapeItems } from './utils/readLandscapeData';
 import { commonKeyFinder } from './utils/commonKeyFinder';
-
-import { Item, SubCategory } from './types';
+import { LandscapeItem } from './types';
 
 export interface MetadataSummary {
   duplicateNames: string;
@@ -12,14 +11,9 @@ export interface MetadataSummary {
   };
 }
 
-export const getMetadataSummary = async (filter: (items: Item[]) => Item[]): Promise<MetadataSummary> => {
-  const landscapeData = await readLandscapeData();
-  const allItems = landscapeData.landscape.reduce((acc, item) => {
-    return [...acc, ...item.subcategories];
-  }, [] as SubCategory[]).reduce((acc, item) => {
-    return [...acc, ...item.items];
-  }, [] as Item[]);
-  const filteredItems = filter(allItems); 
+export const getMetadataSummary = async (filter: (items: LandscapeItem[]) => LandscapeItem[]): Promise<MetadataSummary> => {
+  const allLandscapeItems = await getAllLandscapeItems();
+  const filteredItems = filter(allLandscapeItems); 
 
   const duplicateNames = checkForDuplicateNames(filteredItems) || "All names are unique";
   const cncfProjectsKeys = commonKeyFinder(filteredItems);
@@ -33,9 +27,9 @@ export const getMetadataSummary = async (filter: (items: Item[]) => Item[]): Pro
 // ------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------
 (async () => {
-  const cncfProjects = await getMetadataSummary((items: Item[]) => {
+  const cncfProjects = await getMetadataSummary((items: LandscapeItem[]) => {
     // there are two projects that do not have extra.accepted specified
-    return items.filter((item: Item) => item.project).filter((item: Item) => item.extra);
+    return items.filter((item: LandscapeItem) => item.project).filter((item: LandscapeItem) => item.extra);
   });
   
   console.log(cncfProjects);
