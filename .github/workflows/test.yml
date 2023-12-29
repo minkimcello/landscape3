@@ -10,6 +10,7 @@ jobs:
   tests:
     name: Tests
     runs-on: ubuntu-latest
+    if: github.head_ref != 'landscape-sync'
     steps:
       - uses: actions/checkout@v4.1.1
         with:
