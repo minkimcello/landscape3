@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Nocalhost
+  links:
+    - title: Homepage
+      url: https://nocalhost.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2021-11-16
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Application Definition & Image Build
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

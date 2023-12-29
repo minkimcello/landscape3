@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Krator
+  links:
+    - title: Homepage
+      url: https://docs.rs/crate/krator/latest
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2021-07-13
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Application Definition & Image Build
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

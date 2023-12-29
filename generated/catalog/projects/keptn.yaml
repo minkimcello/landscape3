@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Keptn
+  description: Cloud-native application life-cycle orchestration. Keptn automates
+    your SLO-driven multi-stage delivery and operations & remediation of your
+    applications.
+  links:
+    - title: Homepage
+      url: https://www.keptn.sh
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2020-06-25
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Continuous Integration & Delivery
+    landscape3.io/cncfStatus: incubating
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

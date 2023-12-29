@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BFE
+  description: Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
+  links:
+    - title: Homepage
+      url: https://www.bfe-networks.net
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2020-06-25
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Service Proxy
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

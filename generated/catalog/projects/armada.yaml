@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Armada
+  links:
+    - title: Homepage
+      url: https://armadaproject.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-07-25
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Scheduling & Orchestration
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

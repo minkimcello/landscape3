@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Clusterpedia
+  description: Clusterpedia is used for complex resources search across multiple
+    clusters, support simultaneous search of a single kind of resource  or
+    multiple kinds of resources existing in multiple clusters.
+  links:
+    - title: Homepage
+      url: https://clusterpedia.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-06-17
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Scheduling & Orchestration
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

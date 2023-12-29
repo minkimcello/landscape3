@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Keycloak
+  description: Keycloak is an open-source identity and access management solution
+    for modern applications and services,  built on top of industry security
+    standard protocols.
+  links:
+    - title: Homepage
+      url: https://www.keycloak.org/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2023-04-10
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Security & Compliance
+    landscape3.io/cncfStatus: incubating
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kube-rs
+  description: kube-rs is the core Rust ecosystem for building applications
+    against Kubernetes
+  links:
+    - title: Homepage
+      url: https://kube.rs
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2021-11-16
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Scheduling & Orchestration
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: werf
+  description: werf is a solution for implementing efficient and consistent
+    software delivery to Kubernetes. It covers the entire CI/CD lifecycle and
+    all related artifacts, glues commonly used tools (Git, Docker/Buildah, Helm,
+    K8s) and facilitates best practices.
+  links:
+    - title: Homepage
+      url: https://werf.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-12-13
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Continuous Integration & Delivery
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

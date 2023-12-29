@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Pixie
+  description: Open source Kubernetes observability for developers
+  links:
+    - title: Homepage
+      url: https://px.dev/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2021-06-22
+    landscape3.io/category: Observability and Analysis
+    landscape3.io/subcategory: Monitoring
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

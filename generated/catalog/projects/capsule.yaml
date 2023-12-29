@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Capsule
+  description: Capsule implements a multi-tenant and policy-based environment in
+    your Kubernetes cluster. It is designed as a micro-services-based ecosystem
+    with the minimalist approach, leveraging only on upstream Kubernetes.
+  links:
+    - title: Homepage
+      url: https://capsule.clastix.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/clastix
+  annotations:
+    landscape3.io/accepted: 2022-12-13
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Scheduling & Orchestration
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

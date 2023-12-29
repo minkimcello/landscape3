@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Merbridge
+  description: Use eBPF to speed up your Service Mesh like crossing an
+    Einstein-Rosen Bridge.
+  links:
+    - title: Homepage
+      url: https://merbridge.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-12-14
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Service Mesh
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

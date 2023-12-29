@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubescape
+  description: Kubescape is an open source security and compliance platform that
+    scans clusters, Kubernetes manifest files (YAML files, and Helm charts),
+    code repositories, container registries and images. It detects
+    misconfigurations according to frameworks such as the NSA-CISA,  MITRE
+    ATT&CK® and CIS, as well as software vulnerabilities, and calculates risk
+    scores.
+  links:
+    - title: Homepage
+      url: https://kubescape.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-12-13
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Security & Compliance
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Carvel
+  description: Carvel provides a set of reliable, single-purpose, composable tools
+    that aid in your application building, configuration, and deployment to
+    Kubernetes.
+  links:
+    - title: Homepage
+      url: https://carvel.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-09-14
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Application Definition & Image Build
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

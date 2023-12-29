@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: The Update Framework (TUF)
+  links:
+    - title: Homepage
+      url: https://theupdateframework.github.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2017-10-24
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Security & Compliance
+    landscape3.io/cncfStatus: graduated
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

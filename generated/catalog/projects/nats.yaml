@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: NATS
+  description: NATS.io is a connective technology for distributed systems and is a
+    perfect fit to connect devices, edge, cloud or hybrid deployments. True
+    multi-tenancy makes NATS ideal for SaaS and self-healing and scaling
+    technology allows for topology changes anytime with zero downtime.
+  links:
+    - title: Homepage
+      url: https://nats.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2018-03-15
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Streaming & Messaging
+    landscape3.io/cncfStatus: incubating
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TiKV
+  description: A distributed transactional key-value database. Based on the design
+    of Google Spanner and HBase, but simpler to manage and without dependencies
+    on any distributed filesystem
+  links:
+    - title: Homepage
+      url: https://tikv.org
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2018-08-28
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Database
+    landscape3.io/cncfStatus: graduated
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

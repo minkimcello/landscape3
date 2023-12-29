@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Xline
+  description: Xline is a high-performance geo-distributed metadata management
+    system, which is compatible with the ETCD interface.
+  links:
+    - title: Homepage
+      url: https://www.xline.cloud
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/beijing-datenlord-technology
+  annotations:
+    landscape3.io/accepted: 2023-06-30
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Coordination & Service Discovery
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
