@@ -89,7 +89,7 @@ function getStats() {
     + cncfSpecial.length
     + cncfMembers.length
     + cncfWasm.length
-    + nonCncfProjects.length;
+    + nonCncfProjects.length
     - cncfProjectExceptionsTally;
   
   if (total - allLandscapeItems.length) {
