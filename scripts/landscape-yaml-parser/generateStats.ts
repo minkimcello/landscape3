@@ -2,6 +2,14 @@ import { checkForDuplicateNames } from './utils/checkForDuplicateNames';
 import { getAllLandscapeItems } from './utils/readLandscapeData';
 import { commonKeyFinder } from './utils/commonKeyFinder';
 import { LandscapeItem } from './types';
+import {
+  FilterWithExceptions,
+  filterMembers,
+  filterNonCncfProjects,
+  filterProjects,
+  filterSpecials,
+  filterWasm,
+} from './filters';
 
 const fs = require('fs');
 
@@ -51,19 +59,20 @@ function getStats() {
   const allLandscapeItems: LandscapeItem[] = getAllLandscapeItems();
   const duplicateNames = checkForDuplicateNames(allLandscapeItems) || false;
 
-  const cncfProjectsWithMissingInformation: LandscapeItem[] = [];
-  const cncfProjects = allLandscapeItems.filter((item: LandscapeItem) => item.project)
-    .filter((item: LandscapeItem) => {
-      if (!item.extra) {
-        cncfProjectsWithMissingInformation.push(item);
-      }
-      return item.extra;
-    });
-  const cncfSpecial = allLandscapeItems.filter((item: LandscapeItem) => item.category === "Special");
-  const cncfMembers =allLandscapeItems.filter((item: LandscapeItem) => item.category === "CNCF Members");
-  const cncfWasm = allLandscapeItems.filter((item: LandscapeItem) => item.category === "Wasm");
-  const nonCncfProjects = allLandscapeItems.filter(item => {
-    return ![...new Set([...cncfWasm, ...cncfMembers, ...cncfSpecial, ...cncfProjects])].includes(item);
+  const {
+    landscapeItems: cncfProjects,
+    exceptions: cncfProjectsExceptions,
+  }: FilterWithExceptions = filterProjects(allLandscapeItems);
+  const cncfSpecial = filterSpecials(allLandscapeItems);
+  const cncfMembers = filterMembers(allLandscapeItems);
+  const cncfWasm = filterWasm(allLandscapeItems);
+
+  const nonCncfProjects = filterNonCncfProjects({
+    landscapeItems: allLandscapeItems,
+    cncfWasm,
+    cncfMembers,
+    cncfSpecial,
+    cncfProjects,
   });
   
   const cncfProjectsSummary = generateStats(cncfProjects);
@@ -71,16 +80,30 @@ function getStats() {
   const cncfMembersSummary = generateStats(cncfMembers);
   const cncfWasmSummary = generateStats(cncfWasm);
   const nonCncfProjectsSummary = generateStats(nonCncfProjects);
-  
-  const tally = allLandscapeItems.length
-    + cncfProjectsWithMissingInformation.length
-    - cncfProjects.length
-    - cncfSpecial.length
-    - cncfMembers.length
-    - cncfWasm.length
-    - nonCncfProjects.length;
 
-  if (tally) {
+  const cncfProjectExceptionsTally = cncfProjectsExceptions.reduce((acc, item) => {
+    return item.landscapeItems.length + acc;
+  }, 0);
+
+  const total = cncfProjects.length
+    + cncfSpecial.length
+    + cncfMembers.length
+    + cncfWasm.length
+    + nonCncfProjects.length;
+    - cncfProjectExceptionsTally;
+  
+  if (total - allLandscapeItems.length) {
+    console.log()
+    console.log('cncfProjects', cncfProjects.length)
+    console.log('cncfSpecial', cncfSpecial.length)
+    console.log('cncfMembers', cncfMembers.length)
+    console.log('cncfWasm', cncfWasm.length)
+    console.log('nonCncfProjects', nonCncfProjects.length)
+    console.log('cncfProjectsExceptions', cncfProjectExceptionsTally)
+    console.log()
+    console.log('  total: ', total)
+    console.log('  allLandscapeItems', allLandscapeItems.length)
+    console.log()
     throw new Error("The items count do not add up");
   }
 
@@ -92,7 +115,7 @@ function getStats() {
     nonCncfProjectsSummary,
     duplicateNames,
     notes: [
-      `The following projects that do not have 'extra.accepted' specified: ${cncfProjectsWithMissingInformation.map(project => project.name).join(', ')}`
+      ...cncfProjectsExceptions.map(exception => exception.description),
     ],
   };
 }
