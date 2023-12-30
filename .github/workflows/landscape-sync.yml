@@ -19,6 +19,9 @@ jobs:
         run: |
           yarn generate:json
           echo "LANDSCAPE_UPDATED=$(git status -s | grep landscape.json)" >> $GITHUB_ENV
+      - name: Generate landscape stats
+        run: env.LANDSCAPE_UPDATED
+        run: yarn generate:stats
       - name: Generate catalog infos
         if: env.LANDSCAPE_UPDATED
         run: yarn generate:entities
