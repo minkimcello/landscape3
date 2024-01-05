@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CDK for Kubernetes (CDK8s)
+  description: CDK8s lets you define Kubernetes apps and components using familiar
+    programming languages and object-oriented APIs.
+  links:
+    - title: Homepage
+      url: https://cdk8s.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2020-11-10
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Automation & Configuration
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

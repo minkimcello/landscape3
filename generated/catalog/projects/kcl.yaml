@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KCL
+  description: A constraint-based record & functional language mainly used in
+    configuration and policy scenarios.
+  links:
+    - title: Homepage
+      url: https://kcl-lang.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2023-09-20
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Automation & Configuration
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

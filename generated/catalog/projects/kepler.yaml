@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kepler
+  description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF
+    to probe energy related system stats and exports as Prometheus metrics.
+  links:
+    - title: Homepage
+      url: https://sustainable-computing.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2023-05-17
+    landscape3.io/category: Observability and Analysis
+    landscape3.io/subcategory: Monitoring
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

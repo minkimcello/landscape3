@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Vitess
+  description: MySQL-compatible, horizontally scalable, cloud-native database solution.
+  links:
+    - title: Homepage
+      url: https://vitess.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2018-02-05
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Database
+    landscape3.io/cncfStatus: graduated
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

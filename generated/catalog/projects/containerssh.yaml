@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ContainerSSH
+  description: ContainerSSH launches a new container for each SSH connection in
+    Kubernetes, Podman or Docker. The user is transparently dropped in the
+    container and the container is removed when the user disconnects.
+    Authentication and container configuration are dynamic using webhooks, no
+    system users required.
+  links:
+    - title: Homepage
+      url: https://containerssh.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-09-14
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Security & Compliance
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

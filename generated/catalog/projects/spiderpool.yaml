@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Spiderpool
+  description: Spiderpool is the underlay and RDMA network solution of the
+    Kubernetes, for bare metal, VM and public cloud
+  links:
+    - title: Homepage
+      url: https://spidernet-io.github.io/spiderpool/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2023-12-19
+    landscape3.io/category: Runtime
+    landscape3.io/subcategory: Cloud Native Network
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

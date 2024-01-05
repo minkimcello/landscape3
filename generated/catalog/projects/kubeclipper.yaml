@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KubeClipper
+  description: Manage kubernetes in the most light and convenient way.
+  links:
+    - title: Homepage
+      url: https://www.kubeclipper.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/99cloud
+  annotations:
+    landscape3.io/accepted: 2023-06-30
+    landscape3.io/category: Platform
+    landscape3.io/subcategory: Certified Kubernetes - Installer
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

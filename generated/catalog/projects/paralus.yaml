@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Paralus
+  description: Paralus is a free, open source tool that enables controlled,
+    audited access to Kubernetes infrastructure and Zero trust Kubernetes with
+    zero friction.
+  links:
+    - title: Homepage
+      url: https://www.paralus.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-12-14
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Security & Compliance
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

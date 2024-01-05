@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SuperEdge
+  description: An edge-native container management system for edge computing
+  links:
+    - title: Homepage
+      url: https://superedge.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2021-09-14
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Automation & Configuration
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

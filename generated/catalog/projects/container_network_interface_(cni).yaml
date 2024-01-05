@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Container Network Interface (CNI)
+  links:
+    - title: Homepage
+      url: https://www.cni.dev/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2017-05-23
+    landscape3.io/category: Runtime
+    landscape3.io/subcategory: Cloud Native Network
+    landscape3.io/cncfStatus: incubating
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

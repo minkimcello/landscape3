@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Tremor
+  links:
+    - title: Homepage
+      url: https://www.tremor.rs/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2020-09-08
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Streaming & Messaging
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

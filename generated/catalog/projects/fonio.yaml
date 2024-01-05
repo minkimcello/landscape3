@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Fonio
+  links:
+    - title: Homepage
+      url: https://ingraind.org/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2021-03-30
+    landscape3.io/category: Observability and Analysis
+    landscape3.io/subcategory: Monitoring
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Inspektor Gadget
+  description: Open source eBPF debugging and data collection tool for Kubernetes and Linux
+  links:
+    - title: Homepage
+      url: https://inspektor-gadget.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2023-03-07
+    landscape3.io/category: Observability and Analysis
+    landscape3.io/subcategory: Monitoring
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

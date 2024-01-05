@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Confidential Containers
+  description: Confidential Containers is an open source community working to
+    enable cloud native  confidential computing by leveraging Trusted Execution
+    Environments to protect  containers and data.
+  links:
+    - title: Homepage
+      url: https://github.com/confidential-containers
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-03-08
+    landscape3.io/category: Provisioning
+    landscape3.io/subcategory: Security & Compliance
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

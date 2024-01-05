@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HwameiStor
+  description: Hwameistor is an HA local storage system for cloud-native stateful workloads
+  links:
+    - title: Homepage
+      url: https://hwameistor.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2023-06-22
+    landscape3.io/category: Runtime
+    landscape3.io/subcategory: Cloud Native Storage
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

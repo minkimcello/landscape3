@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenTracing
+  links:
+    - title: Homepage
+      url: https://opentracing.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2016-10-11
+    landscape3.io/category: Observability and Analysis
+    landscape3.io/subcategory: Tracing
+    landscape3.io/cncfStatus: archived
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

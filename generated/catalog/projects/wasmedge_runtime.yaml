@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: WasmEdge Runtime
+  links:
+    - title: Homepage
+      url: https://wasmedge.org/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2021-04-28
+    landscape3.io/category: Runtime
+    landscape3.io/subcategory: Container Runtime
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

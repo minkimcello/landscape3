@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Aeraki Mesh
+  description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
+  links:
+    - title: Homepage
+      url: https://www.aeraki.net/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2022-06-17
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Service Mesh
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

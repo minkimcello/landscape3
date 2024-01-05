@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Linkerd
+  description: Ultra light, ultra simple, ultra powerful. Linkerd adds security,
+    observability, and reliability to Kubernetes, without the complexity.
+  links:
+    - title: Homepage
+      url: https://linkerd.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2017-01-23
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Service Mesh
+    landscape3.io/cncfStatus: graduated
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

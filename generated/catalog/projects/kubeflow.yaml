@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubeflow
+  description: The Kubeflow project is dedicated to making deployments of machine
+    learning workflows on Kubernetes simple, portable and scalable by providing
+    a straightforward way to deploy best-of-breed open-source systems for ML to
+    diverse infrastructures.
+  links:
+    - title: Homepage
+      url: https://kubeflow.org
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2023-07-25
+    landscape3.io/category: Orchestration & Management
+    landscape3.io/subcategory: Scheduling & Orchestration
+    landscape3.io/cncfStatus: incubating
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

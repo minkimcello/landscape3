@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Flux
+  links:
+    - title: Homepage
+      url: https://fluxcd.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2019-07-15
+    landscape3.io/category: App Definition and Development
+    landscape3.io/subcategory: Continuous Integration & Delivery
+    landscape3.io/cncfStatus: graduated
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

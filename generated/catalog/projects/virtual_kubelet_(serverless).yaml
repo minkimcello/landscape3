@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Virtual Kubelet (Serverless)
+  links:
+    - title: Homepage
+      url: https://virtual-kubelet.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    landscape3.io/accepted: 2018-12-04
+    landscape3.io/category: Serverless
+    landscape3.io/subcategory: Installable Platform
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
