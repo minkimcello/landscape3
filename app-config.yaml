@@ -76,3 +76,5 @@ catalog:
   rules:
     - allow: [Component, System, API, Resource, Location]
   locations:
+    - type: file
+      target: ../../generated/catalog/projects/*.yaml

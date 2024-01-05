@@ -91,3 +91,8 @@ export interface Item {
   url_for_bestpractices?: string;
   extra?: ExtraDetails;
 }
+
+export interface LandscapeItem extends Item {
+  category: string;
+  subcategory: string;
+}

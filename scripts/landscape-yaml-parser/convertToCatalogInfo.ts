@@ -1,65 +1,55 @@
 import { stringify } from 'yaml';
-import { readLandscapeData } from './utils/readLandscapeData';
-import { SubCategory, Item } from './types';
+import { LandscapeItem } from './types';
+import { getAllLandscapeItems } from './utils/readLandscapeData';
+import { componentTemplate } from './catalog-templates';
+import { filterProjects, FilterWithExceptions } from './filters';
+import { Entity } from '@backstage/catalog-model';
 
 const fs = require('fs');
 
-const CATALOG_INFO_COUNT = 1;
-const OUTPUT_DIR = './generated';
+const OUTPUT_DIR = `${process.cwd()}/generated/catalog`;
 
-interface ItemWithCategory extends Item {
-  category: string;
-  subcategory: string;
+function removeCatalogInfos(dir: string) {
+  if(fs.existsSync(dir)) {
+    fs.rmSync(dir, { recursive: true });
+  }
+  fs.mkdirSync(dir);
 }
 
-const first_seven_categories = readLandscapeData().landscape.slice(0,7).reduce((acc, item) => {
-  return [...acc, {
-    category: item.name,
-    subcategories: item.subcategories,
-  }];
-}, [] as {
-  category: string,
-  subcategories: SubCategory[],
-}[]);
-
-const products_combined = first_seven_categories.reduce((acc, item) => {
-  const category = item.category;
-  const subcategoriesItems = item.subcategories.reduce((acc1, item1) => {
-    return [...acc1, ...item1.items.map(x => {
-      return {
-        ...x,
-        subcategory: item1.name,
-        category,
-      }
-    })];
-  }, [] as ItemWithCategory[]);
-  return [...acc, ...subcategoriesItems];
-}, [] as ItemWithCategory[]);
-
-const example_catalog_infos = products_combined.slice(0,CATALOG_INFO_COUNT);
-
-if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
-
-example_catalog_infos.forEach(product => {
-  const { name, description, homepage_url } = product;
-
-  const spec = {
-    apiVersion: "backstage.io/v1alpha1",
-    kind: "Component",
-    metadata: {
-      name,
-      description,
-      links: [
-        {
-          url: homepage_url,
-        }
-      ],
-    },
-    spec: {
-      type: "service",
-      lifecycle: "experimental",
-      owner: "hello",
-    }
+function createCatalogInfos({
+  items,
+  templateSpec,
+  outputDir = OUTPUT_DIR,
+}: {
+  items: LandscapeItem[],
+  templateSpec: (item: LandscapeItem) => Entity,
+  outputDir?: string,
+}): void {
+  if(!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
   }
-  fs.writeFileSync(`${OUTPUT_DIR}/${name.toLowerCase().replace(/\ /g, '_')}.yaml`, stringify(spec));
-});
+  items.forEach((item: LandscapeItem) => {
+    const catalogInfo = templateSpec(item);
+    fs.writeFileSync(
+      `${outputDir}/${item.name.toLowerCase().replace(/\ /g, '_')}.yaml`,
+      stringify(catalogInfo),
+    );
+  })
+}
+
+function convertToCatalogInfo(): void {
+  removeCatalogInfos(OUTPUT_DIR);
+  const allLandscapeItems = getAllLandscapeItems();
+
+  // generates catalog infos for cncf projects
+  const {
+    landscapeItems: cncfProjects
+  }: FilterWithExceptions = filterProjects(allLandscapeItems);
+  createCatalogInfos({
+    items: cncfProjects,
+    templateSpec: componentTemplate,
+    outputDir: `${OUTPUT_DIR}/projects`,
+  });
+}
+
+convertToCatalogInfo();

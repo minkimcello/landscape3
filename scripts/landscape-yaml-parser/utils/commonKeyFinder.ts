@@ -1,4 +1,4 @@
-import type { Item } from '../types';
+import type { LandscapeItem } from '../types';
 
 function getKeys(obj: { [key: string]: any }) {
   // WIP: using `[key: string]: any` instead of `Item` as a workaround for
@@ -20,7 +20,7 @@ function getKeys(obj: { [key: string]: any }) {
   return keys;
 }
 
-const listOfUniqueKeys = (items: Item[]) => {
+const listOfUniqueKeys = (items: LandscapeItem[]) => {
   return items.reduce((acc, item) => {  
     const listOfKeys = getKeys(item);
     const newKey = listOfKeys.filter(key => {
@@ -35,7 +35,7 @@ interface KeysReport {
   commonKeys: string[]
 }
 
-export const commonKeyFinder = (items: Item[]): KeysReport => {
+export const commonKeyFinder = (items: LandscapeItem[]): KeysReport => {
   const keys: string[] = listOfUniqueKeys(items);
   
   const commonKeys = keys.reduce((acc, key) => {

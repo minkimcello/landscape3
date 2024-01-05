@@ -20,13 +20,13 @@
     "test:e2e": "playwright test",
     "fix": "backstage-cli repo fix",
     "lint": "backstage-cli repo lint --since origin/main",
-    "lint:scripts": "eslint ./scripts",
+    "lint:scripts": "./node_modules/.bin/eslint ./scripts",
     "lint:all": "backstage-cli repo lint && yarn lint:scripts",
     "prettier:check": "prettier --check .",
     "new": "backstage-cli new --scope internal",
-    "generate:metadata-summary": "ts-node ./scripts/landscape-yaml-parser/getMetadataSummary",
+    "generate:stats": "ts-node ./scripts/landscape-yaml-parser/generateStats",
     "generate:entities": "ts-node ./scripts/landscape-yaml-parser/convertToCatalogInfo",
-    "generate:json": "ts-node ./scripts/landscape-yaml-parser/convertLandscapeYamlToJson",
+    "generate:json": "ts-node ./scripts/landscape-yaml-parser/fetchLandscapeYaml",
     "generate:types": "yarn generate:json && ./node_modules/maketypes/index.js -i ./generated/landscape_types.ts ./generated/landscape.json Landscape"
   },
   "workspaces": {
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@backstage/catalog-model": "1.4.3",
     "@backstage/cli": "^0.23.0",
     "@backstage/e2e-test-utils": "^0.1.0",
     "@playwright/test": "^1.32.3",
@@ -63,5 +64,6 @@
     "*.{json,md}": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }

@@ -1,0 +1,36 @@
+name: Landscape Sync
+
+on:
+  schedule:
+    - cron:  '0 0 1,15 * *'
+  workflow_dispatch:
+
+jobs:
+  landscape-sync:
+    name: Landscape Sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          fetch-depth: 0
+      - name: Install root dependencies
+        run: yarn workspaces focus root
+      - name: Fetch latest landscape.yml
+        run: |
+          yarn generate:json
+          echo "LANDSCAPE_UPDATED=$(git status -s | grep landscape.json)" >> $GITHUB_ENV
+      - name: Generate landscape stats
+        run: env.LANDSCAPE_UPDATED
+        run: yarn generate:stats
+      - name: Generate catalog infos
+        if: env.LANDSCAPE_UPDATED
+        run: yarn generate:entities
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: 🚀 Update Entities [automated]
+          base: main
+          branch: landscape-sync
+          body: Beep boop
+          token: ${{ secrets.LANDSCAPE_TOKEN }}
+            # TODO: replace with bot
