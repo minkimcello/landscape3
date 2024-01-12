@@ -13,7 +13,7 @@ export const CncfStatsPage = cncfStatsPlugin.provide(
   createRoutableExtension({
     name: 'CncfStatsPage',
     component: () =>
-      import('./components/ExampleComponent').then(m => m.ExampleComponent),
+      import('./components/StatsPage').then(m => m.StatsPage),
     mountPoint: rootRouteRef,
   }),
 );
