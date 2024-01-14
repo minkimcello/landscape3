@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Open Policy Containers
+  name: Open-Policy-Containers
   description: A docker-inspired CLI for building, tagging, pushing, pulling, and
     signing OPA policies to and from OCI-compliant registries.
   links:

@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Service Mesh Interface (SMI)
+  name: Service-Mesh-Interface-SMI
   links:
     - title: Homepage
       url: https://smi-spec.io

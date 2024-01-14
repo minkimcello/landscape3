@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Chaos Mesh
+  name: Chaos-Mesh
   links:
     - title: Homepage
       url: https://chaos-mesh.org/

@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: The Update Framework (TUF)
+  name: The-Update-Framework-TUF
   links:
     - title: Homepage
       url: https://theupdateframework.github.io/

@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Knative (Serverless)
+  name: Knative-Serverless
   description: 'Knative is a developer-focused serverless application layer which
     is a great complement to the existing Kubernetes application constructs.
     Knative consists of three components: an HTTP-triggered autoscaling

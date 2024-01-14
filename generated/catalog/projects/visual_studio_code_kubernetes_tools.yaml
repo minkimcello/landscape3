@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Visual Studio Code Kubernetes Tools
+  name: Visual-Studio-Code-Kubernetes-Tools
   description: The extension for developers building applications to run in
     Kubernetes clusters and for DevOps staff troubleshooting Kubernetes
     applications.
