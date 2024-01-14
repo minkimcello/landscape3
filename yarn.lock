@@ -11298,6 +11298,7 @@ __metadata:
   resolution: "backstage-plugin-cncf-stats-backend@workspace:plugins/cncf-stats-backend"
   dependencies:
     "@backstage/backend-common": "npm:^0.19.8"
+    "@backstage/backend-plugin-api": "npm:^0.6.7"
     "@backstage/cli": "npm:^0.23.0"
     "@backstage/config": "npm:^1.1.1"
     "@types/express": "npm:*"

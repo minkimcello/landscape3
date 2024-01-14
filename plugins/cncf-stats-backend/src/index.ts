@@ -1,1 +1,1 @@
-export * from './service/router';
+export { cncfStatsPlugin as default } from './plugin';
