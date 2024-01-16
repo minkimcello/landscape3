@@ -1,7 +1,11 @@
 import React from 'react';
 
-export const Projects = () => {
+export const Projects = ({stats}: {
+  stats: any,
+}) => {
   return (
-    <>projects</>
-  );
+    <>
+      Projects count: {stats.count} 
+    </>
+  )
 }
