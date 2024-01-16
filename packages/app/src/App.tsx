@@ -80,7 +80,7 @@ const routes = (
       {searchPage}
     </Route>
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
-    <Route path="/cncf-stats" element={<CncfStatsPage />} />
+    <Route path="/stats" element={<CncfStatsPage />} />
   </FlatRoutes>
 );
 
