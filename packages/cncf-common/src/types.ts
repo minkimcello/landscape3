@@ -8,7 +8,7 @@ export interface Category {
   subcategories: SubCategory[];
 }
 
-export interface SubCategory {
+interface SubCategory {
   subcategory: never;
   name: string;
   items: Item[];
@@ -62,7 +62,7 @@ interface ExtraDetails {
   youtube_url?: string;
 }
 
-export interface Item {
+interface Item {
   item: never;
   name: string;
   logo: string;
@@ -95,4 +95,16 @@ export interface Item {
 export interface LandscapeItem extends Item {
   category: string;
   subcategory: string;
+}
+
+export interface StatsCategoryBreakdown {
+  [key:string]: number;
+}
+
+export interface CategoryStats {
+  count: number;
+  commonKeys: string[];
+  uniqueKeys: string;
+  categoryBreakdown: StatsCategoryBreakdown;
+  subcategoryBreakdown: StatsCategoryBreakdown;
 }

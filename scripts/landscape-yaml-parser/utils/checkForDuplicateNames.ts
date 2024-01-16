@@ -1,4 +1,4 @@
-import { LandscapeItem } from "../types";
+import { LandscapeItem } from "cncf-common";
 
 interface DuplicateNamesReport {
   unique: string[];

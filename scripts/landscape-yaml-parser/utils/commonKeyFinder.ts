@@ -1,4 +1,4 @@
-import type { LandscapeItem } from '../types';
+import { LandscapeItem } from 'cncf-common';
 
 function getKeys(obj: { [key: string]: any }) {
   // WIP: using `[key: string]: any` instead of `Item` as a workaround for

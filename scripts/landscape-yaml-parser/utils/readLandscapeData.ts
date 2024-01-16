@@ -2,7 +2,7 @@ import {
   Landscape,
   Category,
   LandscapeItem,
-} from '../types';
+} from 'cncf-common';
 
 const fs = require('fs');
 

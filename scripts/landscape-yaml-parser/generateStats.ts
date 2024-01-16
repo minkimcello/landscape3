@@ -1,7 +1,6 @@
 import { checkForDuplicateNames } from './utils/checkForDuplicateNames';
 import { getAllLandscapeItems } from './utils/readLandscapeData';
 import { commonKeyFinder } from './utils/commonKeyFinder';
-import { LandscapeItem } from './types';
 import {
   FilterWithExceptions,
   filterMembers,
@@ -10,20 +9,13 @@ import {
   filterSpecials,
   filterWasm,
 } from './filters';
+import {
+  CategoryStats,
+  LandscapeItem,
+  StatsCategoryBreakdown,
+} from 'cncf-common';
 
 const fs = require('fs');
-
-interface Breakdown {
-  [key:string]: number;
-}
-
-export interface CategoryStats {
-  count: number;
-  commonKeys: string[];
-  uniqueKeys: string;
-  categoryBreakdown: Breakdown;
-  subcategoryBreakdown: Breakdown;
-}
 
 const generateStats = (items: LandscapeItem[]): CategoryStats => {
   const { commonKeys, uniqueKeys } = commonKeyFinder(items);
@@ -35,7 +27,7 @@ const generateStats = (items: LandscapeItem[]): CategoryStats => {
       acc[item.category] = 1;
     }
     return acc;
-  }, {} as Breakdown);
+  }, {} as StatsCategoryBreakdown);
 
   const subcategoryBreakdown = items.reduce((acc, item) => {
     if (acc.hasOwnProperty(item.subcategory)) {
@@ -44,7 +36,7 @@ const generateStats = (items: LandscapeItem[]): CategoryStats => {
       acc[item.subcategory] = 1;
     }
     return acc;
-  }, {} as Breakdown);
+  }, {} as StatsCategoryBreakdown);
 
   return {
     count: items.length,

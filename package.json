@@ -42,6 +42,7 @@
     "@playwright/test": "^1.32.3",
     "@spotify/prettier-config": "^12.0.0",
     "@types/node": "^20.10.4",
+    "cncf-common": "*",
     "concurrently": "^8.0.0",
     "lerna": "^7.3.0",
     "maketypes": "^1.1.2",

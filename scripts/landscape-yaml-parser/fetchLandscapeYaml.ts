@@ -1,5 +1,5 @@
 import { parse } from 'yaml';
-import { Landscape } from './types';
+import { Landscape } from 'cncf-common';
 
 const fs = require('fs');
 
