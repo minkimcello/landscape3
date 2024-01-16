@@ -1,7 +1,8 @@
 import React from 'react';
+import { CategoryStats } from 'cncf-common';
 
 export const Members = ({stats}: {
-  stats: any,
+  stats: CategoryStats,
 }) => {
   return (
     <>
