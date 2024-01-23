@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Aeraki Mesh
+  name: Aeraki-Mesh
   description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
   links:
     - title: Homepage

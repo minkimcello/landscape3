@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Dapr (Serverless)
+  name: Dapr-Serverless
   links:
     - title: Homepage
       url: https://dapr.io

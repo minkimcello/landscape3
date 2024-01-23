@@ -13,13 +13,16 @@ export function componentTemplate(item: LandscapeItem): Entity {
   } = item;
   const accepted = item.extra?.accepted;
 
+  // https://github.com/backstage/backstage/blob/master/docs/architecture-decisions/adr002-default-catalog-file-format.md#name
+  const entityName = name.replace(/\ /g, '-').replace(/[^a-zA-Z0-9_\-\.]/g, '');
+
   // We can deconstruct these properties for every item because of the stats that were generated.
   // See "cncfProjectsSummary" in './generated/landscape_stats.json'
   return {
     apiVersion: "backstage.io/v1alpha1",
     kind: "Component",
     metadata: {
-      name,
+      name: entityName,
       description,
       links: [
         {

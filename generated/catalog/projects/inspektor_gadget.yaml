@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Inspektor Gadget
+  name: Inspektor-Gadget
   description: Open source eBPF debugging and data collection tool for Kubernetes and Linux
   links:
     - title: Homepage

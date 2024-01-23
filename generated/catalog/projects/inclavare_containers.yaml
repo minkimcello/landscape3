@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Inclavare Containers
+  name: Inclavare-Containers
   links:
     - title: Homepage
       url: https://inclavare-containers.io/
