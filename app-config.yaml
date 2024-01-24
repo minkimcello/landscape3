@@ -69,6 +69,10 @@ auth:
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
 
+stats:
+  file:
+    $include: ./generated/landscape_stats.json
+
 catalog:
   import:
     entityFilename: catalog-info.yaml

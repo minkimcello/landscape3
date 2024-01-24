@@ -1,5 +1,5 @@
 import { stringify } from 'yaml';
-import { LandscapeItem } from './types';
+import { LandscapeItem } from 'cncf-common';
 import { getAllLandscapeItems } from './utils/readLandscapeData';
 import { componentTemplate } from './catalog-templates';
 import { filterProjects, FilterWithExceptions } from './filters';

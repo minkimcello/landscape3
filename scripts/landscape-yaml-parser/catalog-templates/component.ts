@@ -1,5 +1,5 @@
 import { Entity } from '@backstage/catalog-model';
-import { LandscapeItem } from '../types';
+import { LandscapeItem } from 'cncf-common';
 
 export function componentTemplate(item: LandscapeItem): Entity {
   const {

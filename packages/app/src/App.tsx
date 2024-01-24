@@ -27,7 +27,7 @@ import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { UnifiedThemeProvider } from '@backstage/theme';
 import { CssBaseline } from '@material-ui/core';
 import cncfTheme from './theme';
-
+import { CncfStatsPage } from 'backstage-plugin-cncf-stats';
 
 const app = createApp({
   apis,
@@ -80,6 +80,7 @@ const routes = (
       {searchPage}
     </Route>
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+    <Route path="/stats" element={<CncfStatsPage />} />
   </FlatRoutes>
 );
 
