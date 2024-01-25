@@ -1,4 +1,4 @@
-import { commonKeyFinder } from './commonKeyFinder';
+import { commonKeyFinder, UniqueKeyStats } from './commonKeyFinder';
 import {
   CategoryStats,
   LandscapeItem,
@@ -6,8 +6,11 @@ import {
   StatsSubcategoryBreakdown,
 } from 'cncf-common';
 
-export const calculateStats = (items: LandscapeItem[]): CategoryStats => {
-  const { commonKeys, uniqueKeys } = commonKeyFinder(items);
+export const calculateStats = (items: LandscapeItem[]): {
+  summary: CategoryStats,
+  uniqueKeysAnalysis: UniqueKeyStats[],
+ } => {
+  const { commonKeys, uniqueKeys, uniqueKeysAnalysis } = commonKeyFinder(items);
 
   const categoryBreakdown = items.reduce((acc, item) => {
     if (acc.hasOwnProperty(item.category)) {
@@ -35,10 +38,13 @@ export const calculateStats = (items: LandscapeItem[]): CategoryStats => {
   }, {} as StatsSubcategoryBreakdown);
 
   return {
-    count: items.length,
-    commonKeys,
-    uniqueKeys,
-    categoryBreakdown,
-    subcategoryBreakdown,
+    summary: {
+      count: items.length,
+      commonKeys,
+      uniqueKeys,
+      categoryBreakdown,
+      subcategoryBreakdown,
+    },
+    uniqueKeysAnalysis,
   };
 }

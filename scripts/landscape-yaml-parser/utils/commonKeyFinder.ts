@@ -30,9 +30,18 @@ const listOfUniqueKeys = (items: LandscapeItem[]) => {
   }, [] as string[]);
 }
 
+export interface UniqueKeyStats {
+  key: string;
+  count: number;
+  percentage: string;
+  included: string;
+  excluded: string;
+}
+
 interface KeysReport {
   uniqueKeys: string,
-  commonKeys: string[]
+  commonKeys: string[],
+  uniqueKeysAnalysis: UniqueKeyStats[];
 }
 
 export const commonKeyFinder = (items: LandscapeItem[]): KeysReport => {
@@ -57,8 +66,48 @@ export const commonKeyFinder = (items: LandscapeItem[]): KeysReport => {
     return !commonKeys.includes(key);
   });
 
+  const uniqueKeysAnalysis = uniqueKeys.map(key => {
+    return items.reduce((acc, item) => {
+      const itemKeys = listOfUniqueKeys([item]);
+      if (itemKeys.includes(key)) {
+        return {
+          key,
+          count: acc.count + 1,
+          included: [...acc.included, item.name],
+          excluded: acc.excluded,
+        };
+      }
+      return {
+        key,
+        count: acc.count,
+        included: acc.included,
+        excluded: [...acc.excluded, item.name],
+      };
+    }, {
+      key,
+      count: 0,
+      included: [] as string[],
+      excluded: [] as string[],
+    });
+  });
+
+  const uniqueKeysAnalysisWithPercentages = uniqueKeysAnalysis.map(analysis => {
+    const {
+      key, count, included, excluded
+    } = analysis;
+    const percentage = `${((count * 100) / items.length).toFixed(1)}%`;
+    return {
+      key,
+      count,
+      percentage,
+      included: included.join(', '),
+      excluded: excluded.join(', '),
+    };
+  });
+
   return {
     uniqueKeys: uniqueKeys.sort().join(','),
-    commonKeys, 
+    commonKeys,
+    uniqueKeysAnalysis: uniqueKeysAnalysisWithPercentages.sort((a, b) => b.count - a.count),
   };
 }
