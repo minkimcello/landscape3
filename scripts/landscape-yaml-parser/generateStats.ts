@@ -13,6 +13,7 @@ import {
   CategoryStats,
   LandscapeItem,
   StatsCategoryBreakdown,
+  StatsSubcategoryBreakdown,
 } from 'cncf-common';
 
 const fs = require('fs');
@@ -30,13 +31,20 @@ const generateStats = (items: LandscapeItem[]): CategoryStats => {
   }, {} as StatsCategoryBreakdown);
 
   const subcategoryBreakdown = items.reduce((acc, item) => {
-    if (acc.hasOwnProperty(item.subcategory)) {
-      acc[item.subcategory] = acc[item.subcategory] + 1;
+    const parentCategory = item.category;
+    const subcategory = item.subcategory;
+
+    if (!acc.hasOwnProperty(parentCategory)) {
+      acc[parentCategory] = {};
+    }
+
+    if (acc[parentCategory].hasOwnProperty(subcategory)) {
+      acc[parentCategory][subcategory] += 1;
     } else {
-      acc[item.subcategory] = 1;
+      acc[parentCategory][subcategory] = 1;
     }
     return acc;
-  }, {} as StatsCategoryBreakdown);
+  }, {} as StatsSubcategoryBreakdown);
 
   return {
     count: items.length,
