@@ -4,4 +4,5 @@ export type {
   Category,
   CategoryStats,
   StatsCategoryBreakdown,
+  StatsSubcategoryBreakdown,
 } from './types';

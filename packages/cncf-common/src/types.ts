@@ -101,10 +101,14 @@ export interface StatsCategoryBreakdown {
   [key:string]: number;
 }
 
+export interface StatsSubcategoryBreakdown {
+  [key:string]: StatsCategoryBreakdown;
+}
+
 export interface CategoryStats {
   count: number;
   commonKeys: string[];
   uniqueKeys: string;
   categoryBreakdown: StatsCategoryBreakdown;
-  subcategoryBreakdown: StatsCategoryBreakdown;
+  subcategoryBreakdown: StatsSubcategoryBreakdown;
 }
