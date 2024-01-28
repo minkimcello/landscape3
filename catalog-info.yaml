@@ -2,12 +2,35 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: landscape3
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  description: Backstage for Landscape
+  annotations:
+    github.com/project-slug: minkimcello/landscape3
+    # backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: john@example.com
+  owner: contributors
   lifecycle: experimental
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: contributors
+spec:
+  type: team
+  profile:
+    displayName: Landscape3 Contributors
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cncf
+spec:
+  type: team
+  profile:
+    displayName: CNCF
+  children: []
