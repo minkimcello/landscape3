@@ -9,12 +9,22 @@ metadata:
       url: https://kubernetes.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kubernetesio
+    - title: Slack/Discord
+      url: http://slack.k8s.io/
   annotations:
-    landscape3.io/accepted: 2016-03-10
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/kubernetes/kubernetes
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2016-03-10
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: graduated
+  logo: kubernetes.svg
+  maturity:
+    sandbox_date: 2016-03-10
+    incubation_date: 2016-03-10
+    graduation_date: 2018-03-06

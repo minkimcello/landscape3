@@ -8,12 +8,20 @@ metadata:
       url: https://hwameistor.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/daocloud_io
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/hwameistor
   annotations:
-    landscape3.io/accepted: 2023-06-22
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Storage
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/hwameistor/hwameistor
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-06-22
+  category: Runtime
+  subcategory: Cloud Native Storage
+  status: sandbox
+  logo: hwameistor.svg
+  maturity:
+    sandbox_date: 2023-06-22

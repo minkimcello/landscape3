@@ -7,12 +7,22 @@ metadata:
       url: https://keda.sh/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kedaorg
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/archives/CKZJ36A5D
   annotations:
-    landscape3.io/accepted: 2020-03-12
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/kedacore/keda
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-03-12
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: graduated
+  logo: keda.svg
+  maturity:
+    sandbox_date: 2020-03-12
+    incubation_date: 2021-08-18
+    graduation_date: 2023-08-22

@@ -8,12 +8,18 @@ metadata:
       url: https://headlamp.dev
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/headlamp_ui
   annotations:
-    landscape3.io/accepted: 2023-05-17
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Monitoring
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/headlamp-k8s/headlamp
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-05-17
+  category: Observability and Analysis
+  subcategory: Monitoring
+  status: sandbox
+  logo: headlamp.svg
+  maturity:
+    sandbox_date: 2023-05-17

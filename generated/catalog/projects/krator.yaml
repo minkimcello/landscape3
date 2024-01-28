@@ -7,12 +7,18 @@ metadata:
       url: https://docs.rs/crate/krator/latest
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/krator
   annotations:
-    landscape3.io/accepted: 2021-07-13
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: archived
+    backstage.io/source-location: $url:https://github.com/krator-rs/krator
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-07-13
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: archived
+  logo: krator.svg
+  maturity:
+    sandbox_date: 2021-07-13

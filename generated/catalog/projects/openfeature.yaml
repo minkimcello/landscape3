@@ -8,12 +8,21 @@ metadata:
       url: https://openfeature.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/openfeature
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/openfeature
   annotations:
-    landscape3.io/accepted: 2022-06-17
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Feature Flagging
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/open-feature/spec
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-06-17
+  category: Observability and Analysis
+  subcategory: Feature Flagging
+  status: incubating
+  logo: openfeature.svg
+  maturity:
+    sandbox_date: 2022-06-17
+    incubation_date: 2023-11-21

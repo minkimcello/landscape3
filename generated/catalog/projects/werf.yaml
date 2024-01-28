@@ -11,12 +11,20 @@ metadata:
       url: https://werf.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/werf_io
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/werf
   annotations:
-    landscape3.io/accepted: 2022-12-13
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/werf/werf
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-12-13
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: sandbox
+  logo: werf.svg
+  maturity:
+    sandbox_date: 2022-12-13

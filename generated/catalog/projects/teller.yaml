@@ -8,11 +8,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2022-04-26
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Key Management
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/tellerops/teller
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-04-26
+  category: Provisioning
+  subcategory: Key Management
+  status: sandbox
+  logo: teller.svg
+  maturity:
+    sandbox_date: 2022-04-26

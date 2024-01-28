@@ -7,12 +7,18 @@ metadata:
       url: https://chaosblade.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/ChaosbladeI
   annotations:
-    landscape3.io/accepted: 2021-04-28
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Chaos Engineering
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/chaosblade-io/chaosblade
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-04-28
+  category: Observability and Analysis
+  subcategory: Chaos Engineering
+  status: sandbox
+  logo: chaosblade.svg
+  maturity:
+    sandbox_date: 2021-04-28

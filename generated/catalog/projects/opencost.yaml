@@ -9,12 +9,18 @@ metadata:
       url: https://www.opencost.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
   annotations:
-    landscape3.io/accepted: 2022-06-17
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Continuous Optimization
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/opencost/opencost
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-06-17
+  category: Observability and Analysis
+  subcategory: Continuous Optimization
+  status: sandbox
+  logo: opencost.svg
+  maturity:
+    sandbox_date: 2022-06-17

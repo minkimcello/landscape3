@@ -7,12 +7,24 @@ metadata:
       url: https://backstage.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://discord.gg/backstage-687207715902193673
+  tags:
+    - developerportals
+    - idp
+    - servicecatalog
+    - observability
   annotations:
-    landscape3.io/accepted: 2020-09-08
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/backstage/backstage
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-09-08
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: incubating
+  logo: backstage.svg
+  maturity:
+    sandbox_date: 2020-09-08
+    incubation_date: 2022-03-15

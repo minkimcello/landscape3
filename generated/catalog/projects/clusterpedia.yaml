@@ -10,12 +10,18 @@ metadata:
       url: https://clusterpedia.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/clusterpedia
   annotations:
-    landscape3.io/accepted: 2022-06-17
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/clusterpedia-io/clusterpedia
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-06-17
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: clusterpedia.svg
+  maturity:
+    sandbox_date: 2022-06-17

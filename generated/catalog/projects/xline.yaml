@@ -10,11 +10,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/beijing-datenlord-technology
   annotations:
-    landscape3.io/accepted: 2023-06-30
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Coordination & Service Discovery
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/xline-kv/Xline
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-06-30
+  category: Orchestration & Management
+  subcategory: Coordination & Service Discovery
+  status: sandbox
+  logo: xline.svg
+  maturity:
+    sandbox_date: 2023-06-30

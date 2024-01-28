@@ -7,12 +7,20 @@ metadata:
       url: https://open-cluster-management.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/ocm_io
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/archives/C01GE7YSUUF
   annotations:
-    landscape3.io/accepted: 2021-11-09
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/open-cluster-management-io/api
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-11-09
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: open-cluster-management.svg
+  maturity:
+    sandbox_date: 2021-11-09

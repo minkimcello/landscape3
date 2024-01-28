@@ -7,12 +7,18 @@ metadata:
       url: https://krustlet.dev
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/krustlet
   annotations:
-    landscape3.io/accepted: 2021-07-13
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/krustlet/krustlet
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-07-13
+  category: Runtime
+  subcategory: Container Runtime
+  status: sandbox
+  logo: krustlet.svg
+  maturity:
+    sandbox_date: 2021-07-13

@@ -7,12 +7,19 @@ metadata:
       url: https://opentracing.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/opentracing
   annotations:
-    landscape3.io/accepted: 2016-10-11
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Tracing
-    landscape3.io/cncfStatus: archived
+    backstage.io/source-location: $url:https://github.com/opentracing/opentracing-go
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2016-10-11
+  category: Observability and Analysis
+  subcategory: Tracing
+  status: archived
+  logo: open-tracing.svg
+  maturity:
+    sandbox_date: 2016-10-11
+    incubation_date: 2016-10-11

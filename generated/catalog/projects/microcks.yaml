@@ -7,12 +7,28 @@ metadata:
       url: https://microcks.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/microcksio
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/microcks
+  tags:
+    - api
+    - mocking
+    - testing
+    - openapi
+    - graphql
+    - grpc
+    - asyncapi
   annotations:
-    landscape3.io/accepted: 2023-06-22
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/microcks/microcks
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-06-22
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: microcks.svg
+  maturity:
+    sandbox_date: 2023-06-22

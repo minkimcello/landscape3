@@ -10,12 +10,35 @@ metadata:
       url: https://www.keptn.sh
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/keptnproject
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/keptn/
+  tags:
+    - application
+    - container
+    - microservices
+    - security
+    - gitops
+    - kubernetes
+    - helm
+    - observability
+    - cicd
+    - sli
+    - slo
+    - sla
+    - observability
   annotations:
-    landscape3.io/accepted: 2020-06-25
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/keptn/lifecycle-toolkit
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-06-25
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: incubating
+  logo: keptn.svg
+  maturity:
+    sandbox_date: 2020-06-25
+    incubation_date: 2022-07-13

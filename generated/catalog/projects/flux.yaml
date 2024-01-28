@@ -7,12 +7,35 @@ metadata:
       url: https://fluxcd.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/fluxcd
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/flux
+  tags:
+    - oci
+    - container
+    - security
+    - gitops
+    - kubernetes
+    - helm
+    - observability
+    - softwaresupplychain
+    - policy
+    - cicd
+    - multitenancy
+    - apigateway
   annotations:
-    landscape3.io/accepted: 2019-07-15
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/fluxcd/flux2
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-07-15
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: graduated
+  logo: flux.svg
+  maturity:
+    sandbox_date: 2019-07-15
+    incubation_date: 2021-03-12
+    graduation_date: 2022-11-30

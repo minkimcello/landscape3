@@ -9,12 +9,26 @@ metadata:
       url: https://cloudevents.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/cloudeventsio
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/cloudevents
+  tags:
+    - events
+    - eventing
+    - serverless
   annotations:
-    landscape3.io/accepted: 2018-05-15
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Streaming & Messaging
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/cloudevents/spec
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-05-15
+  category: App Definition and Development
+  subcategory: Streaming & Messaging
+  status: graduated
+  logo: cloud-events.svg
+  maturity:
+    sandbox_date: 2018-05-15
+    incubation_date: 2019-10-24
+    graduation_date: 2024-01-25

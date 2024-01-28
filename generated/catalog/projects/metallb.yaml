@@ -7,12 +7,18 @@ metadata:
       url: https://metallb.universe.tf
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/metallb
+    - title: Slack/Discord
+      url: https://slack.k8s.io/
   annotations:
-    landscape3.io/accepted: 2021-09-14
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Proxy
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/metallb/metallb
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-09-14
+  category: Orchestration & Management
+  subcategory: Service Proxy
+  status: sandbox
+  logo: metallb.svg
+  maturity:
+    sandbox_date: 2021-09-14

@@ -7,12 +7,20 @@ metadata:
       url: https://kubeovn.github.io/docs/en/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/KubeOvn
+    - title: Slack/Discord
+      url: https://communityinviter.com/apps/kube-ovn/kube-ovn
   annotations:
-    landscape3.io/accepted: 2021-01-26
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Network
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kubeovn/kube-ovn
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-01-26
+  category: Runtime
+  subcategory: Cloud Native Network
+  status: sandbox
+  logo: kube-ovn.svg
+  maturity:
+    sandbox_date: 2021-01-26

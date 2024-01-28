@@ -9,12 +9,18 @@ metadata:
       url: https://submariner.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/submarinerio
   annotations:
-    landscape3.io/accepted: 2021-04-28
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Network
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/submariner-io/submariner
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-04-28
+  category: Runtime
+  subcategory: Cloud Native Network
+  status: sandbox
+  logo: submariner.svg
+  maturity:
+    sandbox_date: 2021-04-28

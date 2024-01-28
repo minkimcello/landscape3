@@ -9,12 +9,18 @@ metadata:
       url: https://krkn-chaos.github.io/krkn
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/red-hat
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/C05SFMHRWK1
   annotations:
-    landscape3.io/accepted: 2023-12-19
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Chaos Engineering
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/krkn-chaos/krkn
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-12-19
+  category: Observability and Analysis
+  subcategory: Chaos Engineering
+  status: sandbox
+  logo: krkn.svg
+  maturity:
+    sandbox_date: 2023-12-19

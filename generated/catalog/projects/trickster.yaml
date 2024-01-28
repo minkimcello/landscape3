@@ -8,11 +8,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2021-03-30
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Monitoring
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/trickstercache/trickster
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-03-30
+  category: Observability and Analysis
+  subcategory: Monitoring
+  status: sandbox
+  logo: trickster.svg
+  maturity:
+    sandbox_date: 2021-03-30

@@ -7,12 +7,27 @@ metadata:
       url: https://prometheus.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/PrometheusIO
+    - title: Slack/Discord
+      url: https://libera.chat/
+  tags:
+    - monitoring
+    - alerting
+    - observability
+    - instrumentation
   annotations:
-    landscape3.io/accepted: 2016-05-09
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Monitoring
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/prometheus/prometheus
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2016-05-09
+  category: Observability and Analysis
+  subcategory: Monitoring
+  status: graduated
+  logo: prometheus.svg
+  maturity:
+    sandbox_date: 2016-05-09
+    incubation_date: 2016-05-09
+    graduation_date: 2018-08-09

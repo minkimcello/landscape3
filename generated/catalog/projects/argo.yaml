@@ -9,12 +9,28 @@ metadata:
       url: https://argoproj.github.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/argoproj
+    - title: Slack/Discord
+      url: https://argoproj.github.io/community/join-slack
+  tags:
+    - applicationdeployment
+    - continuousdeployment
+    - datapipelines
+    - machinelearning
+    - kubernetesworkflows
   annotations:
-    landscape3.io/accepted: 2020-03-26
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/argoproj/argo-cd
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-03-26
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: graduated
+  logo: argo.svg
+  maturity:
+    sandbox_date: 2020-03-26
+    incubation_date: 2020-03-26
+    graduation_date: 2022-12-06

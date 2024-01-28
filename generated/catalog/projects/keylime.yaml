@@ -8,12 +8,20 @@ metadata:
       url: https://keylime.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/KeylimeProject
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/keylime
   annotations:
-    landscape3.io/accepted: 2020-09-22
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/keylime/keylime
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-09-22
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: keylime.svg
+  maturity:
+    sandbox_date: 2020-09-22

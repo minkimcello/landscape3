@@ -12,12 +12,18 @@ metadata:
       url: https://containerssh.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/
   annotations:
-    landscape3.io/accepted: 2022-09-14
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/containerssh/containerssh
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-09-14
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: containerssh.svg
+  maturity:
+    sandbox_date: 2022-09-14

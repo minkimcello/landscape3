@@ -7,12 +7,24 @@ metadata:
       url: https://kubeedge.io/en/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/KubeEdge
+    - title: Slack/Discord
+      url: https://kubeedge.slack.com/
+  tags:
+    - edge
+    - iotdevice
   annotations:
-    landscape3.io/accepted: 2019-03-18
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/kubeedge/kubeedge
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-03-18
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: incubating
+  logo: kube-edge.svg
+  maturity:
+    sandbox_date: 2019-03-18
+    incubation_date: 2020-09-16

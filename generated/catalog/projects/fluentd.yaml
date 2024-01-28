@@ -7,12 +7,22 @@ metadata:
       url: https://www.fluentd.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/fluentd
+    - title: Slack/Discord
+      url: http://slack.fluentd.org/
   annotations:
-    landscape3.io/accepted: 2016-11-08
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Logging
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/fluent/fluentd
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2016-11-08
+  category: Observability and Analysis
+  subcategory: Logging
+  status: graduated
+  logo: fluentd.svg
+  maturity:
+    sandbox_date: 2016-11-08
+    incubation_date: 2016-11-08
+    graduation_date: 2019-04-11

@@ -9,12 +9,32 @@ metadata:
       url: https://istio.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/IstioMesh
+    - title: Slack/Discord
+      url: https://slack.istio.io/
+  tags:
+    - observability
+    - servicemesh
+    - mtls
+    - trafficmanagement
+    - multicluster
+    - loadbalancing
+    - policy
+    - security
+    - extensibility
   annotations:
-    landscape3.io/accepted: 2022-09-30
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Mesh
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/istio/istio
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-09-30
+  category: Orchestration & Management
+  subcategory: Service Mesh
+  status: graduated
+  logo: istio.svg
+  maturity:
+    sandbox_date: 2022-09-30
+    incubation_date: 2022-09-30
+    graduation_date: 2023-07-12

@@ -7,12 +7,18 @@ metadata:
       url: https://kube-logging.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kubelogging
   annotations:
-    landscape3.io/accepted: 2023-09-19
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Logging
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kube-logging/logging-operator
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-09-19
+  category: Observability and Analysis
+  subcategory: Logging
+  status: sandbox
+  logo: logging-operator.svg
+  maturity:
+    sandbox_date: 2023-09-19

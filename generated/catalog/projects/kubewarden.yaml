@@ -7,12 +7,20 @@ metadata:
       url: https://www.kubewarden.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kubewarden
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/
   annotations:
-    landscape3.io/accepted: 2022-06-17
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kubewarden/kubewarden-controller
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-06-17
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: kubewarden.svg
+  maturity:
+    sandbox_date: 2022-06-17

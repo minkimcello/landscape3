@@ -9,11 +9,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2020-08-19
-    landscape3.io/category: Platform
-    landscape3.io/subcategory: Certified Kubernetes - Distribution
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/k3s-io/k3s
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-08-19
+  category: Platform
+  subcategory: Certified Kubernetes - Distribution
+  status: sandbox
+  logo: k3s.svg
+  maturity:
+    sandbox_date: 2020-08-19

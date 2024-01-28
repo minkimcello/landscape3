@@ -7,12 +7,18 @@ metadata:
       url: https://ko.build/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://slack.k8s.io
   annotations:
-    landscape3.io/accepted: 2022-12-14
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/ko-build/ko
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-12-14
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: Ko.svg
+  maturity:
+    sandbox_date: 2022-12-14

@@ -7,12 +7,21 @@ metadata:
       url: https://chaos-mesh.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/chaos_mesh
+    - title: Slack/Discord
+      url: https://join.slack.com/t/cloud-native/shared_invite/zt-fyy3b8up-qHeDNVqbz1j8HDY6g1cY4w
   annotations:
-    landscape3.io/accepted: 2020-07-14
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Chaos Engineering
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/chaos-mesh/chaos-mesh
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-07-14
+  category: Observability and Analysis
+  subcategory: Chaos Engineering
+  status: incubating
+  logo: chaos-mesh.svg
+  maturity:
+    sandbox_date: 2020-07-14
+    incubation_date: 2022-02-16

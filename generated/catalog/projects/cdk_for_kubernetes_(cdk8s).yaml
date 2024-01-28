@@ -10,11 +10,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2020-11-10
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/cdk8s-team/cdk8s
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-11-10
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: cdk8s.svg
+  maturity:
+    sandbox_date: 2020-11-10

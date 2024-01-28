@@ -8,12 +8,20 @@ metadata:
       url: https://www.aeraki.net/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/aeraki-mesh
+  tags:
+    - servicemesh
   annotations:
-    landscape3.io/accepted: 2022-06-17
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Mesh
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/aeraki-mesh/aeraki
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-06-17
+  category: Orchestration & Management
+  subcategory: Service Mesh
+  status: sandbox
+  logo: aeraki-mesh.svg
+  maturity:
+    sandbox_date: 2022-06-17

@@ -8,12 +8,29 @@ metadata:
       url: https://vitess.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/vitessio
+  tags:
+    - scalable
+    - reliable
+    - mysql
+    - distributed
+    - cloudnative
+    - kubernetes
+    - cloud
+    - database
   annotations:
-    landscape3.io/accepted: 2018-02-05
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Database
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/vitessio/vitess
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-02-05
+  category: App Definition and Development
+  subcategory: Database
+  status: graduated
+  logo: vitess.svg
+  maturity:
+    sandbox_date: 2018-02-05
+    incubation_date: 2018-02-05
+    graduation_date: 2019-11-05

@@ -7,12 +7,24 @@ metadata:
       url: https://cortexmetrics.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/cortexmetrics
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/cortex/
+  tags:
+    - observability
+    - prometheus
   annotations:
-    landscape3.io/accepted: 2018-09-20
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Monitoring
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/cortexproject/cortex
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-09-20
+  category: Observability and Analysis
+  subcategory: Monitoring
+  status: incubating
+  logo: cortex.svg
+  maturity:
+    sandbox_date: 2018-09-20
+    incubation_date: 2020-08-20

@@ -7,12 +7,18 @@ metadata:
       url: https://www.devstream.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/devstream
   annotations:
-    landscape3.io/accepted: 2022-06-17
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/devstream-io/devstream
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-06-17
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: devstream.svg
+  maturity:
+    sandbox_date: 2022-06-17

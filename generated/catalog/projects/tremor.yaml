@@ -7,12 +7,18 @@ metadata:
       url: https://www.tremor.rs/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/TremorDEBS
   annotations:
-    landscape3.io/accepted: 2020-09-08
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Streaming & Messaging
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/tremor-rs/tremor-runtime
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-09-08
+  category: App Definition and Development
+  subcategory: Streaming & Messaging
+  status: sandbox
+  logo: tremor.svg
+  maturity:
+    sandbox_date: 2020-09-08

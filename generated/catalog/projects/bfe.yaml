@@ -8,12 +8,18 @@ metadata:
       url: https://www.bfe-networks.net
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/BfeNetworks
   annotations:
-    landscape3.io/accepted: 2020-06-25
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Proxy
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/bfenetworks/bfe
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-06-25
+  category: Orchestration & Management
+  subcategory: Service Proxy
+  status: sandbox
+  logo: bfe.svg
+  maturity:
+    sandbox_date: 2020-06-25

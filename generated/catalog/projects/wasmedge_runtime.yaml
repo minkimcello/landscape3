@@ -7,12 +7,29 @@ metadata:
       url: https://wasmedge.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/realwasmedge
+  tags:
+    - edgecloud
+    - edgedevices
+    - container
+    - embeddedruntime
+    - serverless
+    - udf
+    - microservices
+    - streamingdata
+    - ociruntime
+    - saas
   annotations:
-    landscape3.io/accepted: 2021-04-28
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/WasmEdge/WasmEdge
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-04-28
+  category: Runtime
+  subcategory: Container Runtime
+  status: sandbox
+  logo: wasmedge.svg
+  maturity:
+    sandbox_date: 2021-04-28

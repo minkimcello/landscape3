@@ -9,12 +9,20 @@ metadata:
       url: https://www.athenz.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/athenzio
+    - title: Slack/Discord
+      url: https://athenz.slack.com/
   annotations:
-    landscape3.io/accepted: 2021-01-26
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Key Management
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/AthenZ/athenz
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-01-26
+  category: Provisioning
+  subcategory: Key Management
+  status: sandbox
+  logo: athenz.svg
+  maturity:
+    sandbox_date: 2021-01-26

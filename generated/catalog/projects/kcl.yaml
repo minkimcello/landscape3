@@ -9,12 +9,18 @@ metadata:
       url: https://kcl-lang.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kcl_language
   annotations:
-    landscape3.io/accepted: 2023-09-20
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kcl-lang/kcl
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-09-20
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: kcl.svg
+  maturity:
+    sandbox_date: 2023-09-20

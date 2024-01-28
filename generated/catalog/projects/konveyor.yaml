@@ -7,12 +7,26 @@ metadata:
       url: https://www.konveyor.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/Konveyor_io
+    - title: Slack/Discord
+      url: https://slack.k8s.io
+  tags:
+    - konveyor
+    - kubernetes
+    - applicationmodernization
+    - replatform
+    - refactor
   annotations:
-    landscape3.io/accepted: 2022-07-26
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/konveyor/tackle2-operator
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-07-26
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: Konveyor.svg
+  maturity:
+    sandbox_date: 2022-07-26

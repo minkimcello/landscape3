@@ -7,12 +7,20 @@ metadata:
       url: https://smp-spec.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/smp_spec
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/service-mesh-performance
   annotations:
-    landscape3.io/accepted: 2021-06-22
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Mesh
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/service-mesh-performance/service-mesh-performance
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-06-22
+  category: Orchestration & Management
+  subcategory: Service Mesh
+  status: sandbox
+  logo: service-mesh-performance.svg
+  maturity:
+    sandbox_date: 2021-06-22

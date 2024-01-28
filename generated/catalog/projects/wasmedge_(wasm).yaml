@@ -7,12 +7,18 @@ metadata:
       url: https://wasmedge.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/
   annotations:
-    landscape3.io/accepted: 2021-04-28
-    landscape3.io/category: Wasm
-    landscape3.io/subcategory: Runtimes
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/WasmEdge/WasmEdge
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-04-28
+  category: Wasm
+  subcategory: Runtimes
+  status: sandbox
+  logo: wasm-edge.svg
+  maturity:
+    sandbox_date: 2021-04-28

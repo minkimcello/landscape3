@@ -7,12 +7,20 @@ metadata:
       url: https://cncf.pravega.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/PravegaIO
+    - title: Slack/Discord
+      url: https://pravega-io.slack.com/
   annotations:
-    landscape3.io/accepted: 2020-11-10
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Streaming & Messaging
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/pravega/pravega
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-11-10
+  category: App Definition and Development
+  subcategory: Streaming & Messaging
+  status: sandbox
+  logo: pravega.svg
+  maturity:
+    sandbox_date: 2020-11-10

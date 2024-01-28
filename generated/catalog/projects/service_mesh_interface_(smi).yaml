@@ -7,12 +7,18 @@ metadata:
       url: https://smi-spec.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/smi_spec
   annotations:
-    landscape3.io/accepted: 2020-03-19
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Mesh
-    landscape3.io/cncfStatus: archived
+    backstage.io/source-location: $url:https://github.com/servicemeshinterface/smi-spec
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-03-19
+  category: Orchestration & Management
+  subcategory: Service Mesh
+  status: archived
+  logo: service-mesh-interface.svg
+  maturity:
+    sandbox_date: 2020-03-19

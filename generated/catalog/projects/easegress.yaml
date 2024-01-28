@@ -7,12 +7,18 @@ metadata:
       url: https://megaease.com/easegress
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/megaease
   annotations:
-    landscape3.io/accepted: 2023-12-19
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: API Gateway
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/megaease/easegress
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-12-19
+  category: Orchestration & Management
+  subcategory: API Gateway
+  status: sandbox
+  logo: easegress.svg
+  maturity:
+    sandbox_date: 2023-12-19
