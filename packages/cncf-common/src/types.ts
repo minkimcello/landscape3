@@ -97,6 +97,14 @@ export interface LandscapeItem extends Item {
   subcategory: string;
 }
 
+export interface CncfProject extends LandscapeItem {
+  extra: {
+    accepted: string;
+  } & ExtraDetails;
+  crunchbase: string;
+  project: string;
+}
+
 export interface StatsCategoryBreakdown {
   [key:string]: number;
 }

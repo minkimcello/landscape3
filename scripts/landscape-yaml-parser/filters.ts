@@ -1,4 +1,4 @@
-import { LandscapeItem } from "cncf-common";
+import { LandscapeItem, CncfProject } from "cncf-common";
 
 interface FilterExceptions {
   landscapeItems: LandscapeItem[];
@@ -6,7 +6,7 @@ interface FilterExceptions {
 }
 
 export interface FilterWithExceptions {
-  landscapeItems: LandscapeItem[];
+  landscapeItems: CncfProject[];
   exceptions: FilterExceptions[];
 }
 
@@ -20,7 +20,7 @@ export function filterProjects(landscapeItems: LandscapeItem[]): FilterWithExcep
       return item.extra;
     });
   return {
-    landscapeItems: cncfProjects,
+    landscapeItems: cncfProjects as CncfProject[],
     exceptions: [
       {
         landscapeItems: cncfProjectsWithoutExtra,
