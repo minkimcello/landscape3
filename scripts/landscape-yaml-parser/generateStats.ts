@@ -1,6 +1,5 @@
 import { checkForDuplicateNames } from './utils/checkForDuplicateNames';
 import { getAllLandscapeItems } from './utils/readLandscapeData';
-import { commonKeyFinder } from './utils/commonKeyFinder';
 import {
   FilterWithExceptions,
   filterMembers,
@@ -9,51 +8,10 @@ import {
   filterSpecials,
   filterWasm,
 } from './filters';
-import {
-  CategoryStats,
-  LandscapeItem,
-  StatsCategoryBreakdown,
-  StatsSubcategoryBreakdown,
-} from 'cncf-common';
+import { LandscapeItem } from 'cncf-common';
+import { calculateStats } from './utils/calculateStats';
 
 const fs = require('fs');
-
-const generateStats = (items: LandscapeItem[]): CategoryStats => {
-  const { commonKeys, uniqueKeys } = commonKeyFinder(items);
-
-  const categoryBreakdown = items.reduce((acc, item) => {
-    if (acc.hasOwnProperty(item.category)) {
-      acc[item.category] = acc[item.category] + 1;
-    } else {
-      acc[item.category] = 1;
-    }
-    return acc;
-  }, {} as StatsCategoryBreakdown);
-
-  const subcategoryBreakdown = items.reduce((acc, item) => {
-    const parentCategory = item.category;
-    const subcategory = item.subcategory;
-
-    if (!acc.hasOwnProperty(parentCategory)) {
-      acc[parentCategory] = {};
-    }
-
-    if (acc[parentCategory].hasOwnProperty(subcategory)) {
-      acc[parentCategory][subcategory] += 1;
-    } else {
-      acc[parentCategory][subcategory] = 1;
-    }
-    return acc;
-  }, {} as StatsSubcategoryBreakdown);
-
-  return {
-    count: items.length,
-    commonKeys,
-    uniqueKeys,
-    categoryBreakdown,
-    subcategoryBreakdown,
-  };
-}
 
 function getStats() {
   const allLandscapeItems: LandscapeItem[] = getAllLandscapeItems();
@@ -75,54 +33,53 @@ function getStats() {
     cncfProjects,
   });
   
-  const cncfProjectsSummary = generateStats(cncfProjects);
-  const cncfSpecialSummary = generateStats(cncfSpecial);
-  const cncfMembersSummary = generateStats(cncfMembers);
-  const cncfWasmSummary = generateStats(cncfWasm);
-  const nonCncfProjectsSummary = generateStats(nonCncfProjects);
-
-  const cncfProjectExceptionsTally = cncfProjectsExceptions.reduce((acc, item) => {
-    return item.landscapeItems.length + acc;
-  }, 0);
-
-  const total = cncfProjects.length
-    + cncfSpecial.length
-    + cncfMembers.length
-    + cncfWasm.length
-    + nonCncfProjects.length
-    - cncfProjectExceptionsTally;
-  
-  if (total - allLandscapeItems.length) {
-    console.log()
-    console.log('cncfProjects', cncfProjects.length)
-    console.log('cncfSpecial', cncfSpecial.length)
-    console.log('cncfMembers', cncfMembers.length)
-    console.log('cncfWasm', cncfWasm.length)
-    console.log('nonCncfProjects', nonCncfProjects.length)
-    console.log('cncfProjectsExceptions', cncfProjectExceptionsTally)
-    console.log()
-    console.log('  total: ', total)
-    console.log('  allLandscapeItems', allLandscapeItems.length)
-    console.log()
-    throw new Error("The items count do not add up");
-  }
+  const {
+    summary: cncfProjectsSummary,
+    uniqueKeysAnalysis: cncfProjectsKeysAnalysis,
+  }  = calculateStats(cncfProjects);
+  const {
+    summary: cncfSpecialSummary,
+    uniqueKeysAnalysis: cncfSpecialKeysAnalysis,
+  }  = calculateStats(cncfSpecial);
+  const {
+    summary: cncfMembersSummary,
+    uniqueKeysAnalysis: cncfMembersKeysAnalysis,
+  }  = calculateStats(cncfMembers);
+  const {
+    summary: cncfWasmSummary,
+    uniqueKeysAnalysis: cncfWasmKeysAnalysis,
+  }  = calculateStats(cncfWasm);
+  const {
+    summary: nonCncfProjectsSummary,
+    uniqueKeysAnalysis: nonCncfProjectsKeysAnalysis,
+  }  = calculateStats(nonCncfProjects);
 
   return {
-    cncfProjectsSummary,
-    cncfSpecialSummary,
-    cncfMembersSummary,
-    cncfWasmSummary,
-    nonCncfProjectsSummary,
-    duplicateNames,
-    notes: [
-      ...cncfProjectsExceptions.map(exception => exception.description),
-    ],
+    summary: {
+      cncfProjectsSummary,
+      cncfSpecialSummary,
+      cncfMembersSummary,
+      cncfWasmSummary,
+      nonCncfProjectsSummary,
+      duplicateNames,
+      notes: [
+        ...cncfProjectsExceptions.map(exception => exception.description),
+      ],
+    },
+    analysis: {
+      cncfProjectsKeysAnalysis,
+      cncfSpecialKeysAnalysis,
+      cncfMembersKeysAnalysis,
+      cncfWasmKeysAnalysis,
+      nonCncfProjectsKeysAnalysis
+    }
   };
 }
 
 function writeStats() {
-  const summary = getStats();
+  const { summary, analysis } = getStats();
   fs.writeFileSync(`${process.cwd()}/generated/landscape_stats.json`, JSON.stringify(summary, null, 2));
+  fs.writeFileSync(`${process.cwd()}/generated/landscape_stats_analysis.json`, JSON.stringify(analysis, null, 2));
 }
 
 writeStats();
