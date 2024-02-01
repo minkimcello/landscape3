@@ -19,14 +19,13 @@ export const Projects = ({stats}: {
   stats: CategoryStats,
 }) => {
   const { subcategoryBreakdown, categoryBreakdown } = stats;
-  console.log(stats);
   return (
     <div style={{ border: '1px solid #ccc', padding: '16px', borderRadius: '8px', marginBottom: '16px' }}>
       <Typography variant="h6" gutterBottom>
         By Category
       </Typography>
       {Object.keys(subcategoryBreakdown).map((category) => (
-        <Accordion>
+        <Accordion key={category}>
           <AccordionSummary
             expandIcon={<ExpandMore/>}
             style={{fontSize:16, fontWeight:'bold'}}
