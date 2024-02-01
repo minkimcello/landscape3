@@ -13,7 +13,7 @@ metadata:
     landscape3.io/accepted: 2018-05-15
     landscape3.io/category: App Definition and Development
     landscape3.io/subcategory: Streaming & Messaging
-    landscape3.io/cncfStatus: incubating
+    landscape3.io/cncfStatus: graduated
 spec:
   type: service
   lifecycle: production
