@@ -2,7 +2,16 @@ import React from 'react';
 import { CategoryStats } from 'cncf-common';
 import { PieChart } from '@mui/x-charts/PieChart';
 import { useDrawingArea } from '@mui/x-charts/hooks'
-import { styled } from '@material-ui/core';
+import { blueberryTwilightPaletteLight } from '@mui/x-charts/colorPalettes';
+import { 
+  styled, 
+  Grid, 
+  Card, 
+  Table, 
+  TableRow, 
+  TableCell, 
+  TableBody, 
+} from '@material-ui/core';
 
 const StyledText = styled('text')(({ theme }) => ({
   fill: theme.palette.text.primary,
@@ -21,14 +30,47 @@ function PieCenterLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-export const Members = ({stats}: {
+const Chart = ({stats}: {
   stats: CategoryStats,
 }) => {
   const data = Object.entries(stats.subcategoryBreakdown["CNCF Members"]).map(
     ([label, value]) => ({ label, value }));
   return (
-    <PieChart series={[{ data, innerRadius: 160 }]} width={800} height={400}>
-      <PieCenterLabel>Total: {stats.count}</PieCenterLabel>
-    </PieChart>
+    <Card>
+      <Grid container>
+        <PieChart 
+          series={[{ data, innerRadius: 120 }]} 
+          width={400} 
+          height={400}
+          slotProps={{legend: {hidden: true}}}
+          colors={blueberryTwilightPaletteLight}
+          
+        >
+          <PieCenterLabel>Total: {stats.count}</PieCenterLabel>
+        </PieChart>
+        <Table>
+          <TableBody>
+            {data.map(({label, value}, index) => (
+              <TableRow>
+                <TableCell style={{ backgroundColor: blueberryTwilightPaletteLight[index]}}></TableCell>
+                <TableCell style={{ fontWeight: 'bold' }}> {label} </TableCell>
+                <TableCell style={{ fontWeight: 'bold' }}> {value} </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </Grid>
+    </Card>
   );
 }
+
+export const Members = ({stats}: {
+  stats: CategoryStats,
+}) => {
+  console.log(blueberryTwilightPaletteLight);
+  return (
+    <Grid container>
+      <Grid item> { Chart({stats}) } </Grid>
+    </Grid>
+  )
+};
