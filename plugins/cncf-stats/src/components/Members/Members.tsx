@@ -37,28 +37,31 @@ const Chart = ({stats}: {
     ([label, value]) => ({ label, value }));
   return (
     <Card>
-      <Grid container>
-        <PieChart 
-          series={[{ data, innerRadius: 120 }]} 
-          width={400} 
-          height={400}
-          slotProps={{legend: {hidden: true}}}
-          colors={blueberryTwilightPaletteLight}
-          
-        >
-          <PieCenterLabel>Total: {stats.count}</PieCenterLabel>
-        </PieChart>
-        <Table>
-          <TableBody>
-            {data.map(({label, value}, index) => (
-              <TableRow>
-                <TableCell style={{ backgroundColor: blueberryTwilightPaletteLight[index]}}></TableCell>
-                <TableCell style={{ fontWeight: 'bold' }}> {label} </TableCell>
-                <TableCell style={{ fontWeight: 'bold' }}> {value} </TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
+      <Grid container alignItems='center' style={{padding: '16px'}}>
+        <Grid item>
+          <PieChart 
+            series={[{ data, innerRadius: 120 }]} 
+            width={400} 
+            height={400}
+            slotProps={{legend: {hidden: true}}}
+            colors={blueberryTwilightPaletteLight}
+          >
+            <PieCenterLabel>Total: {stats.count}</PieCenterLabel>
+          </PieChart>
+        </Grid>
+        <Grid item>
+          <Table>
+            <TableBody>
+              {data.map(({label, value}, index) => (
+                <TableRow>
+                  <TableCell style={{ backgroundColor: blueberryTwilightPaletteLight[index]}}></TableCell>
+                  <TableCell style={{ fontWeight: 'bold' }}> {label} </TableCell>
+                  <TableCell style={{ fontWeight: 'bold' }}> {value} </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </Grid>
       </Grid>
     </Card>
   );
