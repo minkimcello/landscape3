@@ -2,6 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Crossplane
+  description: Crossplane is the cloud native control plane framework that allows
+    you to build control planes without needing to write code. Crossplane has a
+    highly extensible backend that enables you to orchestrate applications and
+    infrastructure no matter where they run and a highly configurable frontend
+    that lets you define the declarative API it offers.
   links:
     - title: Homepage
       url: https://crossplane.io/

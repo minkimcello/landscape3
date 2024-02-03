@@ -1,17 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: OpenKruise
+  name: Kube-burner
   links:
     - title: Homepage
-      url: https://openkruise.io/
+      url: https://kube-burner.github.io/kube-burner/
     - title: Crunchbase
-      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+      url: https://www.crunchbase.com/organization/red-hat
   annotations:
-    landscape3.io/accepted: 2020-11-10
+    landscape3.io/accepted: 2023-12-18
     landscape3.io/category: App Definition and Development
     landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: incubating
+    landscape3.io/cncfStatus: sandbox
 spec:
   type: service
   lifecycle: production
