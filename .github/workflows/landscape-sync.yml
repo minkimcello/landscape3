@@ -28,9 +28,13 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          title: 🚀 Update Entities [automated]
           base: main
           branch: landscape-sync
-          body: Beep boop
           token: ${{ secrets.LANDSCAPE_TOKEN }}
-            # TODO: replace with bot
+          title: 🚀 Synchronize landscape.yml and regenerate entities [automated]
+          body: |
+            This pull request was created by the `landscape-sync` [workflow](https://github.com/minkimcello/landscape3/tree/main/.github/workflows).
+          author: "lucy-eade <lucy-eade@users.noreply.github.com>"
+          committer: "lucy-eade <lucy-eade@users.noreply.github.com>"
+          commit-message: |
+            Synchronize landscape.yml and update entities [automated]
