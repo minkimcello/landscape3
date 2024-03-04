@@ -16,11 +16,11 @@ import {
   CardContent,
 } from '@material-ui/core';
 import { ExpandMore } from '@material-ui/icons'
-import { CategoryStats } from 'cncf-common';
+import { CategoryStats, StatsProjectMaturityBreakdown } from 'cncf-common';
+import { StyledPieChart } from '../Utils/charts';
 
-const ByCategory = ({stats}: {
-  stats: CategoryStats,
-}) => {
+
+const ChartByCategory = (stats: CategoryStats) => {
   const { subcategoryBreakdown, categoryBreakdown } = stats;
   return (
     <Card>
@@ -64,13 +64,27 @@ const ByCategory = ({stats}: {
   )
 };
 
-export const Projects = ({stats}: {
-  stats: CategoryStats,
-}) => {
-  console.log(stats);
+const ChartByMaturity = (stats: StatsProjectMaturityBreakdown, count: number) => {
+  return (
+    <Card>
+      <CardHeader title={"By Maturity"} />
+      <CardContent>
+        <StyledPieChart stats={stats} count={count}></StyledPieChart>
+      </CardContent>
+    </Card>
+  )
+}
+
+interface ProjectsProps {
+  projectStats: CategoryStats;
+  maturityStats: StatsProjectMaturityBreakdown;
+}
+
+export const Projects = ({ projectStats, maturityStats}: ProjectsProps) => {
   return (
     <Grid container>
-      <Grid item> {ByCategory({ stats })} </Grid>
+      <Grid item> {ChartByMaturity(maturityStats, projectStats.count)} </Grid>
+      <Grid item> {ChartByCategory(projectStats)} </Grid>
     </Grid>
   )
 };

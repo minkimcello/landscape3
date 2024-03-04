@@ -34,7 +34,7 @@ export const StatsPage = () => {
   return (
     <StatsLayout>
       <StatsLayout.Route path="projects" title="Projects">
-        <Projects stats={value.cncfProjectsSummary} />
+        <Projects projectStats={value.cncfProjectsSummary} maturityStats={value.cncfProjectMaturitySummary} />
       </StatsLayout.Route>
         <StatsLayout.Route path="members" title="Members">
       <Members stats={value.cncfMembersSummary} />
