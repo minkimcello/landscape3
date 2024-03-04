@@ -11,7 +11,7 @@ metadata:
     landscape3.io/accepted: 2019-08-28
     landscape3.io/category: App Definition and Development
     landscape3.io/subcategory: Streaming & Messaging
-    landscape3.io/cncfStatus: sandbox
+    landscape3.io/cncfStatus: incubating
 spec:
   type: service
   lifecycle: production

@@ -11,7 +11,7 @@ metadata:
     landscape3.io/accepted: 2018-10-10
     landscape3.io/category: Provisioning
     landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: incubating
+    landscape3.io/cncfStatus: graduated
 spec:
   type: service
   lifecycle: production

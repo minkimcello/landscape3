@@ -1,6 +1,6 @@
 {
   "cncfProjectsSummary": {
-    "count": 188,
+    "count": 190,
     "commonKeys": [
       "item",
       "name",
@@ -19,9 +19,9 @@
       "Runtime": 30,
       "Orchestration & Management": 41,
       "App Definition and Development": 39,
-      "Platform": 1,
+      "Platform": 2,
       "Serverless": 6,
-      "Observability and Analysis": 23,
+      "Observability and Analysis": 24,
       "Wasm": 2
     },
     "subcategoryBreakdown": {
@@ -51,7 +51,8 @@
         "Continuous Integration & Delivery": 9
       },
       "Platform": {
-        "Certified Kubernetes - Distribution": 1
+        "Certified Kubernetes - Distribution": 1,
+        "Certified Kubernetes - Installer": 1
       },
       "Serverless": {
         "Tools": 1,
@@ -63,7 +64,7 @@
         "Feature Flagging": 1,
         "Logging": 2,
         "Tracing": 3,
-        "Chaos Engineering": 3,
+        "Chaos Engineering": 4,
         "Continuous Optimization": 1
       },
       "Wasm": {
@@ -72,7 +73,7 @@
     }
   },
   "cncfSpecialSummary": {
-    "count": 295,
+    "count": 289,
     "commonKeys": [
       "item",
       "name",
@@ -82,20 +83,20 @@
       "subcategory",
       "category"
     ],
-    "uniqueKeys": "description,extra,extra.blog_url,extra.github_discussions_url,extra.training_certifications,extra.training_type,extra.youtube_url,joined,project,twitter",
+    "uniqueKeys": "description,extra,extra.training_certifications,extra.training_type,joined,project,twitter",
     "categoryBreakdown": {
-      "Special": 295
+      "Special": 289
     },
     "subcategoryBreakdown": {
       "Special": {
-        "Kubernetes Certified Service Provider": 233,
-        "Kubernetes Training Partner": 56,
+        "Kubernetes Certified Service Provider": 228,
+        "Kubernetes Training Partner": 55,
         "Certified CNFs": 6
       }
     }
   },
   "cncfMembersSummary": {
-    "count": 780,
+    "count": 748,
     "commonKeys": [
       "item",
       "name",
@@ -106,13 +107,13 @@
     ],
     "uniqueKeys": "crunchbase,description,enduser,extra,extra.training_certifications,extra.training_type,joined,stock_ticker,twitter,unnamed_organization",
     "categoryBreakdown": {
-      "CNCF Members": 780
+      "CNCF Members": 748
     },
     "subcategoryBreakdown": {
       "CNCF Members": {
         "Platinum": 22,
         "Gold": 27,
-        "Silver": 617,
+        "Silver": 585,
         "Academic": 4,
         "Nonprofit": 18,
         "End User Supporter": 92
@@ -151,7 +152,7 @@
     }
   },
   "nonCncfProjectsSummary": {
-    "count": 863,
+    "count": 866,
     "commonKeys": [
       "item",
       "name",
@@ -160,21 +161,21 @@
       "subcategory",
       "category"
     ],
-    "uniqueKeys": "additional_repos,additional_repos.0,additional_repos.0.repo_url,additional_repos.1,additional_repos.1.repo_url,additional_repos.2,additional_repos.2.repo_url,additional_repos.3,additional_repos.3.repo_url,additional_repos.4,additional_repos.4.repo_url,additional_repos.5,additional_repos.5.repo_url,additional_repos.6,additional_repos.6.repo_url,additional_repos.7,additional_repos.7.repo_url,allow_duplicate_repo,branch,crunchbase,description,extra,extra.accepted,extra.artwork_url,extra.blog_jp_url,extra.blog_url,extra.clomonitor_name,extra.dev_stats_url,extra.discord_url,extra.docker_url,extra.github_discussions_url,extra.helm_chart_url,extra.kubernetes_url,extra.operator_chart_url,extra.parent_project,extra.slack_url,extra.stack_overflow_url,extra.summary_business_use_case,extra.summary_integration,extra.summary_integrations,extra.summary_intro_url,extra.summary_personas,extra.summary_release_rate,extra.summary_tags,extra.summary_use_case,extra.youtube_url,joined,open_source,organization,organization.name,project_org,repo_url,stock_ticker,twitter,url_for_bestpractices",
+    "uniqueKeys": "additional_repos,additional_repos.0,additional_repos.0.repo_url,additional_repos.1,additional_repos.1.repo_url,additional_repos.2,additional_repos.2.repo_url,additional_repos.3,additional_repos.3.repo_url,additional_repos.4,additional_repos.4.repo_url,additional_repos.5,additional_repos.5.repo_url,additional_repos.6,additional_repos.6.repo_url,additional_repos.7,additional_repos.7.repo_url,allow_duplicate_repo,branch,crunchbase,description,extra,extra.accepted,extra.artwork_url,extra.blog_jp_url,extra.blog_url,extra.clomonitor_name,extra.dev_stats_url,extra.discord_url,extra.docker_url,extra.github_discussions_url,extra.helm_chart_url,extra.kubernetes_url,extra.mailing_list_url,extra.operator_chart_url,extra.parent_project,extra.slack_url,extra.stack_overflow_url,extra.summary_business_use_case,extra.summary_integration,extra.summary_integrations,extra.summary_intro_url,extra.summary_personas,extra.summary_release_rate,extra.summary_tags,extra.summary_use_case,extra.youtube_url,joined,open_source,organization,organization.name,project_org,repo_url,stock_ticker,twitter,url_for_bestpractices",
     "categoryBreakdown": {
-      "Provisioning": 131,
+      "Provisioning": 133,
       "Runtime": 86,
       "Orchestration & Management": 86,
-      "App Definition and Development": 195,
-      "Platform": 157,
+      "App Definition and Development": 202,
+      "Platform": 149,
       "Serverless": 60,
-      "Observability and Analysis": 148
+      "Observability and Analysis": 150
     },
     "subcategoryBreakdown": {
       "Provisioning": {
-        "Automation & Configuration": 32,
+        "Automation & Configuration": 33,
         "Container Registry": 9,
-        "Security & Compliance": 80,
+        "Security & Compliance": 81,
         "Key Management": 10
       },
       "Runtime": {
@@ -186,20 +187,20 @@
         "Scheduling & Orchestration": 18,
         "Coordination & Service Discovery": 5,
         "Remote Procedure Call": 12,
-        "Service Proxy": 18,
-        "API Gateway": 20,
+        "Service Proxy": 17,
+        "API Gateway": 21,
         "Service Mesh": 13
       },
       "App Definition and Development": {
-        "Database": 72,
-        "Streaming & Messaging": 31,
-        "Application Definition & Image Build": 40,
+        "Database": 74,
+        "Streaming & Messaging": 32,
+        "Application Definition & Image Build": 44,
         "Continuous Integration & Delivery": 52
       },
       "Platform": {
-        "Certified Kubernetes - Distribution": 60,
-        "Certified Kubernetes - Hosted": 54,
-        "Certified Kubernetes - Installer": 22,
+        "Certified Kubernetes - Distribution": 56,
+        "Certified Kubernetes - Hosted": 51,
+        "Certified Kubernetes - Installer": 21,
         "PaaS/Container Service": 21
       },
       "Serverless": {
@@ -210,12 +211,12 @@
         "Installable Platform": 10
       },
       "Observability and Analysis": {
-        "Monitoring": 80,
+        "Monitoring": 81,
         "Feature Flagging": 6,
         "Logging": 20,
         "Tracing": 16,
         "Chaos Engineering": 7,
-        "Continuous Optimization": 19
+        "Continuous Optimization": 20
       }
     }
   },

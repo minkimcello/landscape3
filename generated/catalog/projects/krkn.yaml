@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Krkn
+  description: Chaos testing tool for Kubernetes to identify bottlenecks and
+    improve resilience and performance under failure conditions.
+  links:
+    - title: Homepage
+      url: https://krkn-chaos.github.io/krkn
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/red-hat
+  annotations:
+    landscape3.io/accepted: 2023-12-19
+    landscape3.io/category: Observability and Analysis
+    landscape3.io/subcategory: Chaos Engineering
+    landscape3.io/cncfStatus: sandbox
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF

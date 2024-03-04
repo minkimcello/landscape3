@@ -11,7 +11,7 @@ metadata:
     landscape3.io/accepted: 2021-03-30
     landscape3.io/category: Observability and Analysis
     landscape3.io/subcategory: Monitoring
-    landscape3.io/cncfStatus: sandbox
+    landscape3.io/cncfStatus: archived
 spec:
   type: service
   lifecycle: production
