@@ -8,11 +8,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2017-03-29
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: archived
+    backstage.io/source-location: $url:https://github.com/rkt/rkt
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2017-03-29
+  category: Runtime
+  subcategory: Container Runtime
+  status: archived
+  logo: rkt.svg
+  maturity:
+    sandbox_date: 2017-03-29

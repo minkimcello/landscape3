@@ -1,5 +1,5 @@
 import { stringify } from 'yaml';
-import { LandscapeItem } from 'cncf-common';
+import { CncfProject } from 'cncf-common';
 import { getAllLandscapeItems } from './utils/readLandscapeData';
 import { componentTemplate } from './catalog-templates';
 import { filterProjects, FilterWithExceptions } from './filters';
@@ -21,14 +21,14 @@ function createCatalogInfos({
   templateSpec,
   outputDir = OUTPUT_DIR,
 }: {
-  items: LandscapeItem[],
-  templateSpec: (item: LandscapeItem) => Entity,
+  items: CncfProject[],
+  templateSpec: (item: CncfProject) => Entity,
   outputDir?: string,
 }): void {
   if(!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
-  items.forEach((item: LandscapeItem) => {
+  items.forEach((item: CncfProject) => {
     const catalogInfo = templateSpec(item);
     fs.writeFileSync(
       `${outputDir}/${item.name.toLowerCase().replace(/\ /g, '_')}.yaml`,

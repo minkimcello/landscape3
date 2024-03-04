@@ -8,12 +8,21 @@ metadata:
       url: https://v6d.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  tags:
+    - distributedsystems
+    - sharedmemory
+    - inmemorystorage
+    - bigdataanalytics
   annotations:
-    landscape3.io/accepted: 2021-04-28
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Storage
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/v6d-io/v6d
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-04-28
+  category: Runtime
+  subcategory: Cloud Native Storage
+  status: sandbox
+  logo: vineyard.svg
+  maturity:
+    sandbox_date: 2021-04-28

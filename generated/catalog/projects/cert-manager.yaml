@@ -7,12 +7,30 @@ metadata:
       url: https://cert-manager.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/CertManager
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/cert-manager
+  tags:
+    - certificates
+    - acme
+    - letsencrypt
+    - security
+    - encryption
+    - tls
+    - ssl
+    - x509
   annotations:
-    landscape3.io/accepted: 2020-11-10
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/cert-manager/cert-manager
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-11-10
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: incubating
+  logo: jetstack-cert-manager.svg
+  maturity:
+    sandbox_date: 2020-11-10
+    incubation_date: 2022-09-19

@@ -7,12 +7,18 @@ metadata:
       url: https://github.com/inclavare-containers/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/archives/C02HJJ81BD5
   annotations:
-    landscape3.io/accepted: 2021-09-14
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/inclavare-containers/inclavare-containers
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-09-14
+  category: Runtime
+  subcategory: Container Runtime
+  status: sandbox
+  logo: inclavare.svg
+  maturity:
+    sandbox_date: 2021-09-14

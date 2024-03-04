@@ -8,12 +8,18 @@ metadata:
       url: https://github.com/lima-vm/lima
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
   annotations:
-    landscape3.io/accepted: 2022-09-14
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/lima-vm/lima
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-09-14
+  category: Runtime
+  subcategory: Container Runtime
+  status: sandbox
+  logo: lima.svg
+  maturity:
+    sandbox_date: 2022-09-14

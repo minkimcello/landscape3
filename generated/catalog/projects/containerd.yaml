@@ -7,12 +7,22 @@ metadata:
       url: https://containerd.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/containerd
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
   annotations:
-    landscape3.io/accepted: 2017-03-29
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/containerd/containerd
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2017-03-29
+  category: Runtime
+  subcategory: Container Runtime
+  status: graduated
+  logo: containerd.svg
+  maturity:
+    sandbox_date: 2017-03-29
+    incubation_date: 2017-03-29
+    graduation_date: 2019-02-28

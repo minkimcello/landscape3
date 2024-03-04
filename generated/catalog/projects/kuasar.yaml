@@ -9,12 +9,20 @@ metadata:
       url: https://kuasar.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/huawei-cloud
+    - title: Twitter
+      url: https://twitter.com/Kuasar_io
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
   annotations:
-    landscape3.io/accepted: 2023-12-19
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kuasar-io/kuasar
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-12-19
+  category: Runtime
+  subcategory: Container Runtime
+  status: sandbox
+  logo: kuasar.svg
+  maturity:
+    sandbox_date: 2023-12-19

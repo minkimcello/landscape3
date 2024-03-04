@@ -10,12 +10,20 @@ metadata:
       url: https://carvel.dev
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/carvel_dev
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/archives/CH8KCCKA5
   annotations:
-    landscape3.io/accepted: 2022-09-14
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/carvel-dev/ytt
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-09-14
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: carvel.svg
+  maturity:
+    sandbox_date: 2022-09-14

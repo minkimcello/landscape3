@@ -7,12 +7,21 @@ metadata:
       url: https://projectcontour.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/projectcontour
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/contour
   annotations:
-    landscape3.io/accepted: 2020-07-07
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Proxy
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/projectcontour/contour
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-07-07
+  category: Orchestration & Management
+  subcategory: Service Proxy
+  status: incubating
+  logo: project-contour.svg
+  maturity:
+    sandbox_date: 2020-07-07
+    incubation_date: 2020-07-07

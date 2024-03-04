@@ -7,12 +7,20 @@ metadata:
       url: https://docs.akri.sh
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/ProjectAkri
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/C01D9L7QE8Z
   annotations:
-    landscape3.io/accepted: 2021-09-14
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/project-akri/akri
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-09-14
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: akri.svg
+  maturity:
+    sandbox_date: 2021-09-14

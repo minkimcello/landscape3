@@ -7,12 +7,19 @@ metadata:
       url: https://karmada.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/karmada
   annotations:
-    landscape3.io/accepted: 2021-09-14
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/karmada-io/karmada
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-09-14
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: incubating
+  logo: karmada.svg
+  maturity:
+    sandbox_date: 2021-09-14
+    incubation_date: 2023-12-12

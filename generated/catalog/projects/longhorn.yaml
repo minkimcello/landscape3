@@ -8,12 +8,22 @@ metadata:
       url: https://longhorn.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  tags:
+    - kubernetes
+    - storage
+    - csi
+    - backup
   annotations:
-    landscape3.io/accepted: 2019-10-11
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Storage
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/longhorn/longhorn
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-10-11
+  category: Runtime
+  subcategory: Cloud Native Storage
+  status: incubating
+  logo: longhorn.svg
+  maturity:
+    sandbox_date: 2019-10-11
+    incubation_date: 2021-11-04

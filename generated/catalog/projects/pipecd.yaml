@@ -9,12 +9,20 @@ metadata:
       url: https://pipecd.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/pipecd_dev
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/pipecd
   annotations:
-    landscape3.io/accepted: 2023-05-17
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/pipe-cd/pipecd
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-05-17
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: sandbox
+  logo: pipecd.svg
+  maturity:
+    sandbox_date: 2023-05-17

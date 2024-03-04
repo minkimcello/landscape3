@@ -7,12 +7,27 @@ metadata:
       url: https://cubefs.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/ChubaoFS
+    - title: Slack/Discord
+      url: https://cubefs.slack.com/
+  tags:
+    - kubernetesfilesystemobjectstoragehadoopcloudstorage
+    - distributed
+    - cloudnative
+    - multitenancy
+    - erasurecoding
   annotations:
-    landscape3.io/accepted: 2019-12-16
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Storage
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/cubeFS/cubefs
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-12-16
+  category: Runtime
+  subcategory: Cloud Native Storage
+  status: incubating
+  logo: cubefs.svg
+  maturity:
+    sandbox_date: 2019-12-16
+    incubation_date: 2022-07-03

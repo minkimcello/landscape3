@@ -8,11 +8,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2022-09-14
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/serverless-devs/serverless-devs
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-09-14
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: serverless-devs.svg
+  maturity:
+    sandbox_date: 2022-09-14

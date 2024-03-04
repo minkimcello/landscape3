@@ -11,12 +11,30 @@ metadata:
       url: https://nats.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/nats_io
+    - title: Slack/Discord
+      url: https://natsio.slack.com/join/shared_invite/enQtMzE2NDkxNDI2NTE1LTc5ZDEzYTkwYWZkYWQ5YjY1MzBjMWZmYzA5OGQxMzlkMGQzMjYxNGM3MWYxMjNiYmNjNzIwMTVjMWE2ZDgxZGM
+  tags:
+    - edge
+    - mulicloud
+    - messaging
+    - streamingdata
+    - pubsub
+    - keyvalue
+    - microservices
+    - kubernetes
   annotations:
-    landscape3.io/accepted: 2018-03-15
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Streaming & Messaging
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/nats-io/nats-server
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-03-15
+  category: App Definition and Development
+  subcategory: Streaming & Messaging
+  status: incubating
+  logo: nats.svg
+  maturity:
+    sandbox_date: 2018-03-15
+    incubation_date: 2018-03-15

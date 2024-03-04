@@ -9,12 +9,31 @@ metadata:
       url: https://zotregistry.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/zothub
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/archives/C03EGRE4QGH
+  tags:
+    - registry
+    - images
+    - oci
+    - container
+    - artifacts
+    - vulnerabilityscanning
+    - selfhosted
+    - zot
+    - edge
+    - imagesync
   annotations:
-    landscape3.io/accepted: 2022-12-13
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Container Registry
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/project-zot/zot
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-12-13
+  category: Provisioning
+  subcategory: Container Registry
+  status: sandbox
+  logo: zot.svg
+  maturity:
+    sandbox_date: 2022-12-13

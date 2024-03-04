@@ -10,12 +10,18 @@ metadata:
       url: https://confidentialcontainers.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/
   annotations:
-    landscape3.io/accepted: 2022-03-08
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/confidential-containers/confidential-containers
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-03-08
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: confidential-containers.svg
+  maturity:
+    sandbox_date: 2022-03-08

@@ -7,12 +7,34 @@ metadata:
       url: https://kuma.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/KumaMesh
+  tags:
+    - mtls
+    - security
+    - trafficmanagement
+    - observability
+    - microservices
+    - resilience
+    - loadbalancing
+    - servicemesh
+    - policy
+    - wasm
+    - zerotrust
+    - multicluster
+    - crossplatform
+    - kubernetes
+    - virtualmachines
   annotations:
-    landscape3.io/accepted: 2020-06-25
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Mesh
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kumahq/kuma
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-06-25
+  category: Orchestration & Management
+  subcategory: Service Mesh
+  status: sandbox
+  logo: kuma-stacked-color.svg
+  maturity:
+    sandbox_date: 2020-06-25

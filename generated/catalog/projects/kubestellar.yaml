@@ -7,12 +7,26 @@ metadata:
       url: https://kubestellar.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kubestellar
+    - title: Slack/Discord
+      url: http://slack.k8s.io/
+  tags:
+    - kubestellar
+    - cloud
+    - orchestration
+    - controlplane
+    - multitenancy
   annotations:
-    landscape3.io/accepted: 2023-12-19
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kubestellar/kubestellar
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-12-19
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: kubestellar.svg
+  maturity:
+    sandbox_date: 2023-12-19

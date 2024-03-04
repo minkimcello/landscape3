@@ -8,11 +8,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2023-06-30
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/GoogleContainerTools/kpt
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-06-30
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: kpt.svg
+  maturity:
+    sandbox_date: 2023-06-30

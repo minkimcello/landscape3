@@ -7,12 +7,35 @@ metadata:
       url: https://dapr.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/DaprDev
+    - title: Slack/Discord
+      url: https://discord.com/invite/ptHhX6jc34
+  tags:
+    - developerapis
+    - distributedsystems
+    - microservices
+    - http
+    - grpc
+    - go
+    - java
+    - python
+    - net
+    - javascript
+    - c++
+    - rust
+    - cli
   annotations:
-    landscape3.io/accepted: 2021-11-09
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/dapr/dapr
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-11-09
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: incubating
+  logo: dapr.svg
+  maturity:
+    sandbox_date: 2021-11-09
+    incubation_date: 2021-11-09

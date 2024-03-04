@@ -7,12 +7,24 @@ metadata:
       url: https://in-toto.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/in-toto
+  tags:
+    - security
+    - go
+    - python
+    - softwaresupplychain
   annotations:
-    landscape3.io/accepted: 2019-08-14
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/in-toto/in-toto
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-08-14
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: incubating
+  logo: in-toto.svg
+  maturity:
+    sandbox_date: 2019-08-14
+    incubation_date: 2022-03-10

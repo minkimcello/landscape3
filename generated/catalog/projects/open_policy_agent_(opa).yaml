@@ -7,12 +7,22 @@ metadata:
       url: https://www.openpolicyagent.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/openpolicyagent
+    - title: Slack/Discord
+      url: http://slack.openpolicyagent.org/
   annotations:
-    landscape3.io/accepted: 2018-03-29
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/open-policy-agent/opa
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-03-29
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: graduated
+  logo: opa.svg
+  maturity:
+    sandbox_date: 2018-03-29
+    incubation_date: 2019-04-02
+    graduation_date: 2021-01-29

@@ -10,12 +10,30 @@ metadata:
       url: https://tikv.org
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/tikvproject
+  tags:
+    - keyvaluedatabase
+    - cloudstorage
+    - transactional
+    - tidb
+    - strongconsistency
+    - raft
+    - rocksdb
+    - titan
+    - raftengine
   annotations:
-    landscape3.io/accepted: 2018-08-28
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Database
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/tikv/tikv
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-08-28
+  category: App Definition and Development
+  subcategory: Database
+  status: graduated
+  logo: tikv.svg
+  maturity:
+    sandbox_date: 2018-08-28
+    incubation_date: 2018-08-28
+    graduation_date: 2020-09-02

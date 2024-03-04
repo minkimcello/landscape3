@@ -7,12 +7,28 @@ metadata:
       url: https://etcd.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/etcdio
+    - title: Slack/Discord
+      url: http://slack.k8s.io/
+  tags:
+    - distributed
+    - keyvalue
+    - consistent
+    - datastore
+    - reliability
   annotations:
-    landscape3.io/accepted: 2018-12-11
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Coordination & Service Discovery
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/etcd-io/etcd
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-12-11
+  category: Orchestration & Management
+  subcategory: Coordination & Service Discovery
+  status: graduated
+  logo: etcd.svg
+  maturity:
+    sandbox_date: 2018-12-11
+    incubation_date: 2018-12-11
+    graduation_date: 2020-11-24

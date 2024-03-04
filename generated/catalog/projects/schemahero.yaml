@@ -7,12 +7,18 @@ metadata:
       url: https://schemahero.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/schemahero
   annotations:
-    landscape3.io/accepted: 2020-11-10
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Database
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/schemahero/schemahero
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-11-10
+  category: App Definition and Development
+  subcategory: Database
+  status: sandbox
+  logo: schemahero.svg
+  maturity:
+    sandbox_date: 2020-11-10

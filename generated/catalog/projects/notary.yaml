@@ -8,11 +8,16 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2017-10-24
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/notaryproject/notation
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2017-10-24
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: incubating
+  logo: notary.svg
+  maturity:
+    sandbox_date: 2017-10-24
+    incubation_date: 2017-10-24

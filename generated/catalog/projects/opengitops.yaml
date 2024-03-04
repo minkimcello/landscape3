@@ -7,12 +7,18 @@ metadata:
       url: https://opengitops.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/opengitops
   annotations:
-    landscape3.io/accepted: 2021-01-26
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/open-gitops/project
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-01-26
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: sandbox
+  logo: opengitops.svg
+  maturity:
+    sandbox_date: 2021-01-26

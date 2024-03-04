@@ -10,11 +10,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2021-04-28
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/fluid-cloudnative/fluid
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-04-28
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: fluid.svg
+  maturity:
+    sandbox_date: 2021-04-28

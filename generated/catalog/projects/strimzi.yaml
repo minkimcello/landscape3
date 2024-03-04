@@ -7,12 +7,22 @@ metadata:
       url: https://strimzi.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/strimziio
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/strimzi
+  tags: []
   annotations:
-    landscape3.io/accepted: 2019-08-28
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Streaming & Messaging
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/strimzi/strimzi-kafka-operator
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-08-28
+  category: App Definition and Development
+  subcategory: Streaming & Messaging
+  status: incubating
+  logo: strimzi.svg
+  maturity:
+    sandbox_date: 2019-08-28
+    incubation_date: 2024-02-08

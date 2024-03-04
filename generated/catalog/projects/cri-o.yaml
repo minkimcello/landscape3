@@ -7,12 +7,26 @@ metadata:
       url: https://cri-o.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/CAZH62UR1
+  tags:
+    - container
+    - image
+    - oci
+    - cri
+    - runtime
   annotations:
-    landscape3.io/accepted: 2019-04-08
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Container Runtime
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/cri-o/cri-o
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-04-08
+  category: Runtime
+  subcategory: Container Runtime
+  status: graduated
+  logo: cri-o.svg
+  maturity:
+    sandbox_date: 2019-04-08
+    incubation_date: 2019-04-08
+    graduation_date: 2023-07-19

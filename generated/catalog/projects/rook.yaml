@@ -7,12 +7,29 @@ metadata:
       url: https://rook.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/rook_io
+    - title: Slack/Discord
+      url: https://rook-io.slack.com/
+  tags:
+    - storage
+    - persistence
+    - data
+    - csi
+    - operator
+    - kubernetes
   annotations:
-    landscape3.io/accepted: 2018-01-29
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Storage
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/rook/rook
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-01-29
+  category: Runtime
+  subcategory: Cloud Native Storage
+  status: graduated
+  logo: rook.svg
+  maturity:
+    sandbox_date: 2018-01-29
+    incubation_date: 2018-09-25
+    graduation_date: 2020-10-07

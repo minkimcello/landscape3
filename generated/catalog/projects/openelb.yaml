@@ -7,12 +7,22 @@ metadata:
       url: https://openelb.github.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/openelb
+  tags:
+    - openelb
+    - loadbalancer
+    - kubernetes
   annotations:
-    landscape3.io/accepted: 2021-11-09
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Proxy
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/openelb/openelb
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-11-09
+  category: Orchestration & Management
+  subcategory: Service Proxy
+  status: sandbox
+  logo: openelb-io.svg
+  maturity:
+    sandbox_date: 2021-11-09

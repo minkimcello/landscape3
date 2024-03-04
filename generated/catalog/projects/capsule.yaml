@@ -10,12 +10,23 @@ metadata:
       url: https://capsule.clastix.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/clastix
+    - title: Twitter
+      url: https://twitter.com/clastixio
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/
+  tags:
+    - multitenancy
+    - governance
   annotations:
-    landscape3.io/accepted: 2022-12-13
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/projectcapsule/capsule
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-12-13
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: capsule.svg
+  maturity:
+    sandbox_date: 2022-12-13

@@ -7,12 +7,26 @@ metadata:
       url: https://thanos.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/ThanosMetrics
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/CK5RSSC10
+  tags:
+    - monitoring
+    - alerting
+    - observability
+    - instrumentation
   annotations:
-    landscape3.io/accepted: 2019-07-14
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Monitoring
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/thanos-io/thanos
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-07-14
+  category: Observability and Analysis
+  subcategory: Monitoring
+  status: incubating
+  logo: thanos.svg
+  maturity:
+    sandbox_date: 2019-07-14
+    incubation_date: 2020-08-19

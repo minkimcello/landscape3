@@ -7,12 +7,21 @@ metadata:
       url: https://buildpacks.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/buildpacks_io
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
   annotations:
-    landscape3.io/accepted: 2018-10-03
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/buildpacks/pack
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-10-03
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: incubating
+  logo: buildpacks.svg
+  maturity:
+    sandbox_date: 2018-10-03
+    incubation_date: 2020-11-18

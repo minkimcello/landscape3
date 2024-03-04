@@ -7,12 +7,20 @@ metadata:
       url: https://armadaproject.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/oss_gr
+    - title: Slack/Discord
+      url: http://slack.cncf.io/
   annotations:
-    landscape3.io/accepted: 2022-07-25
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/armadaproject/armada
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-07-25
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: armada.svg
+  maturity:
+    sandbox_date: 2022-07-25

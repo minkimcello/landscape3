@@ -7,12 +7,25 @@ metadata:
       url: https://wasmcloud.com
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/wasmcloud
+  tags:
+    - webassembly
+    - cloud
+    - application
+    - orchestration
+    - wasm
+    - nats
   annotations:
-    landscape3.io/accepted: 2021-07-13
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/wasmCloud/wasmCloud
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-07-13
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: wasmcloud.svg
+  maturity:
+    sandbox_date: 2021-07-13

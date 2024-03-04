@@ -11,12 +11,21 @@ metadata:
       url: https://kubeflow.org
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kubeflow
+    - title: Slack/Discord
+      url: https://kubeflow.slack.com
   annotations:
-    landscape3.io/accepted: 2023-07-25
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/kubeflow/kubeflow
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-07-25
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: incubating
+  logo: kubeflow.svg
+  maturity:
+    sandbox_date: 2023-07-25
+    incubation_date: 2023-07-25

@@ -7,12 +7,31 @@ metadata:
       url: https://spiffe.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/spiffeio
+    - title: Slack/Discord
+      url: https://slack.spiffe.io/
+  tags:
+    - security
+    - identity
+    - credentials
+    - certificate
+    - rotation
+    - standard
+    - attestation
+    - authentication
   annotations:
-    landscape3.io/accepted: 2018-03-29
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Key Management
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/spiffe/spiffe
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-03-29
+  category: Provisioning
+  subcategory: Key Management
+  status: graduated
+  logo: spiffe.svg
+  maturity:
+    sandbox_date: 2018-03-29
+    incubation_date: 2020-06-22
+    graduation_date: 2022-08-23

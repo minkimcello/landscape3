@@ -7,12 +7,38 @@ metadata:
       url: https://falco.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/falco_org
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/falco
+  tags:
+    - security
+    - go
+    - c++
+    - devops
+    - devsecops
+    - container
+    - cloudnative
+    - kubernetes
+    - runtime
+    - threatdetection
+    - syscalls
+    - monitoring
+    - observability
+    - anomalydetection
+    - kubernetes
   annotations:
-    landscape3.io/accepted: 2018-10-10
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/falcosecurity/falco
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2018-10-10
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: graduated
+  logo: falco.svg
+  maturity:
+    sandbox_date: 2018-10-10
+    incubation_date: 2020-01-08
+    graduation_date: 2024-02-29

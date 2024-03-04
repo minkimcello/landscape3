@@ -7,12 +7,20 @@ metadata:
       url: https://brigade.sh/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/brigadecore
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/C87MF1RFD
   annotations:
-    landscape3.io/accepted: 2019-03-18
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Continuous Integration & Delivery
-    landscape3.io/cncfStatus: archived
+    backstage.io/source-location: $url:https://github.com/brigadecore/brigade
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2019-03-18
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: archived
+  logo: brigade.svg
+  maturity:
+    sandbox_date: 2019-03-18

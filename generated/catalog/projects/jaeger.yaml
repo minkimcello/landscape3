@@ -7,12 +7,26 @@ metadata:
       url: https://www.jaegertracing.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/JaegerTracing
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
+  tags:
+    - monitoring
+    - observability
+    - tracing
   annotations:
-    landscape3.io/accepted: 2017-09-13
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Tracing
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/jaegertracing/jaeger
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2017-09-13
+  category: Observability and Analysis
+  subcategory: Tracing
+  status: graduated
+  logo: jaeger.svg
+  maturity:
+    sandbox_date: 2017-09-13
+    incubation_date: 2017-09-13
+    graduation_date: 2019-10-31

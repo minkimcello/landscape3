@@ -10,11 +10,15 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    landscape3.io/accepted: 2021-06-26
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Network
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kube-vip/kube-vip
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-06-26
+  category: Runtime
+  subcategory: Cloud Native Network
+  status: sandbox
+  logo: kubevip.svg
+  maturity:
+    sandbox_date: 2021-06-26

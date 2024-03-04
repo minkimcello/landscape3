@@ -14,12 +14,27 @@ metadata:
       url: https://knative.dev
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/KnativeProject
+    - title: Slack/Discord
+      url: https://slack.cncf.io
+  tags:
+    - serverless
+    - cloudevents
+    - functions
+    - scaling
+    - applications
   annotations:
-    landscape3.io/accepted: 2022-03-02
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/knative/serving
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-03-02
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: incubating
+  logo: knative.svg
+  maturity:
+    sandbox_date: 2022-03-02
+    incubation_date: 2022-03-02

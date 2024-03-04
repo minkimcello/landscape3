@@ -7,12 +7,18 @@ metadata:
       url: https://www.k8up.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/k8up
   annotations:
-    landscape3.io/accepted: 2021-11-16
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Storage
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/k8up-io/k8up
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-11-16
+  category: Runtime
+  subcategory: Cloud Native Storage
+  status: sandbox
+  logo: k8up.svg
+  maturity:
+    sandbox_date: 2021-11-16

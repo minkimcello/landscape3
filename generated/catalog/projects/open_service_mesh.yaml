@@ -7,12 +7,20 @@ metadata:
       url: https://openservicemesh.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/openservicemesh
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/openservicemesh
   annotations:
-    landscape3.io/accepted: 2020-09-08
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Mesh
-    landscape3.io/cncfStatus: archived
+    backstage.io/source-location: $url:https://github.com/openservicemesh/osm
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-09-08
+  category: Orchestration & Management
+  subcategory: Service Mesh
+  status: archived
+  logo: open-service-mesh.svg
+  maturity:
+    sandbox_date: 2020-09-08

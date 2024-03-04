@@ -7,12 +7,28 @@ metadata:
       url: https://openfunction.dev
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/openfunctiondev
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
+  tags:
+    - faas
+    - serverless
+    - keda
+    - knative
+    - shipwright
+    - buildpacks
+    - distributedsystems
   annotations:
-    landscape3.io/accepted: 2022-04-26
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/OpenFunction/OpenFunction
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-04-26
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: openfunction.svg
+  maturity:
+    sandbox_date: 2022-04-26

@@ -7,12 +7,18 @@ metadata:
       url: https://github.com/project-copacetic/copacetic
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/
   annotations:
-    landscape3.io/accepted: 2023-09-19
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/project-copacetic/copacetic
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2023-09-19
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: copa.svg
+  maturity:
+    sandbox_date: 2023-09-19

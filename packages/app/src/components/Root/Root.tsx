@@ -14,7 +14,6 @@ import {
   SidebarGroup,
   SidebarItem,
   SidebarPage,
-  SidebarSpace,
   useSidebarOpenState,
   Link,
 } from '@backstage/core-components';
@@ -65,8 +64,6 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
         <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." />
         {/* End global nav */}
       </SidebarGroup>
-      <SidebarSpace />
-      <SidebarDivider />
     </Sidebar>
     {children}
   </SidebarPage>

@@ -7,12 +7,19 @@ metadata:
       url: https://www.cni.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://containernetworking.slack.com
   annotations:
-    landscape3.io/accepted: 2017-05-23
-    landscape3.io/category: Runtime
-    landscape3.io/subcategory: Cloud Native Network
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/containernetworking/cni
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2017-05-23
+  category: Runtime
+  subcategory: Cloud Native Network
+  status: incubating
+  logo: container-network-interface-cni.svg
+  maturity:
+    sandbox_date: 2017-05-23
+    incubation_date: 2017-05-23

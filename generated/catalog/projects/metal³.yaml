@@ -7,12 +7,24 @@ metadata:
       url: https://metal3.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/metal3_io
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/CHD49TLE7
+  tags:
+    - baremetal
+    - deployment
+    - provisioning
   annotations:
-    landscape3.io/accepted: 2020-09-08
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/metal3-io/baremetal-operator
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-09-08
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: metal3.svg
+  maturity:
+    sandbox_date: 2020-09-08

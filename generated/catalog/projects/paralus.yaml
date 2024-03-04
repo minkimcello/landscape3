@@ -10,12 +10,20 @@ metadata:
       url: https://www.paralus.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/paralus_
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/paralus
   annotations:
-    landscape3.io/accepted: 2022-12-14
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/paralus/paralus
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2022-12-14
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: paralus.svg
+  maturity:
+    sandbox_date: 2022-12-14

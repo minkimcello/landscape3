@@ -7,12 +7,19 @@ metadata:
       url: https://volcano.sh/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/volcano_sh
   annotations:
-    landscape3.io/accepted: 2020-04-09
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Scheduling & Orchestration
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/volcano-sh/volcano
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-04-09
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: incubating
+  logo: volcano.svg
+  maturity:
+    sandbox_date: 2020-04-09
+    incubation_date: 2022-03-21

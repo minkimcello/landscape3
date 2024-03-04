@@ -7,12 +7,21 @@ metadata:
       url: https://litmuschaos.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/litmuschaos
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/CNXNB0ZTN
   annotations:
-    landscape3.io/accepted: 2020-06-25
-    landscape3.io/category: Observability and Analysis
-    landscape3.io/subcategory: Chaos Engineering
-    landscape3.io/cncfStatus: incubating
+    backstage.io/source-location: $url:https://github.com/litmuschaos/litmus
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-06-25
+  category: Observability and Analysis
+  subcategory: Chaos Engineering
+  status: incubating
+  logo: litmus.svg
+  maturity:
+    sandbox_date: 2020-06-25
+    incubation_date: 2022-01-11

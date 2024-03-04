@@ -7,12 +7,20 @@ metadata:
       url: https://getporter.org/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/get_porter
+    - title: Slack/Discord
+      url: https://getporter.org/community/#slack
   annotations:
-    landscape3.io/accepted: 2020-09-08
-    landscape3.io/category: App Definition and Development
-    landscape3.io/subcategory: Application Definition & Image Build
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/getporter/porter
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2020-09-08
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: porter-sh.svg
+  maturity:
+    sandbox_date: 2020-09-08

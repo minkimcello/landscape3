@@ -7,12 +7,18 @@ metadata:
       url: https://kubedl.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/archives/C027KH1Q71A
   annotations:
-    landscape3.io/accepted: 2021-06-22
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Automation & Configuration
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kubedl-io/kubedl
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-06-22
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: kubedl.svg
+  maturity:
+    sandbox_date: 2021-06-22

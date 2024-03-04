@@ -7,12 +7,22 @@ metadata:
       url: https://www.envoyproxy.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/envoyproxy
+    - title: Slack/Discord
+      url: https://envoyproxy.slack.com/
   annotations:
-    landscape3.io/accepted: 2017-09-13
-    landscape3.io/category: Orchestration & Management
-    landscape3.io/subcategory: Service Proxy
-    landscape3.io/cncfStatus: graduated
+    backstage.io/source-location: $url:https://github.com/envoyproxy/envoy
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2017-09-13
+  category: Orchestration & Management
+  subcategory: Service Proxy
+  status: graduated
+  logo: envoy.svg
+  maturity:
+    sandbox_date: 2017-09-13
+    incubation_date: 2017-09-13
+    graduation_date: 2018-11-28

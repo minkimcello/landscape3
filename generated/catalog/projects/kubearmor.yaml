@@ -10,12 +10,23 @@ metadata:
       url: https://kubearmor.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: http://kubearmor.slack.com/
+  tags:
+    - runtime
+    - security
+    - applicationfirewall
+    - microsegmentation
   annotations:
-    landscape3.io/accepted: 2021-11-16
-    landscape3.io/category: Provisioning
-    landscape3.io/subcategory: Security & Compliance
-    landscape3.io/cncfStatus: sandbox
+    backstage.io/source-location: $url:https://github.com/kubearmor/kubearmor
 spec:
   type: service
   lifecycle: production
   owner: CNCF
+  accepted: 2021-11-16
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: kubearmor.svg
+  maturity:
+    sandbox_date: 2021-11-16
