@@ -15,16 +15,16 @@ import {
   CardHeader,
   CardContent,
 } from '@material-ui/core';
-import { ExpandMore } from '@material-ui/icons'
+import ExpandMore from '@material-ui/icons/ExpandMore';
 import { CategoryStats, StatsProjectMaturityBreakdown } from 'cncf-common';
 import { StyledPieChart } from '../Utils/charts';
 
 
-const ChartByCategory = (stats: CategoryStats) => {
+const ChartByCategory = ({stats}: {stats: CategoryStats}) => {
   const { subcategoryBreakdown, categoryBreakdown } = stats;
   return (
     <Card>
-      <CardHeader title={"By Category"} />
+      <CardHeader title="By Category" />
       <CardContent>
         {Object.keys(subcategoryBreakdown).map((category) => (
           <Accordion key={category}>
@@ -64,12 +64,15 @@ const ChartByCategory = (stats: CategoryStats) => {
   )
 };
 
-const ChartByMaturity = (stats: StatsProjectMaturityBreakdown, count: number) => {
-  return (
+const ChartByMaturity = ({stats, count}: {
+  stats: StatsProjectMaturityBreakdown,
+  count: number,
+}) => {
+    return (
     <Card>
-      <CardHeader title={"By Maturity"} />
+      <CardHeader title="By Maturity" />
       <CardContent>
-        <StyledPieChart stats={stats} count={count}></StyledPieChart>
+        <StyledPieChart stats={stats} count={count} />
       </CardContent>
     </Card>
   )
@@ -83,8 +86,8 @@ interface ProjectsProps {
 export const Projects = ({ projectStats, maturityStats}: ProjectsProps) => {
   return (
     <Grid container>
-      <Grid item> {ChartByMaturity(maturityStats, projectStats.count)} </Grid>
-      <Grid item> {ChartByCategory(projectStats)} </Grid>
+      <Grid item> <ChartByMaturity stats={maturityStats} count={projectStats.count}/> </Grid>
+      <Grid item> <ChartByCategory stats={projectStats}/> </Grid>
     </Grid>
   )
 };

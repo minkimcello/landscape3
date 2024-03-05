@@ -9,7 +9,7 @@ const Chart = ({stats}: {
 }) => {
   return (
     <Card>
-      <StyledPieChart stats={stats.subcategoryBreakdown["CNCF Members"]} count={stats.count}></StyledPieChart>
+      <StyledPieChart stats={stats.subcategoryBreakdown["CNCF Members"]} count={stats.count} />
     </Card>
   );
 }
@@ -19,7 +19,7 @@ export const Members = ({stats}: {
 }) => {
   return (
     <Grid container>
-      <Grid item> { Chart({stats}) } </Grid>
+      <Grid item> <Chart stats={stats}/> </Grid>
     </Grid>
   )
 };

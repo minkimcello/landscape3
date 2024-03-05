@@ -58,7 +58,7 @@ export function StyledPieChart({stats, count}: PieChartProps): React.ReactElemen
           <TableBody>
             {data.map(({label, value}, index) => (
               <TableRow>
-                <TableCell style={{ backgroundColor: blueberryTwilightPaletteLight[index]}}></TableCell>
+                <TableCell style={{ backgroundColor: blueberryTwilightPaletteLight[index]}} />
                 <TableCell style={{ fontWeight: 'bold' }}> {label} </TableCell>
                 <TableCell style={{ fontWeight: 'bold' }}> {value} </TableCell>
               </TableRow>
