@@ -16,7 +16,7 @@ spec:
   owner: CNCF
   accepted: 2023-03-07
   category: Observability and Analysis
-  subcategory: Monitoring
+  subcategory: Observability
   status: sandbox
   logo: inspektor-gadget.svg
   maturity:
