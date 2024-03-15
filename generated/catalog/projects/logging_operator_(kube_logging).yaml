@@ -17,7 +17,7 @@ spec:
   owner: CNCF
   accepted: 2023-09-19
   category: Observability and Analysis
-  subcategory: Logging
+  subcategory: Observability
   status: sandbox
   logo: logging-operator.svg
   maturity:

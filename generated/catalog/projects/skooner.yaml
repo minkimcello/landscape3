@@ -15,7 +15,7 @@ spec:
   owner: CNCF
   accepted: 2021-01-26
   category: Observability and Analysis
-  subcategory: Monitoring
+  subcategory: Observability
   status: sandbox
   logo: skooner.svg
   maturity:

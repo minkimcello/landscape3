@@ -23,7 +23,7 @@ spec:
   owner: CNCF
   accepted: 2017-09-13
   category: Observability and Analysis
-  subcategory: Tracing
+  subcategory: Observability
   status: graduated
   logo: jaeger.svg
   maturity:

@@ -8,7 +8,7 @@ metadata:
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    backstage.io/source-location: $url:https://github.com/GoogleContainerTools/kpt
+    backstage.io/source-location: $url:https://github.com/kptdev/kpt
 spec:
   type: service
   lifecycle: production
