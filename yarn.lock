@@ -11525,6 +11525,7 @@ __metadata:
     "@testing-library/react": "npm:^12.1.3"
     "@testing-library/user-event": "npm:^14.0.0"
     cncf-common: "npm:*"
+    landscape3-eslint-rules: "npm:0.1.0"
     msw: "npm:^1.0.0"
     react-use: "npm:^17.2.4"
   peerDependencies:
@@ -19850,6 +19851,14 @@ __metadata:
   checksum: 0a4e99d92ca373f8f74d1dc37931909c4d0d82aebc94cf2ba265771160fc12c8df34eaaac80805efbda367e2795cb1f1dd4c3d404b6b1cf38aec94035b503d2d
   languageName: node
   linkType: hard
+
+"landscape3-eslint-rules@npm:0.1.0, landscape3-eslint-rules@workspace:packages/landscape3-eslint-rules":
+  version: 0.0.0-use.local
+  resolution: "landscape3-eslint-rules@workspace:packages/landscape3-eslint-rules"
+  dependencies:
+    "@backstage/cli": "npm:^0.23.0"
+  languageName: unknown
+  linkType: soft
 
 "language-subtag-registry@npm:^0.3.20":
   version: 0.3.22

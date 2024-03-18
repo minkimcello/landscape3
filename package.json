@@ -44,6 +44,7 @@
     "@types/node": "^20.10.4",
     "cncf-common": "*",
     "concurrently": "^8.0.0",
+    "landscape3-eslint-rules": "0.1.0",
     "lerna": "^7.3.0",
     "maketypes": "^1.1.2",
     "node-gyp": "^9.0.0",
