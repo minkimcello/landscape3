@@ -10819,6 +10819,7 @@ __metadata:
     backstage-plugin-cncf-stats: "npm:^0.1.0"
     cross-env: "npm:^7.0.0"
     history: "npm:^5.0.0"
+    landscape3-eslint-rules: "npm:0.1.0"
     react: "npm:^17.0.2"
     react-dom: "npm:^17.0.2"
     react-router: "npm:^6.3.0"
@@ -11481,6 +11482,7 @@ __metadata:
     dockerode: "npm:^3.3.1"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
+    landscape3-eslint-rules: "npm:0.1.0"
     pg: "npm:^8.3.0"
     winston: "npm:^3.2.1"
   languageName: unknown
@@ -11498,6 +11500,7 @@ __metadata:
     "@types/supertest": "npm:^2.0.12"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
+    landscape3-eslint-rules: "npm:0.1.0"
     msw: "npm:^1.0.0"
     node-fetch: "npm:^2.6.7"
     supertest: "npm:^6.2.4"
@@ -12557,6 +12560,7 @@ __metadata:
   resolution: "cncf-common@workspace:packages/cncf-common"
   dependencies:
     "@backstage/cli": "npm:^0.23.0"
+    landscape3-eslint-rules: "npm:0.1.0"
   languageName: unknown
   linkType: soft
 
@@ -25891,6 +25895,7 @@ __metadata:
     "@types/node": "npm:^20.10.4"
     cncf-common: "npm:*"
     concurrently: "npm:^8.0.0"
+    landscape3-eslint-rules: "npm:0.1.0"
     lerna: "npm:^7.3.0"
     maketypes: "npm:^1.1.2"
     node-gyp: "npm:^9.0.0"
