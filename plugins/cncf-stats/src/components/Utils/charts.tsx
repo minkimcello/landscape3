@@ -11,7 +11,6 @@ import {
   TableBody, 
 } from '@material-ui/core';
 
-
 const StyledText = styled('text')(({ theme }) => ({
   fill: theme.palette.text.primary,
   textAnchor: 'middle',

@@ -19,7 +19,6 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 import { CategoryStats, StatsProjectMaturityBreakdown } from 'cncf-common';
 import { StyledPieChart } from '../Utils/charts';
 
-
 const ChartByCategory = ({stats}: {stats: CategoryStats}) => {
   const { subcategoryBreakdown, categoryBreakdown } = stats;
   return (
@@ -68,7 +67,7 @@ const ChartByMaturity = ({stats, count}: {
   stats: StatsProjectMaturityBreakdown,
   count: number,
 }) => {
-    return (
+  return (
     <Card>
       <CardHeader title="By Maturity" />
       <CardContent>

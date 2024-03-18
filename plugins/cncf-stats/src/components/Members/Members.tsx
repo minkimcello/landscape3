@@ -3,7 +3,6 @@ import { CategoryStats } from 'cncf-common';
 import { Grid, Card } from '@material-ui/core';
 import { StyledPieChart } from '../Utils/charts';
 
-
 const Chart = ({stats}: {
   stats: CategoryStats,
 }) => {
