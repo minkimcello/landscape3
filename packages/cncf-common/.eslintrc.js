@@ -1,5 +1,3 @@
 module.exports = require('@backstage/cli/config/eslint-factory')(__dirname, {
-  rules: {
-    'indent': ['error', 2],
-  }
+  rules: require('landscape3-eslint-rules'),
 });

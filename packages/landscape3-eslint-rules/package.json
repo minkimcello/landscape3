@@ -1,5 +1,5 @@
 {
-  "name": "cncf-common",
+  "name": "landscape3-eslint-rules",
   "version": "0.1.0",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -23,8 +23,7 @@
     "postpack": "backstage-cli package postpack"
   },
   "devDependencies": {
-    "@backstage/cli": "^0.23.0",
-    "landscape3-eslint-rules": "0.1.0"
+    "@backstage/cli": "^0.23.0"
   },
   "files": [
     "dist"

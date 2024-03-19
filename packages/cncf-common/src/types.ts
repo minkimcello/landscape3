@@ -120,3 +120,7 @@ export interface CategoryStats {
   categoryBreakdown: StatsCategoryBreakdown;
   subcategoryBreakdown: StatsSubcategoryBreakdown;
 }
+
+export interface StatsProjectMaturityBreakdown {
+  [key:string]: number;
+}

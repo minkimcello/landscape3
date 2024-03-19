@@ -9,7 +9,10 @@ import {
   filterWasm,
 } from './filters';
 import { LandscapeItem } from 'cncf-common';
-import { calculateStats } from './utils/calculateStats';
+import { 
+  calculateStats, 
+  calculateProjectMaturityStats,
+} from './utils/calculateStats';
 
 const fs = require('fs');
 
@@ -37,6 +40,7 @@ function getStats() {
     summary: cncfProjectsSummary,
     uniqueKeysAnalysis: cncfProjectsKeysAnalysis,
   }  = calculateStats(cncfProjects);
+  const cncfProjectMaturitySummary = calculateProjectMaturityStats(cncfProjects);
   const {
     summary: cncfSpecialSummary,
     uniqueKeysAnalysis: cncfSpecialKeysAnalysis,
@@ -57,6 +61,7 @@ function getStats() {
   return {
     summary: {
       cncfProjectsSummary,
+      cncfProjectMaturitySummary,
       cncfSpecialSummary,
       cncfMembersSummary,
       cncfWasmSummary,
