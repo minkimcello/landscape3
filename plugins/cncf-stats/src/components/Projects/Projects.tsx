@@ -14,8 +14,8 @@ import {
   Card,
   CardHeader,
   CardContent,
-} from '@material-ui/core';
-import ExpandMore from '@material-ui/icons/ExpandMore';
+} from '@mui/material';
+import ExpandMore from '@mui/icons-material/ExpandMore';
 import { CategoryStats, StatsProjectMaturityBreakdown } from 'cncf-common';
 import { StyledPieChart } from '../Utils/charts';
 

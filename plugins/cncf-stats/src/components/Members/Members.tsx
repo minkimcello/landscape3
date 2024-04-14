@@ -1,6 +1,6 @@
 import React from 'react';
 import { CategoryStats } from 'cncf-common';
-import { Grid, Card } from '@material-ui/core';
+import { Grid, Card } from '@mui/material';
 import { StyledPieChart } from '../Utils/charts';
 
 const Chart = ({stats}: {

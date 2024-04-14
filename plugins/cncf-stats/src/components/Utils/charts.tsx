@@ -9,7 +9,7 @@ import {
   TableRow, 
   TableCell, 
   TableBody, 
-} from '@material-ui/core';
+} from '@mui/material';
 
 const StyledText = styled('text')(({ theme }) => ({
   fill: theme.palette.text.primary,
