@@ -25,7 +25,7 @@ import { createApp } from '@backstage/app-defaults';
 import { AppRouter, FlatRoutes } from '@backstage/core-app-api';
 import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { UnifiedThemeProvider } from '@backstage/theme';
-import { CssBaseline } from '@mui/material';
+import CssBaseline from '@mui/material/CssBaseline';
 import cncfTheme from './theme';
 import { CncfStatsPage } from 'backstage-plugin-cncf-stats';
 

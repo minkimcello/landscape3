@@ -2,14 +2,12 @@ import React from 'react';
 import { useDrawingArea } from '@mui/x-charts/hooks';
 import { PieChart } from '@mui/x-charts/PieChart';
 import { blueberryTwilightPaletteLight } from '@mui/x-charts/colorPalettes';
-import {
-  styled,
-  Grid,
-  Table, 
-  TableRow, 
-  TableCell, 
-  TableBody, 
-} from '@mui/material';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableRow from '@mui/material/TableRow';
+import Grid from '@mui/material/Grid';
+import { styled } from '@mui/material/styles';
 
 const StyledText = styled('text')(({ theme }) => ({
   fill: theme.palette.text.primary,
