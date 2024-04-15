@@ -72,6 +72,12 @@
       }
     }
   },
+  "cncfProjectMaturitySummary": {
+    "sandbox": 117,
+    "incubating": 38,
+    "graduated": 27,
+    "archived": 8
+  },
   "cncfSpecialSummary": {
     "count": 289,
     "commonKeys": [

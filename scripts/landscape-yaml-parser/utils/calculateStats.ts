@@ -4,6 +4,7 @@ import {
   LandscapeItem,
   StatsCategoryBreakdown,
   StatsSubcategoryBreakdown,
+  StatsProjectMaturityBreakdown,
 } from 'cncf-common';
 
 export const calculateStats = (items: LandscapeItem[]): {
@@ -47,4 +48,18 @@ export const calculateStats = (items: LandscapeItem[]): {
     },
     uniqueKeysAnalysis,
   };
+}
+
+export const calculateProjectMaturityStats = (items: LandscapeItem[]): StatsProjectMaturityBreakdown => {
+  const projectMaturityBreakdown = items.reduce((acc, item) => {
+    if (item.project) {
+      if (acc.hasOwnProperty(item.project)) {
+        acc[item.project] += 1;
+      } else {
+        acc[item.project] = 1;
+      }
+    }
+    return acc;
+  }, {} as StatsProjectMaturityBreakdown);
+  return projectMaturityBreakdown;
 }

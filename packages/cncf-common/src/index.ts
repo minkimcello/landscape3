@@ -6,4 +6,5 @@ export type {
   StatsCategoryBreakdown,
   StatsSubcategoryBreakdown,
   CncfProject,
+  StatsProjectMaturityBreakdown,
 } from './types';
