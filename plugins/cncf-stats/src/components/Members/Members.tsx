@@ -2,7 +2,7 @@ import React from 'react';
 import { CategoryStats } from 'cncf-common';
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
-import { StyledPieChart } from '../Utils/charts';
+import { StyledPieChart } from '../Charts/StyledPieChart';
 
 const Chart = ({stats}: {
   stats: CategoryStats,
@@ -16,10 +16,9 @@ const Chart = ({stats}: {
 
 export const Members = ({stats}: {
   stats: CategoryStats,
-}) => {
-  return (
+}) => (
     <Grid container>
       <Grid item> <Chart stats={stats}/> </Grid>
     </Grid>
   )
-};
+;

@@ -15,7 +15,7 @@ import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import { CategoryStats, StatsProjectMaturityBreakdown } from 'cncf-common';
-import { StyledPieChart } from '../Utils/charts';
+import { StyledPieChart } from '../Charts/StyledPieChart';
 
 const ChartByCategory = ({stats}: {stats: CategoryStats}) => {
   const { subcategoryBreakdown, categoryBreakdown } = stats;
@@ -80,11 +80,10 @@ interface ProjectsProps {
   maturityStats: StatsProjectMaturityBreakdown;
 }
 
-export const Projects = ({ projectStats, maturityStats}: ProjectsProps) => {
-  return (
+export const Projects = ({ projectStats, maturityStats}: ProjectsProps) => (
     <Grid container>
       <Grid item> <ChartByMaturity stats={maturityStats} count={projectStats.count}/> </Grid>
       <Grid item> <ChartByCategory stats={projectStats}/> </Grid>
     </Grid>
   )
-};
+;
