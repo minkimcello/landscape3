@@ -17,8 +17,7 @@ const Chart = ({stats}: {
 export const Members = ({stats}: {
   stats: CategoryStats,
 }) => (
-    <Grid container>
-      <Grid item> <Chart stats={stats}/> </Grid>
-    </Grid>
-  )
-;
+  <Grid container>
+    <Grid item> <Chart stats={stats}/> </Grid>
+  </Grid>
+);

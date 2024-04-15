@@ -81,9 +81,8 @@ interface ProjectsProps {
 }
 
 export const Projects = ({ projectStats, maturityStats}: ProjectsProps) => (
-    <Grid container>
-      <Grid item> <ChartByMaturity stats={maturityStats} count={projectStats.count}/> </Grid>
-      <Grid item> <ChartByCategory stats={projectStats}/> </Grid>
-    </Grid>
-  )
-;
+  <Grid container>
+    <Grid item> <ChartByMaturity stats={maturityStats} count={projectStats.count}/> </Grid>
+    <Grid item> <ChartByCategory stats={projectStats}/> </Grid>
+  </Grid>
+);
