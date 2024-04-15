@@ -19,7 +19,7 @@ spec:
   owner: CNCF
   accepted: 2018-08-10
   category: Observability and Analysis
-  subcategory: Monitoring
+  subcategory: Observability
   status: incubating
   logo: openmetrics.svg
   maturity:
