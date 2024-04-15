@@ -1,22 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Fonio
+  name: Kanister
   links:
     - title: Homepage
-      url: https://ingraind.org/
+      url: https://kanister.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
-    backstage.io/source-location: $url:https://github.com/foniod/foniod
+    backstage.io/source-location: $url:https://github.com/kanisterio/kanister
 spec:
   type: service
   lifecycle: production
   owner: CNCF
-  accepted: 2021-03-30
-  category: Observability and Analysis
-  subcategory: Observability
-  status: archived
-  logo: fonio.svg
+  accepted: 2023-09-20
+  category: Runtime
+  subcategory: Cloud Native Storage
+  status: sandbox
+  logo: kanister.svg
   maturity:
-    sandbox_date: 2021-03-30
+    sandbox_date: 2023-09-20

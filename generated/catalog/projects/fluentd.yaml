@@ -19,7 +19,7 @@ spec:
   owner: CNCF
   accepted: 2016-11-08
   category: Observability and Analysis
-  subcategory: Logging
+  subcategory: Observability
   status: graduated
   logo: fluentd.svg
   maturity:

@@ -17,7 +17,7 @@ spec:
   owner: CNCF
   accepted: 2016-10-11
   category: Observability and Analysis
-  subcategory: Tracing
+  subcategory: Observability
   status: archived
   logo: open-tracing.svg
   maturity:

@@ -18,14 +18,14 @@ metadata:
     - metrics
     - logs
   annotations:
-    backstage.io/source-location: $url:https://github.com/open-telemetry/opentelemetry-java
+    backstage.io/source-location: $url:https://github.com/open-telemetry/community
 spec:
   type: service
   lifecycle: production
   owner: CNCF
   accepted: 2019-05-07
   category: Observability and Analysis
-  subcategory: Tracing
+  subcategory: Observability
   status: incubating
   logo: open-telemetry.svg
   maturity:
