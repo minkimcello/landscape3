@@ -28,6 +28,7 @@ const useSidebarLogoStyles = makeStyles({
     flexFlow: 'row nowrap',
     alignItems: 'center',
     marginBottom: -14,
+    marginLeft: 24,
   },
   link: {
     width: sidebarConfig.drawerWidthClosed,
