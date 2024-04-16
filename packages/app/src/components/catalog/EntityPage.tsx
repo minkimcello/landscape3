@@ -142,7 +142,9 @@ const overviewContent = (
 );
 
 const serviceEntityPage = (
-  <EntityLayout>
+  <EntityLayout 
+    UNSTABLE_contextMenuOptions={{ disableUnregister: true }}
+  >
     <EntityLayout.Route path="/" title="Overview">
       {overviewContent}
     </EntityLayout.Route>
