@@ -3,11 +3,11 @@ import { screen } from '@testing-library/react';
 import { renderInTestApp } from '@backstage/test-utils';
 import { ProjectAuditsCard } from './ProjectAuditsCard';
 
-describe('ProjectAudits', () => {
+describe('ProjectAuditsCard', () => {
   it('should render', async () => {
     await renderInTestApp(<ProjectAuditsCard />)
 
-    expect(screen.getByText('Hello World')).toBeInTheDocument();
+    expect(screen.getByText('Audits')).toBeInTheDocument();
   });
 
   it('should display a custom message', async () => {

@@ -10491,6 +10491,7 @@ __metadata:
     "@testing-library/react": "npm:^12.1.3"
     "@testing-library/user-event": "npm:^14.0.0"
     "@types/react-dom": "npm:*"
+    backstage-plugin-cncf-entity-react: "npm:*"
     backstage-plugin-cncf-stats: "npm:^0.1.0"
     cross-env: "npm:^7.0.0"
     history: "npm:^5.0.0"
@@ -11152,7 +11153,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"backstage-plugin-cncf-entity-react@workspace:plugins/cncf-entity-react":
+"backstage-plugin-cncf-entity-react@npm:*, backstage-plugin-cncf-entity-react@workspace:plugins/cncf-entity-react":
   version: 0.0.0-use.local
   resolution: "backstage-plugin-cncf-entity-react@workspace:plugins/cncf-entity-react"
   dependencies:
@@ -12206,15 +12207,6 @@ __metadata:
   dependencies:
     "@backstage/cli": "npm:^0.23.0"
     landscape3-eslint-rules: "npm:0.1.0"
-  languageName: unknown
-  linkType: soft
-
-"cncf-entity@workspace:packages/cncf-entity":
-  version: 0.0.0-use.local
-  resolution: "cncf-entity@workspace:packages/cncf-entity"
-  dependencies:
-    "@backstage/cli": "npm:^0.23.0"
-    "@testing-library/jest-dom": "npm:^5.10.1"
   languageName: unknown
   linkType: soft
 

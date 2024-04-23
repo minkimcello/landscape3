@@ -7,7 +7,7 @@ describe('ProjectAudits', () => {
   it('should render', async () => {
     await renderInTestApp(<ProjectMaturityCard />)
 
-    expect(screen.getByText('Hello World')).toBeInTheDocument();
+    expect(screen.getByText('Maturity')).toBeInTheDocument();
   });
 
   it('should display a custom message', async () => {

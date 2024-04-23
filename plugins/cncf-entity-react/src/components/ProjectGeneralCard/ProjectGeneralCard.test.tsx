@@ -7,7 +7,7 @@ describe('ProjectGeneralCard', () => {
   it('should render', async () => {
     await renderInTestApp(<ProjectGeneralCard />)
 
-    expect(screen.getByText('Hello World')).toBeInTheDocument();
+    expect(screen.getByText('General')).toBeInTheDocument();
   });
 
   it('should display a custom message', async () => {
