@@ -1,5 +1,5 @@
 {
-  "name": "backstage-plugin-cncf-react",
+  "name": "backstage-plugin-cncf-entity-react",
   "description": "Web library for the cncf plugin",
   "version": "0.1.0",
   "main": "src/index.ts",
