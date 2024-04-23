@@ -27,7 +27,7 @@ function PieCenterLabel({ children }: { children: React.ReactNode }): React.Reac
 }
 
 function processPieChartData(data: { [key:string]: number }): { label:string; value:number}[] {
-  return Object.entries(data).map(([label, value]) => ({ label, value}));
+  return Object.entries(data).map(([label, value]) => ({ label, value }));
 }
 
 interface PieChartProps {
@@ -35,16 +35,16 @@ interface PieChartProps {
   count: number;
 }
 
-export function StyledPieChart({stats, count}: PieChartProps): React.ReactElement {
+export function StyledPieChart({ stats, count }: PieChartProps): React.ReactElement {
   const data = processPieChartData(stats);
   return(
-    <Grid container alignItems='center' style={{padding: '16px'}}>
+    <Grid container alignItems='center' style={{ padding: '16px' }}>
       <Grid item>
         <PieChart 
           series={[{ data, innerRadius: 120 }]} 
           width={400} 
           height={400}
-          slotProps={{legend: {hidden: true}}}
+          slotProps={{ legend: { hidden: true } }}
           colors={blueberryTwilightPaletteLight}
         >
           <PieCenterLabel>Total: {count}</PieCenterLabel>
@@ -53,9 +53,9 @@ export function StyledPieChart({stats, count}: PieChartProps): React.ReactElemen
       <Grid item>
         <Table>
           <TableBody>
-            {data.map(({label, value}, index) => (
+            {data.map(({ label, value }, index) => (
               <TableRow key={index}>
-                <TableCell style={{ backgroundColor: blueberryTwilightPaletteLight[index]}} />
+                <TableCell style={{ backgroundColor: blueberryTwilightPaletteLight[index] }} />
                 <TableCell style={{ fontWeight: 'bold' }}> {label} </TableCell>
                 <TableCell style={{ fontWeight: 'bold' }}> {value} </TableCell>
               </TableRow>

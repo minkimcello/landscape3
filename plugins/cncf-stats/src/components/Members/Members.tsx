@@ -5,7 +5,7 @@ import Card from '@mui/material/Card';
 import { StyledPieChart } from '../Charts/StyledPieChart';
 import CardHeader from '@mui/material/CardHeader';
 
-const Chart = ({stats}: {
+const Chart = ({ stats }: {
   stats: CategoryStats,
 }) => {
   return (
@@ -16,7 +16,7 @@ const Chart = ({stats}: {
   );
 }
 
-export const Members = ({stats}: {
+export const Members = ({ stats }: {
   stats: CategoryStats,
 }) => (
   <Grid container>
