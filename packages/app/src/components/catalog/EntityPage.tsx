@@ -56,6 +56,13 @@ import {
 import { TechDocsAddons } from '@backstage/plugin-techdocs-react';
 import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
 
+import {
+  ProjectAuditsCard,
+  ProjectGeneralCard,
+  ProjectMaturityCard,
+  ProjectSummaryCard,
+} from 'backstage-plugin-cncf-entity-react'
+
 const techdocsContent = (
   <EntityTechdocsContent>
     <TechDocsAddons>
@@ -130,18 +137,18 @@ const overviewContent = (
       <EntityLinksCard />
       {/* include all URLs in landscape script */}
     </Grid>
-    {/* <Grid item md={6}>
+    <Grid item md={6}>
       <ProjectGeneralCard />
-    </Grid> */}
-    {/* <Grid item md={6}>
+    </Grid>
+    <Grid item md={6}>
       <ProjectMaturityCard />
-    </Grid> */}
-    {/* <Grid item md={6}>
-      <ProjectAudits />
-    </Grid> */}
-    {/* <Grid item md={6}>
-      <ProjectSummary />
-    </Grid> */}
+    </Grid>
+    <Grid item md={6}>
+      <ProjectAuditsCard />
+    </Grid>
+    <Grid item md={6}>
+      <ProjectSummaryCard />
+    </Grid>
   </Grid>
 );
 

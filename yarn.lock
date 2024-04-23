@@ -11152,6 +11152,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"backstage-plugin-cncf-entity-react@workspace:plugins/cncf-entity-react":
+  version: 0.0.0-use.local
+  resolution: "backstage-plugin-cncf-entity-react@workspace:plugins/cncf-entity-react"
+  dependencies:
+    "@backstage/cli": "npm:^0.23.0"
+    "@backstage/core-plugin-api": "npm:^1.7.0"
+    "@backstage/test-utils": "npm:^1.4.4"
+    "@material-ui/core": "npm:^4.12.2"
+    "@testing-library/jest-dom": "npm:^5.10.1"
+    "@testing-library/react": "npm:^12.1.3"
+    landscape3-eslint-rules: "npm:0.1.0"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "backstage-plugin-cncf-stats-backend@npm:^0.1.0, backstage-plugin-cncf-stats-backend@workspace:plugins/cncf-stats-backend":
   version: 0.0.0-use.local
   resolution: "backstage-plugin-cncf-stats-backend@workspace:plugins/cncf-stats-backend"
@@ -11198,21 +11214,6 @@ __metadata:
     landscape3-eslint-rules: "npm:0.1.0"
     msw: "npm:^1.0.0"
     react-use: "npm:^17.2.4"
-  peerDependencies:
-    react: ^16.13.1 || ^17.0.0
-  languageName: unknown
-  linkType: soft
-
-"backstage-plugin-cncf2-react@workspace:plugins/cncf2-react":
-  version: 0.0.0-use.local
-  resolution: "backstage-plugin-cncf2-react@workspace:plugins/cncf2-react"
-  dependencies:
-    "@backstage/cli": "npm:^0.23.0"
-    "@backstage/core-plugin-api": "npm:^1.7.0"
-    "@backstage/test-utils": "npm:^1.4.4"
-    "@material-ui/core": "npm:^4.12.2"
-    "@testing-library/jest-dom": "npm:^5.10.1"
-    "@testing-library/react": "npm:^12.1.3"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
   languageName: unknown
@@ -12205,6 +12206,15 @@ __metadata:
   dependencies:
     "@backstage/cli": "npm:^0.23.0"
     landscape3-eslint-rules: "npm:0.1.0"
+  languageName: unknown
+  linkType: soft
+
+"cncf-entity@workspace:packages/cncf-entity":
+  version: 0.0.0-use.local
+  resolution: "cncf-entity@workspace:packages/cncf-entity"
+  dependencies:
+    "@backstage/cli": "npm:^0.23.0"
+    "@testing-library/jest-dom": "npm:^5.10.1"
   languageName: unknown
   linkType: soft
 

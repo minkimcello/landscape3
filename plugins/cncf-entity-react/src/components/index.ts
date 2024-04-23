@@ -3,3 +3,7 @@
 // which components are public API and should be exported from the package.
 
 export * from './ExampleComponent';
+export * from './ProjectAuditsCard';
+export * from './ProjectGeneralCard';
+export * from './ProjectMaturityCard';
+export * from './ProjectSummaryCard';
