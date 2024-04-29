@@ -17,7 +17,7 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import { CategoryStats, StatsProjectMaturityBreakdown } from 'cncf-common';
 import { StyledPieChart } from '../Charts/StyledPieChart';
 
-const ChartByCategory = ({stats}: {stats: CategoryStats}) => {
+const ChartByCategory = ({ stats }: {stats: CategoryStats}) => {
   const { subcategoryBreakdown, categoryBreakdown } = stats;
   return (
     <Card>
@@ -27,22 +27,22 @@ const ChartByCategory = ({stats}: {stats: CategoryStats}) => {
           <Accordion key={category}>
             <AccordionSummary
               expandIcon={<ExpandMore/>}
-              style={{fontSize:16, fontWeight:'bold'}}
+              style={{ fontSize:16, fontWeight:'bold' }}
             >
               <Grid container justifyContent='space-between' alignItems='center'>
                 <Grid item>{category}</Grid>
                 <Grid item>{categoryBreakdown[category]}</Grid>
               </Grid>
             </AccordionSummary>
-            <AccordionDetails style={{backgroundColor:"#f0f0f0", fontSize:16, fontWeight:'bold'}}>
+            <AccordionDetails style={{ backgroundColor:"#f0f0f0", fontSize:16, fontWeight:'bold' }}>
               <TableContainer component={Paper}>
                 <Table>
                   <TableBody>
                     {Object.entries(subcategoryBreakdown[category]).map(
                       ([subcategory, count]) => (
                         <TableRow key={subcategory}>
-                          <TableCell style={{fontWeight: 'bold'}}>{subcategory}</TableCell>
-                          <TableCell style={{fontWeight: 'bold'}}>{count}</TableCell>
+                          <TableCell style={{ fontWeight: 'bold' }}>{subcategory}</TableCell>
+                          <TableCell style={{ fontWeight: 'bold' }}>{count}</TableCell>
                         </TableRow>
                       )
                     )}
@@ -52,7 +52,7 @@ const ChartByCategory = ({stats}: {stats: CategoryStats}) => {
             </AccordionDetails>
           </Accordion>
         ))}
-        <Grid container justifyContent='space-between' alignItems='center' style={{padding:'14px'}}>
+        <Grid container justifyContent='space-between' alignItems='center' style={{ padding:'14px' }}>
           <Typography variant="h6">Total</Typography>
           <Typography variant="h6">{stats.count}</Typography>
         </Grid>
@@ -61,7 +61,7 @@ const ChartByCategory = ({stats}: {stats: CategoryStats}) => {
   )
 };
 
-const ChartByMaturity = ({stats, count}: {
+const ChartByMaturity = ({ stats, count }: {
   stats: StatsProjectMaturityBreakdown,
   count: number,
 }) => {
@@ -80,7 +80,7 @@ interface ProjectsProps {
   maturityStats: StatsProjectMaturityBreakdown;
 }
 
-export const Projects = ({ projectStats, maturityStats}: ProjectsProps) => (
+export const Projects = ({ projectStats, maturityStats }: ProjectsProps) => (
   <Grid container>
     <Grid item> <ChartByMaturity stats={maturityStats} count={projectStats.count}/> </Grid>
     <Grid item> <ChartByCategory stats={projectStats}/> </Grid>

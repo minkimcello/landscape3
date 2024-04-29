@@ -2,7 +2,6 @@ import React, { PropsWithChildren } from 'react';
 import { makeStyles } from '@mui/styles';
 import HomeIcon from '@mui/icons-material/Home';
 import LibraryBooks from '@mui/icons-material/LibraryBooks';
-import CreateComponentIcon from '@mui/icons-material/AddCircleOutline';
 import ChartIcon from '@mui/icons-material/Assessment';
 import LogoFull from './LogoFull';
 import LogoIcon from './LogoIcon';
@@ -28,6 +27,7 @@ const useSidebarLogoStyles = makeStyles({
     flexFlow: 'row nowrap',
     alignItems: 'center',
     marginBottom: -14,
+    marginLeft: 24,
   },
   link: {
     width: sidebarConfig.drawerWidthClosed,
@@ -61,7 +61,6 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
         <SidebarItem icon={() => <HomeIcon />} to="catalog" text="Home" />
         <SidebarItem icon={() => <ChartIcon />} to="stats" text="Stats" />
         <SidebarItem icon={() => <LibraryBooks />} to="docs" text="Docs" />
-        <SidebarItem icon={() => <CreateComponentIcon />} to="create" text="Create..." />
         {/* End global nav */}
       </SidebarGroup>
     </Sidebar>

@@ -3,10 +3,8 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import {
   EntityApiDefinitionCard,
-  EntityConsumedApisCard,
   EntityConsumingComponentsCard,
   EntityHasApisCard,
-  EntityProvidedApisCard,
   EntityProvidingComponentsCard,
 } from '@backstage/plugin-api-docs';
 import {
@@ -15,7 +13,6 @@ import {
   EntityDependsOnResourcesCard,
   EntityHasComponentsCard,
   EntityHasResourcesCard,
-  EntityHasSubcomponentsCard,
   EntityHasSystemsCard,
   EntityLayout,
   EntityLinksCard,
@@ -58,6 +55,13 @@ import {
 
 import { TechDocsAddons } from '@backstage/plugin-techdocs-react';
 import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
+
+import {
+  ProjectAuditsCard,
+  ProjectGeneralCard,
+  ProjectMaturityCard,
+  ProjectSummaryCard,
+} from 'backstage-plugin-cncf-entity-react'
 
 const techdocsContent = (
   <EntityTechdocsContent>
@@ -125,56 +129,35 @@ const entityWarningContent = (
 const overviewContent = (
   <Grid container spacing={3} alignItems="stretch">
     {entityWarningContent}
-    <Grid item md={6}>
+    {/* <Grid item md={6}>
+      use as reference
       <EntityAboutCard variant="gridItem" />
-    </Grid>
-    <Grid item md={6} xs={12}>
-      <EntityCatalogGraphCard variant="gridItem" height={400} />
-    </Grid>
-
+    </Grid> */}
     <Grid item md={4} xs={12}>
       <EntityLinksCard />
+      {/* include all URLs in landscape script */}
     </Grid>
-    <Grid item md={8} xs={12}>
-      <EntityHasSubcomponentsCard variant="gridItem" />
+    <Grid item md={6}>
+      <ProjectGeneralCard />
+    </Grid>
+    <Grid item md={6}>
+      <ProjectMaturityCard />
+    </Grid>
+    <Grid item md={6}>
+      <ProjectAuditsCard />
+    </Grid>
+    <Grid item md={6}>
+      <ProjectSummaryCard />
     </Grid>
   </Grid>
 );
 
 const serviceEntityPage = (
-  <EntityLayout>
+  <EntityLayout 
+    UNSTABLE_contextMenuOptions={{ disableUnregister: true }}
+  >
     <EntityLayout.Route path="/" title="Overview">
       {overviewContent}
-    </EntityLayout.Route>
-
-    <EntityLayout.Route path="/ci-cd" title="CI/CD">
-      {cicdContent}
-    </EntityLayout.Route>
-
-    <EntityLayout.Route path="/api" title="API">
-      <Grid container spacing={3} alignItems="stretch">
-        <Grid item md={6}>
-          <EntityProvidedApisCard />
-        </Grid>
-        <Grid item md={6}>
-          <EntityConsumedApisCard />
-        </Grid>
-      </Grid>
-    </EntityLayout.Route>
-
-    <EntityLayout.Route path="/dependencies" title="Dependencies">
-      <Grid container spacing={3} alignItems="stretch">
-        <Grid item md={6}>
-          <EntityDependsOnComponentsCard variant="gridItem" />
-        </Grid>
-        <Grid item md={6}>
-          <EntityDependsOnResourcesCard variant="gridItem" />
-        </Grid>
-      </Grid>
-    </EntityLayout.Route>
-
-    <EntityLayout.Route path="/docs" title="Docs">
-      {techdocsContent}
     </EntityLayout.Route>
   </EntityLayout>
 );
