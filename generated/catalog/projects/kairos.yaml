@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kairos
+  links:
+    - title: Homepage
+      url: https://kairos.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/Kairos_OSS
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/archives/C0707M8UEU8
+  tags:
+    - security
+    - go
+    - devops
+    - devsecops
+    - container
+    - cloudnative
+    - kubernetes
+    - runtime
+    - kubernetes
+    - baremetal
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kairos-io/kairos
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-04-13
+  category: Wasm
+  subcategory: Edge/Bare metal
+  status: sandbox
+  logo: kairos.svg
+  maturity:
+    sandbox_date: 2024-04-13

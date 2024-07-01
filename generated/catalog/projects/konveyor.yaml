@@ -18,7 +18,7 @@ metadata:
     - replatform
     - refactor
   annotations:
-    backstage.io/source-location: $url:https://github.com/konveyor/tackle2-operator
+    backstage.io/source-location: $url:https://github.com/konveyor/operator
 spec:
   type: service
   lifecycle: production

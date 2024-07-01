@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Radius
+  description: Radius is a cloud-native application platform that enables
+    developers and the platform engineers that support them to collaborate on
+    delivering and managing cloud-native applications that follow organizational
+    best practices for cost, operations and security, by default.
+  links:
+    - title: Homepage
+      url: https://radapp.io/
+    - title: Crunchbase
+    - title: Twitter
+      url: https://twitter.com/radapp_io
+  annotations:
+    backstage.io/source-location: $url:https://github.com/radius-project/radius
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-04-16
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: radius.svg
+  maturity:
+    sandbox_date: 2024-04-16

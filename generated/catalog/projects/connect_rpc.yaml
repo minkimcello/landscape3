@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Connect-RPC
+  description: Connect is a family of libraries for building browser and
+    gRPC-compatible HTTP APIs.
+  links:
+    - title: Homepage
+      url: https://connectrpc.com/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/buf-technologies
+    - title: Twitter
+      url: https://twitter.com/connectrpc
+  annotations:
+    backstage.io/source-location: $url:https://github.com/connectrpc/connect-go
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-04-13
+  category: Orchestration & Management
+  subcategory: Remote Procedure Call
+  status: sandbox
+  logo: connect-rpc.svg
+  maturity:
+    sandbox_date: 2024-04-13
