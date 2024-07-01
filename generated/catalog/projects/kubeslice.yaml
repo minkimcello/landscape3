@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KubeSlice
+  links:
+    - title: Homepage
+      url: https://kubeslice.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kubeslice
+    - title: Slack/Discord
+      url: http://slack.k8s.io/
+  tags:
+    - kubeslice
+    - networking
+    - multicloud
+    - multicluster
+    - servicemesh
+    - controlplane
+    - multitenancy
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kubeslice/kubeslice
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-04-16
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: kubeslice.svg
+  maturity:
+    sandbox_date: 2024-04-16

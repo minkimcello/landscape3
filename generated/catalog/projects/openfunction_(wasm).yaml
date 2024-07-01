@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenFunction-Wasm
+  links:
+    - title: Homepage
+      url: https://openfunction.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/openfunctiondev
+  annotations:
+    backstage.io/source-location: $url:https://github.com/OpenFunction/OpenFunction
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  category: Wasm
+  subcategory: Embedded Functions
+  status: sandbox
+  logo: openfunction.svg
+  maturity: {}

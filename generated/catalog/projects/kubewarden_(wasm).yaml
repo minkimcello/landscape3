@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubewarden-Wasm
+  links:
+    - title: Homepage
+      url: https://www.kubewarden.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/kubewarden
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kubewarden/kubewarden-controller
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  category: Wasm
+  subcategory: Embedded Functions
+  status: sandbox
+  logo: kubewarden.svg
+  maturity: {}

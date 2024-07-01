@@ -20,8 +20,8 @@ spec:
   lifecycle: production
   owner: CNCF
   accepted: 2016-03-10
-  category: Orchestration & Management
-  subcategory: Scheduling & Orchestration
+  category: CNAI
+  subcategory: General Orchestration
   status: graduated
   logo: kubernetes.svg
   maturity:

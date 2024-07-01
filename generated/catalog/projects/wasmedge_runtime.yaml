@@ -4,7 +4,7 @@ metadata:
   name: WasmEdge-Runtime
   links:
     - title: Homepage
-      url: https://wasmedge.org/
+      url: https://llamaedge.com/docs/intro/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
     - title: Twitter
@@ -27,8 +27,8 @@ spec:
   lifecycle: production
   owner: CNCF
   accepted: 2021-04-28
-  category: Runtime
-  subcategory: Container Runtime
+  category: CNAI
+  subcategory: ML Serving
   status: sandbox
   logo: wasmedge.svg
   maturity:

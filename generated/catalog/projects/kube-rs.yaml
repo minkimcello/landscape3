@@ -12,7 +12,7 @@ metadata:
     - title: Slack/Discord
       url: https://discord.gg/tokio
   annotations:
-    backstage.io/source-location: $url:https://github.com/kube-rs/kube-rs
+    backstage.io/source-location: $url:https://github.com/kube-rs/kube
 spec:
   type: service
   lifecycle: production

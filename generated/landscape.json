@@ -236,6 +236,15 @@
             },
             {
               "item": null,
+              "name": "Kosko",
+              "description": "Kosko can help you organize your Kubernetes manifests in TypeScript, manage multiple environments, ensure type safety using OpenAPI schema, and find issues in your manifests.",
+              "homepage_url": "https://kosko.dev",
+              "repo_url": "https://github.com/tommy351/kosko",
+              "logo": "kosko.svg",
+              "twitter": "https://x.com/kosko_k8s"
+            },
+            {
+              "item": null,
               "name": "kpt",
               "homepage_url": "https://kpt.dev",
               "project": "sandbox",
@@ -342,7 +351,7 @@
               "name": "MAAS",
               "description": "Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu on real servers turns your data center into a bare-metal cloud.",
               "homepage_url": "https://maas.io/",
-              "repo_url": "https://github.com/maas/maas",
+              "repo_url": "https://github.com/canonical/maas",
               "logo": "maas.svg",
               "crunchbase": "https://www.crunchbase.com/organization/canonical-ltd"
             },
@@ -661,9 +670,7 @@
                 "accepted": "2018-07-31",
                 "incubating": "2018-11-14",
                 "graduated": "2020-06-15",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-app-delivery"
-                ],
+                "tag": "app-delivery",
                 "dev_stats_url": "https://harbor.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/incubating.md#harbor-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/harbor",
@@ -841,7 +848,7 @@
             {
               "item": null,
               "name": "Bloombase",
-              "description": "Bloombase is an intelligent storage firewall company providing AI-accelerated security and PQC encryption of high-bandwidth, low-latency data cloud  from edge computing, physical/virtual datacenters, through HCI and CDI, to the cloud.",
+              "description": "Bloombase is an intelligent storage firewall company providing AI-accelerated security and PQC encryption of high-bandwidth, low-latency data cloud from edge computing, physical/virtual datacenters, through HCI and CDI, to the cloud.",
               "homepage_url": "https://www.bloombase.com",
               "logo": "bloombase.svg",
               "crunchbase": "https://www.crunchbase.com/organization/bloombase"
@@ -859,6 +866,15 @@
                 "youtube_url": "https://www.youtube.com/KeyfactorCommunity/",
                 "github_discussions_url": "https://github.com/bcgit/bc-java/discussions"
               }
+            },
+            {
+              "item": null,
+              "name": "Boundary",
+              "description": "Boundary is designed to grant access to critical systems using the principle of least privilege, solving challenges organizations encounter when users need to securely access applications and machines.",
+              "homepage_url": "https://www.boundaryproject.io/",
+              "repo_url": "https://github.com/hashicorp/boundary",
+              "logo": "Hashicorp-Boundary.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/hashicorp"
             },
             {
               "item": null,
@@ -1008,7 +1024,7 @@
                 "artwork_url": "https://github.com/cncf/artwork/tree/main/projects/copa",
                 "slack_url": "https://cloud-native.slack.com/",
                 "chat_channel": "#copa",
-                "clomonitor_name": "copa"
+                "clomonitor_name": "copacetic"
               }
             },
             {
@@ -1579,9 +1595,7 @@
                 "accepted": "2018-03-29",
                 "incubating": "2019-04-02",
                 "graduated": "2021-01-29",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-security"
-                ],
+                "tag": "security",
                 "dev_stats_url": "https://opa.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos",
                 "blog_url": "https://blog.openpolicyagent.org/",
@@ -1847,7 +1861,8 @@
                 "accepted": "2023-05-17",
                 "dev_stats_url": "https://slimtoolkit.devstats.cncf.io/",
                 "slack_url": "https://cloud-native.slack.com/",
-                "chat_channel": "#slim-toolkit"
+                "chat_channel": "#slim-toolkit",
+                "clomonitor_name": "slimtoolkit"
               }
             },
             {
@@ -1934,6 +1949,14 @@
             },
             {
               "item": null,
+              "name": "Teleport",
+              "homepage_url": "https://goteleport.com",
+              "repo_url": "https://github.com/gravitational/teleport",
+              "logo": "teleport.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/gravitational"
+            },
+            {
+              "item": null,
               "name": "Tensor Security",
               "description": "Tensor Security is a cloud-native security company focused on providing AI-based and full-stack cloud-native security solutions.",
               "homepage_url": "https://www.tensorsecurity.cn",
@@ -1983,9 +2006,7 @@
                 "accepted": "2017-10-24",
                 "incubating": "2017-10-24",
                 "graduated": "2019-12-18",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-security"
-                ],
+                "tag": "security",
                 "dev_stats_url": "https://tuf.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/incubating.md#tuf-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/the-update-framework",
@@ -2027,6 +2048,16 @@
               "extra": {
                 "slack_url": "https://www.aserto.com/slack"
               }
+            },
+            {
+              "item": null,
+              "name": "Tracee",
+              "description": "Tracee helps you understand your systems and applications behavior, and apply runtime security to them. It uses Linux eBPF technology and strong security techniques to instrument the system and expose relevant events for you to consume and process.",
+              "repo_url": "https://github.com/aquasecurity/tracee",
+              "logo": "tracee.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/aquasecurity",
+              "twitter": "https://x.com/aquatracee",
+              "homepage_url": "https://aquasecurity.github.io/tracee/latest/"
             },
             {
               "item": null,
@@ -2181,9 +2212,7 @@
                 "accepted": "2018-03-29",
                 "incubating": "2020-06-22",
                 "graduated": "2022-08-23",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-security"
-                ],
+                "tag": "security",
                 "dev_stats_url": "https://spiffe.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spiffe-logos",
                 "blog_url": "https://blog.spiffe.io/",
@@ -2212,9 +2241,7 @@
                 "accepted": "2018-03-29",
                 "incubating": "2020-06-22",
                 "graduated": "2022-08-22",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-security"
-                ],
+                "tag": "security",
                 "dev_stats_url": "https://spire.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spire-logos",
                 "slack_url": "https://slack.spiffe.io/",
@@ -2245,14 +2272,6 @@
               "logo": "sso.svg",
               "twitter": "https://twitter.com/buzzfeedexp",
               "crunchbase": "https://www.crunchbase.com/organization/buzzfeed"
-            },
-            {
-              "item": null,
-              "name": "Teleport",
-              "homepage_url": "https://goteleport.com",
-              "repo_url": "https://github.com/gravitational/teleport",
-              "logo": "teleport.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/gravitational"
             },
             {
               "item": null,
@@ -2545,7 +2564,8 @@
                 "accepted": "2023-06-22",
                 "dev_stats_url": "https://hwameistor.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/tree/master/projects/hwameistor",
-                "slack_url": "https://cloud-native.slack.com/messages/hwameistor"
+                "slack_url": "https://cloud-native.slack.com/messages/hwameistor",
+                "clomonitor_name": "hwameistor"
               }
             },
             {
@@ -2728,8 +2748,7 @@
                 "dev_stats_url": "https://openebs.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#openebs-logos",
                 "slack_url": "https://cloud-native.slack.com/archives/CSL0PJ8GN",
-                "youtube_url": "https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g",
-                "clomonitor_name": "openebs"
+                "youtube_url": "https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g"
               }
             },
             {
@@ -2842,9 +2861,7 @@
                 "accepted": "2018-01-29",
                 "incubating": "2018-09-25",
                 "graduated": "2020-10-07",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-storage"
-                ],
+                "tag": "storage",
                 "dev_stats_url": "https://rook.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/incubating.md#rook-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/rook",
@@ -3045,9 +3062,7 @@
                 "accepted": "2017-03-29",
                 "incubating": "2017-03-29",
                 "graduated": "2019-02-28",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-runtime"
-                ],
+                "tag": "runtime",
                 "dev_stats_url": "https://containerd.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#containerd-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/containerd",
@@ -3077,9 +3092,7 @@
                 "accepted": "2019-04-08",
                 "incubating": "2019-04-08",
                 "graduated": "2023-07-19",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-runtime"
-                ],
+                "tag": "runtime",
                 "dev_stats_url": "https://crio.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/incubating.md#cri-o-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/cri-o",
@@ -3184,7 +3197,8 @@
                 "accepted": "2023-12-19",
                 "youtube_url": "https://www.youtube.com/channel/UCm796d5_CMipZGrdFskbp2g",
                 "slack_url": "https://slack.cncf.io/",
-                "chat_channel": "#kuasar"
+                "chat_channel": "#kuasar",
+                "clomonitor_name": "kuasar"
               }
             },
             {
@@ -3533,7 +3547,8 @@
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
                 "accepted": "2021-06-26",
-                "dev_stats_url": "https://kubevip.devstats.cncf.io/"
+                "dev_stats_url": "https://kubevip.devstats.cncf.io/",
+                "clomonitor_name": "kube-vip"
               }
             },
             {
@@ -3854,7 +3869,8 @@
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
                 "accepted": "2023-06-30",
-                "dev_stats_url": "https://eraser.devstats.cncf.io/"
+                "dev_stats_url": "https://eraser.devstats.cncf.io/",
+                "clomonitor_name": "eraser"
               }
             },
             {
@@ -3934,7 +3950,8 @@
                 "mailing_list_url": "https://groups.google.com/g/kcp-dev",
                 "accepted": "2023-09-19",
                 "devstats": "https://kcp.devstats.cncf.io/",
-                "summary_tags": "kcp,cloud,orchestration,control-plane,multitenancy"
+                "summary_tags": "kcp,cloud,orchestration,control-plane,multitenancy",
+                "clomonitor_name": "kcp"
               }
             },
             {
@@ -4055,7 +4072,7 @@
               "description": "kube-rs is the core Rust ecosystem for building applications against Kubernetes",
               "homepage_url": "https://kube.rs",
               "project": "sandbox",
-              "repo_url": "https://github.com/kube-rs/kube-rs",
+              "repo_url": "https://github.com/kube-rs/kube",
               "logo": "kube-rs.svg",
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
@@ -4080,6 +4097,15 @@
             },
             {
               "item": null,
+              "name": "Godel-Scheduler",
+              "description": "Godel-Scheduler is a unified scheduler for both online and offline tasks.",
+              "homepage_url": "https://github.com/kubewharf/godel-scheduler",
+              "repo_url": "https://github.com/kubewharf/godel-scheduler",
+              "logo": "godel-scheduler.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/bytedance"
+            },
+            {
+              "item": null,
               "name": "Kubeflow",
               "description": "The Kubeflow project is dedicated to making deployments of machine learning workflows on Kubernetes simple, portable and scalable by providing a straightforward way to deploy best-of-breed open-source systems for ML to diverse infrastructures.",
               "homepage_url": "https://kubeflow.org",
@@ -4094,7 +4120,8 @@
                 "blog_url": "https://blog.kubeflow.org",
                 "slack_url": "https://kubeflow.slack.com",
                 "mailing_list_url": "https://groups.google.com/g/kubeflow-discuss",
-                "dev_stats_url": "https://kubeflow.devstats.cncf.io/"
+                "dev_stats_url": "https://kubeflow.devstats.cncf.io/",
+                "clomonitor_name": "kubeflow"
               }
             },
             {
@@ -4112,9 +4139,7 @@
                 "accepted": "2016-03-10",
                 "incubating": "2016-03-10",
                 "graduated": "2018-03-06",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-runtime"
-                ],
+                "tag": "runtime",
                 "dev_stats_url": "https://k8s.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#kubernetes-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/kubernetes",
@@ -4141,6 +4166,29 @@
             },
             {
               "item": null,
+              "name": "KubeSlice",
+              "homepage_url": "https://kubeslice.io",
+              "project": "sandbox",
+              "repo_url": "https://github.com/kubeslice/kubeslice",
+              "project_org": "https://github.com/kubeslice",
+              "logo": "kubeslice.svg",
+              "open_source": true,
+              "twitter": "https://twitter.com/kubeslice",
+              "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
+              "allow_duplicate_repo": true,
+              "extra": {
+                "chat_channel": "#kubeslice",
+                "slack_url": "http://slack.k8s.io/",
+                "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubeslice-logos",
+                "mailing_list_url": "https://groups.google.com/g/kubeslice-dev",
+                "accepted": "2024-04-16",
+                "devstats": "https://kubeslice.devstats.cncf.io/",
+                "summary_tags": "kubeslice,networking,multi-cloud,multi-cluster,service mesh,control-plane,multitenancy",
+                "clomonitor_name": "kubeslice"
+              }
+            },
+            {
+              "item": null,
               "name": "KubeStellar",
               "homepage_url": "https://kubestellar.io",
               "project": "sandbox",
@@ -4158,7 +4206,8 @@
                 "mailing_list_url": "https://groups.google.com/g/kubestellar-dev",
                 "accepted": "2023-12-19",
                 "devstats": "https://kubestellar.devstats.cncf.io/",
-                "summary_tags": "kubestellar,cloud,orchestration,control-plane,multitenancy"
+                "summary_tags": "kubestellar,cloud,orchestration,control-plane,multitenancy",
+                "clomonitor_name": "kubestellar"
               }
             },
             {
@@ -4384,9 +4433,7 @@
                 "accepted": "2017-02-27",
                 "incubating": "2018-02-26",
                 "graduated": "2019-01-24",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-network"
-                ],
+                "tag": "network",
                 "dev_stats_url": "https://coredns.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#coredns-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/coredns",
@@ -4418,9 +4465,7 @@
                 "accepted": "2018-12-11",
                 "incubating": "2018-12-11",
                 "graduated": "2020-11-24",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-storage"
-                ],
+                "tag": "storage",
                 "dev_stats_url": "https://etcd.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#etcd-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/etcd",
@@ -4622,6 +4667,25 @@
             },
             {
               "item": null,
+              "name": "Connect RPC",
+              "description": "Connect is a family of libraries for building browser and gRPC-compatible HTTP APIs.",
+              "homepage_url": "https://connectrpc.com/",
+              "project": "sandbox",
+              "repo_url": "https://github.com/connectrpc/connect-go",
+              "logo": "connect-rpc.svg",
+              "twitter": "https://twitter.com/connectrpc",
+              "crunchbase": "https://www.crunchbase.com/organization/buf-technologies",
+              "extra": {
+                "accepted": "2024-04-13",
+                "tag": "network",
+                "dev_stats_url": "https://connect.devstats.cncf.io",
+                "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#connect-rpc-logos",
+                "blog_url": "https://buf.build/blog",
+                "clomonitor_name": "connect-rpc"
+              }
+            },
+            {
+              "item": null,
               "name": "kratos",
               "description": "Kratos is a microservice-oriented governance framework implements by golang, which offers convenient capabilities to help you quickly build a bulletproof application from scratch.",
               "homepage_url": "https://go-kratos.dev/",
@@ -4748,9 +4812,7 @@
                 "accepted": "2017-09-13",
                 "incubating": "2017-09-13",
                 "graduated": "2018-11-28",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-network"
-                ],
+                "tag": "network",
                 "dev_stats_url": "https://envoy.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/envoyproxy",
@@ -4811,7 +4873,8 @@
                 "annual_review_date": "2022-10-12",
                 "slack_url": "https://slack.k8s.io/",
                 "chat_channel": "#metallb",
-                "dev_stats_url": "https://metallb.devstats.cncf.io/"
+                "dev_stats_url": "https://metallb.devstats.cncf.io/",
+                "clomonitor_name": "metallb"
               }
             },
             {
@@ -4989,12 +5052,13 @@
               "name": "Easegress",
               "homepage_url": "https://megaease.com/easegress",
               "project": "sandbox",
-              "repo_url": "https://github.com/megaease/easegress",
+              "repo_url": "https://github.com/easegress-io/easegress",
               "logo": "easegress.svg",
               "twitter": "https://twitter.com/megaease",
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
-                "accepted": "2023-12-19"
+                "accepted": "2023-12-19",
+                "clomonitor_name": "easegress"
               }
             },
             {
@@ -5256,9 +5320,7 @@
                 "accepted": "2022-09-30",
                 "incubating": "2022-09-30",
                 "graduated": "2023-07-12",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-network"
-                ],
+                "tag": "network",
                 "dev_stats_url": "https://istio.devstats.cncf.io/",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/istio",
                 "blog_url": "https://istio.io/blog/",
@@ -5280,6 +5342,21 @@
                     "vendor": "ADA Logics"
                   }
                 ]
+              }
+            },
+            {
+              "item": null,
+              "name": "Kmesh",
+              "description": "Kmesh is a high-performance and low overhead service mesh data plane based on eBPF and programmable kernel. Kmesh brings traffic management, security and monitoring to service communication without needing application code changes. It is natively sidecarless, zero intrusion and without adding any resource cost to application container.",
+              "homepage_url": "https://kmesh.net",
+              "repo_url": "https://github.com/kmesh-net/kmesh",
+              "logo": "kmesh.svg",
+              "twitter": "https://twitter.com/Kmesh_net",
+              "crunchbase": "https://www.crunchbase.com/organization/huawei",
+              "extra": {
+                "youtube_url": "https://www.youtube.com/channel/UC-ToQ9h0SR_w492PpIfZAGw",
+                "slack_url": "https://slack.cncf.io/",
+                "chat_channel": "#kmesh"
               }
             },
             {
@@ -5320,9 +5397,7 @@
                 "accepted": "2017-01-23",
                 "incubating": "2018-04-06",
                 "graduated": "2021-07-28",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-network"
-                ],
+                "tag": "network",
                 "dev_stats_url": "https://linkerd.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/incubating.md#linkerd-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/linkerd",
@@ -5408,8 +5483,7 @@
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-service-mesh-logos",
                 "blog_url": "https://openservicemesh.io/blog/",
                 "mailing_list_url": "https://groups.google.com/g/openservicemesh",
-                "slack_url": "https://cloud-native.slack.com/messages/openservicemesh",
-                "clomonitor_name": "osm"
+                "slack_url": "https://cloud-native.slack.com/messages/openservicemesh"
               }
             },
             {
@@ -5444,8 +5518,7 @@
                 "accepted": "2020-03-19",
                 "archived": "2023-09-25",
                 "annual_review_url": "https://github.com/cncf/toc/pull/833",
-                "annual_review_date": "2022-05-04",
-                "clomonitor_name": "smi"
+                "annual_review_date": "2022-05-04"
               }
             },
             {
@@ -5773,7 +5846,7 @@
               "item": null,
               "name": "KubeDB by AppsCode",
               "homepage_url": "https://kubedb.com",
-              "repo_url": "https://github.com/kubedb/operator",
+              "repo_url": "https://github.com/kubedb/docs",
               "logo": "kube-db-by-apps-code.svg",
               "open_source": false,
               "twitter": "https://twitter.com/kubedb",
@@ -6002,7 +6075,7 @@
               "item": null,
               "name": "Scylla",
               "homepage_url": "https://www.scylladb.com/",
-              "repo_url": "https://github.com/scylladb/scylla",
+              "repo_url": "https://github.com/scylladb/scylladb",
               "logo": "scylla.svg",
               "twitter": "https://twitter.com/ScyllaDB",
               "crunchbase": "https://www.crunchbase.com/organization/scylladb"
@@ -6010,8 +6083,8 @@
             {
               "item": null,
               "name": "Seata",
-              "homepage_url": "https://seata.io/en-us",
-              "repo_url": "https://github.com/seata/seata",
+              "homepage_url": "https://seata.apache.org",
+              "repo_url": "https://github.com/apache/incubator-seata",
               "logo": "seata.svg",
               "twitter": "https://twitter.com/seataio",
               "crunchbase": "https://www.crunchbase.com/organization/ant-financial"
@@ -6127,9 +6200,7 @@
                 "accepted": "2018-08-28",
                 "incubating": "2018-08-28",
                 "graduated": "2020-09-02",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-storage"
-                ],
+                "tag": "storage",
                 "dev_stats_url": "https://tikv.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#tikv-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/tikv",
@@ -6258,9 +6329,7 @@
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/vitess",
                 "blog_url": "https://vitess.io/blog/",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-storage"
-                ],
+                "tag": "storage",
                 "mailing_list_url": "https://lists.cncf.io/g/cncf-vitess-users",
                 "summary_personas": "Infrastructure teams",
                 "summary_tags": "Scalable, reliable, MySQL, distributed, cloud-native, kubernetes, cloud, database",
@@ -6305,9 +6374,9 @@
               "item": null,
               "name": "Weaviate",
               "homepage_url": "https://weaviate.io/developers/weaviate/current/index.html",
-              "repo_url": "https://github.com/semi-technologies/weaviate",
+              "repo_url": "https://github.com/weaviate/weaviate",
               "logo": "weaviate.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/semi-technologies",
+              "crunchbase": "https://www.crunchbase.com/organization/weaviate",
               "extra": {
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/weaviate",
                 "blog_url": "https://medium.com/semi-technologies",
@@ -6476,6 +6545,7 @@
                 "accepted": "2018-05-15",
                 "incubating": "2019-10-24",
                 "graduated": "2024-01-25",
+                "specification": true,
                 "dev_stats_url": "https://cloudevents.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cloudevents-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/cloudevents",
@@ -6594,7 +6664,7 @@
               "item": null,
               "name": "Memphis",
               "homepage_url": "https://memphis.dev",
-              "repo_url": "https://github.com/memphisdev/memphis-broker",
+              "repo_url": "https://github.com/memphisdev/memphis",
               "url_for_bestpractices": "https://github.com/memphisdev",
               "logo": "memphis.svg",
               "crunchbase": "https://www.crunchbase.com/organization/memphis-dev",
@@ -6770,7 +6840,7 @@
               "item": null,
               "name": "SeaTunnel",
               "homepage_url": "https://seatunnel.apache.org/",
-              "repo_url": "https://github.com/apache/incubator-seatunnel",
+              "repo_url": "https://github.com/apache/seatunnel",
               "logo": "seatunnel.svg",
               "twitter": "https://twitter.com/ASFSeaTunnel",
               "crunchbase": "https://www.crunchbase.com/organization/apache"
@@ -6858,12 +6928,23 @@
               "extra": {
                 "summary_personas": "Developers, Cloud Architects, Platform engineers, SREs, Network Engineers, Application Developers, Architects",
                 "summary_tags": "Developer APIs, Distributed Systems, Streaming Data, PubSub, Microservices, HTTP, gRPC, Python, C++, CLI, observability, metrics, tracing, logs",
-                "summary_use_case": "userver solves the problem of efficient I/O interactions transparently for the developers. As a result, with the framework you get straightforward source code, avoid CPU-consuming context switches from OS, efficiently utilize the CPU with a small amount of execution threads.\nContains efficient asynchronous drivers for databases (MongoDB, PostgreSQL, Redis, ClickHouse, MySQL/MariaDB...); data transfer protocols (HTTP, gRPC, AMQP 0-9-1, TCP, TLS, WebSocket ...), tasks construction and cancellation; high-level components for caches, tasks, distributed locking, logging, tracing, statistics, metrics, JSON/YAML/BSON; functionality to change the service configuration on-the-fly; deadline propagation; timeouts; retires; congestion-control; pools autoscaling; comprehensive set of asynchronous low-level synchronization primitives and OS abstractions.",
+                "summary_use_case": "userver solves the problem of efficient I/O interactions transparently for the developers. As a result, with the framework you get straightforward source code, avoid CPU-consuming context switches from OS, efficiently utilize the CPU with a small amount of execution threads.\nContains efficient asynchronous drivers for databases (MongoDB, PostgreSQL, Redis, ClickHouse, YDB, MySQL/MariaDB...); data transfer protocols (HTTP, gRPC, AMQP 0-9-1, TCP, TLS, WebSocket ...), tasks construction and cancellation; high-level components for caches, tasks, distributed locking, logging, tracing, statistics, metrics, JSON/YAML/BSON; functionality to change the service configuration on-the-fly; deadline propagation; timeouts; retires; congestion-control; pools autoscaling; comprehensive set of asynchronous low-level synchronization primitives and OS abstractions.",
                 "summary_business_use_case": "Deliver reliable and efficient applications in a few lines of code. The framework provides APIs that hide away I/O callbacks complexity, leading to simple linear code that is easy to write and maintain. By using userver in your application, you adopt best practices of high avaialability servicecs without having to spend time solving common challenges like exponential backoff retry policies, deadline propagarions, metrics and tracings.",
-                "summary_integration": "Docker, Open Telemetry, gRPC, Prometheus, RabbitMQ, Redis, Graphite, MySQL, PostgreSQL, MongoDB, ClickHouse",
+                "summary_integration": "Docker, Open Telemetry, gRPC, Prometheus, RabbitMQ, Redis, Graphite, MySQL, PostgreSQL, MongoDB, ClickHouse, YDB, Apache Kafka",
                 "summary_intro_url": "https://youtu.be/WkcmNOmwAH8",
                 "clomonitor_name": "userver"
               }
+            },
+            {
+              "item": null,
+              "name": "AutoMQ",
+              "description": "AutoMQ is a cloud-native fork of Kafka by separating storage to S3. 10x cost-effective. Autoscale in seconds. Single-digit ms latency.",
+              "homepage_url": "https://www.automq.com",
+              "repo_url": "https://github.com/AutoMQ/automq",
+              "logo": "automq.svg",
+              "open_source": false,
+              "twitter": "https://twitter.com/AutoMQ_Lab",
+              "crunchbase": "https://www.crunchbase.com/organization/automq"
             }
           ]
         },
@@ -6881,14 +6962,15 @@
             {
               "item": null,
               "name": "Artifact Hub",
-              "homepage_url": "https://artifacthub.io/",
-              "project": "sandbox",
+              "homepage_url": "https://artifacthub.io",
+              "project": "incubating",
               "repo_url": "https://github.com/artifacthub/hub",
               "logo": "artifact-hub.svg",
               "twitter": "https://twitter.com/cncfartifacthub",
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
                 "accepted": "2020-06-25",
+                "incubating": "2024-05-30",
                 "annual_review_url": "https://github.com/cncf/toc/pull/681",
                 "annual_review_date": "2021-06-23",
                 "dev_stats_url": "https://artifacthub.devstats.cncf.io/",
@@ -7128,7 +7210,7 @@
               "item": null,
               "name": "Eclipse Che",
               "homepage_url": "https://www.eclipse.org/che/",
-              "repo_url": "https://github.com/eclipse/che",
+              "repo_url": "https://github.com/eclipse-che/che",
               "logo": "eclipseche.svg",
               "crunchbase": "https://www.crunchbase.com/organization/eclipse-che"
             },
@@ -7179,7 +7261,7 @@
             {
               "item": null,
               "name": "Gradle Build Tool",
-              "description": "Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation  and packaging to testing, deployment, and publishing. Supported languages include Java (Kotlin, Groovy, Scala), C/C++, and JavaScript.",
+              "description": "Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing. Supported languages include Java (Kotlin, Groovy, Scala), C/C++, and JavaScript.",
               "homepage_url": "https://gradle.org",
               "repo_url": "https://github.com/gradle/gradle",
               "logo": "gradle.svg",
@@ -7198,9 +7280,7 @@
                 "accepted": "2018-06-01",
                 "incubating": "2018-06-01",
                 "graduated": "2020-05-01",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-app-delivery"
-                ],
+                "tag": "app-delivery",
                 "dev_stats_url": "https://helm.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/main/examples/graduated.md",
                 "slack_url": "https://slack.k8s.io",
@@ -7230,6 +7310,14 @@
               "homepage_url": "https://itopia.com/itopia-spaces/",
               "logo": "itopia.svg",
               "crunchbase": "https://www.crunchbase.com/organization/itopia"
+            },
+            {
+              "item": null,
+              "name": "JReleaser",
+              "homepage_url": "https://jreleaser.org",
+              "repo_url": "https://github.com/jreleaser/jreleaser",
+              "logo": "jreleaser.svg",
+              "twitter": "https://twitter.com/jreleaser"
             },
             {
               "item": null,
@@ -7281,7 +7369,7 @@
               "name": "Konveyor",
               "homepage_url": "https://www.konveyor.io/",
               "project": "sandbox",
-              "repo_url": "https://github.com/konveyor/tackle2-operator",
+              "repo_url": "https://github.com/konveyor/operator",
               "logo": "Konveyor.svg",
               "twitter": "https://twitter.com/Konveyor_io",
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
@@ -7319,8 +7407,7 @@
                 "accepted": "2021-07-13",
                 "archived": "2024-01-31",
                 "dev_stats_url": "https://krator.devstats.cncf.io/",
-                "slack_url": "https://kubernetes.slack.com/messages/krator",
-                "clomonitor_name": "krator"
+                "slack_url": "https://kubernetes.slack.com/messages/krator"
               }
             },
             {
@@ -7393,6 +7480,15 @@
             },
             {
               "item": null,
+              "name": "KubeVPN",
+              "description": "KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects to your Kubernetes cluster network. Gain access to the Kubernetes cluster network effortlessly using service names or Pod IP/Service IP. Facilitate the interception of inbound traffic from remote Kubernetes cluster services to your local PC through a service mesh and more. For instance, you have the flexibility to run your Kubernetes pod within a local Docker container, ensuring an identical environment, volume, and network setup. With KubeVPN, empower yourself to develop applications entirely on your local PC!",
+              "homepage_url": "https://kubevpn.cn",
+              "repo_url": "https://github.com/kubenetworks/kubevpn",
+              "logo": "kubevpn.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation"
+            },
+            {
+              "item": null,
               "name": "KUDO",
               "homepage_url": "https://kudo.dev/",
               "project": "sandbox",
@@ -7459,8 +7555,14 @@
                 "mailing_list_url": "https://github.com/orgs/microcks/discussions",
                 "slack_url": "https://cloud-native.slack.com/messages/microcks",
                 "youtube_url": "https://youtube.com/c/Microcks",
-                "summary_personas": "Developers, Architects, API Owners, QA Testers",
-                "summary_tags": "api,mocking,testing,openapi,graphql,grpc,asyncapi"
+                "summary_personas": "API Owners, Developers, Architects, QA Testers, Quality Assurance Engineer, SREs, Platform Engineers, DevOps Engineer, DevOps practitioners",
+                "summary_tags": "API, mocking, testing, openapi, graphql, grpc, asyncapi",
+                "summary_use_case": "Microcks is a tool for mocking and testing your APIs and microservices. It leverages API standards to provide a uniform and multi-protocol approach for simulating complex distributed environments and validating service components in isolation.",
+                "summary_business_use_case": "Microcks facilitates rapid simulation generation, automated API testing, and seamless CI/CD integration, streamlining development and  deployment processes. Microcks empowers teams to optimize services and accelerate product releases, gaining a competitive edge.",
+                "summary_release_rate": "New release every 2 to 3 months.",
+                "summary_integrations": "Keycloak, Operator framework, Helm, Backstage.io, Tekton, CloudEvents, Prometheus, OpenTelemetry, Docker, Podman, Testcontainers",
+                "summary_intro_url": "https://www.youtube.com/watch?v=E8rjUwznO-Q",
+                "clomonitor_name": "microcks"
               }
             },
             {
@@ -7618,10 +7720,42 @@
             },
             {
               "item": null,
+              "name": "Radius",
+              "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+              "homepage_url": "https://radapp.io/",
+              "project": "sandbox",
+              "repo_url": "https://github.com/radius-project/radius",
+              "logo": "radius.svg",
+              "twitter": "https://twitter.com/radapp_io",
+              "extra": {
+                "accepted": "2024-04-16",
+                "blog_url": "https://blog.radapp.io/posts",
+                "youtube_url": "https://www.youtube.com/@radapp_io",
+                "dev_stats_url": "https://radius.devstats.cncf.io/",
+                "tag": "app-delivery",
+                "clomonitor_name": "radius"
+              }
+            },
+            {
+              "item": null,
               "name": "Raftt",
               "homepage_url": "https://www.raftt.io/",
               "logo": "raftt.svg",
               "crunchbase": "https://www.crunchbase.com/organization/raftt"
+            },
+            {
+              "item": null,
+              "name": "Rig.dev",
+              "homepage_url": "https://www.rig.dev/",
+              "logo": "rig.svg",
+              "twitter": "https://twitter.com/rig_dev",
+              "repo_url": "https://github.com/rigdev/rig",
+              "crunchbase": "https://www.crunchbase.com/organization/rig-dev",
+              "description": "Rig.dev is the DevEx- & Application Layer for your Platform Engineering stack. Simply install Rig  in your existing cluster and empower your developers with end-to-end application ownership without  battling the intricacies of Kubernetes, while allowing your platform team to fully customize it  and stay in control.",
+              "extra": {
+                "accepted": "2024-06-06",
+                "linkedin_url": "https://www.linkedin.com/company/rigdev/"
+              }
             },
             {
               "item": null,
@@ -7756,7 +7890,8 @@
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
                 "accepted": "2021-11-09",
-                "dev_stats_url": "https://vscodek8stools.devstats.cncf.io/"
+                "dev_stats_url": "https://vscodek8stools.devstats.cncf.io/",
+                "clomonitor_name": "vscode-kubernetes-tools"
               }
             },
             {
@@ -7827,9 +7962,7 @@
                 "accepted": "2020-03-26",
                 "incubating": "2020-03-26",
                 "graduated": "2022-12-06",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-app-delivery"
-                ],
+                "tag": "app-delivery",
                 "dev_stats_url": "https://argo.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/tree/master/projects/argo",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/argoproj+or+argo",
@@ -8034,9 +8167,7 @@
                 "accepted": "2019-07-15",
                 "incubating": "2021-03-12",
                 "graduated": "2022-11-30",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-app-delivery"
-                ],
+                "tag": "app-delivery",
                 "dev_stats_url": "https://flux.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#flux-logos",
                 "blog_url": "https://fluxcd.io/blog/",
@@ -8466,7 +8597,8 @@
                 "accepted": "2023-12-18",
                 "dev_stats_url": "https://kubeburner.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/tree/main/projects/kube-burner",
-                "slack_url": "https://kubernetes.slack.com/messages/kube-burner"
+                "slack_url": "https://kubernetes.slack.com/messages/kube-burner",
+                "clomonitor_name": "kube-burner"
               }
             }
           ]
@@ -8567,7 +8699,7 @@
             },
             {
               "item": null,
-              "name": "CECloud CeaKE",
+              "name": "CeaKE",
               "description": "CeaKE is dedicated to building a software infrastructure layer to enable the digital transformation of the cloud era.",
               "homepage_url": "https://cecloud.com/product/7037705179667369984.html",
               "logo": "cecloud.svg",
@@ -8597,6 +8729,14 @@
               "repo_url": "https://github.com/edgelesssys/constellation",
               "logo": "constellation.svg",
               "crunchbase": "https://www.crunchbase.com/organization/edgeless-systems"
+            },
+            {
+              "item": null,
+              "name": "Coredge Kubernetes Platform",
+              "description": "A custom Kubernetes distro.",
+              "homepage_url": "https://coredge.io",
+              "logo": "coredge.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/coredge"
             },
             {
               "item": null,
@@ -8643,7 +8783,7 @@
               "name": "Elastisys Compliant Kubernetes",
               "description": "Compliant Kubernetes is a security-hardened Kubernetes distribution. It is designed to meet the tough demands on security and compliance of regulated industries. The distribution includes logging, monitoring, single-sign-on integration with common identity providers, vulnerability scanning, intrusion detection, strict security hardening of the entire platform, and additional safeguards.",
               "homepage_url": "https://elastisys.io/compliantkubernetes",
-              "repo_url": "https://github.com/elastisys/compliantkubernetes-apps",
+              "repo_url": "https://github.com/elastisys/compliantkubernetes",
               "logo": "elastisys.svg",
               "crunchbase": "https://www.crunchbase.com/organization/elastisys"
             },
@@ -8676,6 +8816,15 @@
             },
             {
               "item": null,
+              "name": "Giant Swarm Managed Kubernetes",
+              "description": "The Giant Swarm platform enables users to simply and rapidly create and use 24/7 managed Kubernetes clusters on-demand.",
+              "homepage_url": "https://giantswarm.io",
+              "repo_url": "https://github.com/giantswarm/cluster-vsphere",
+              "logo": "giant-swarm-cncf.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/giant-swarm"
+            },
+            {
+              "item": null,
               "name": "H3C CloudOS",
               "description": "Based on container technology and pluggable open architecture, H3C CloudOS provides compute, storage, network, security, big data, database, PaaS, and DevOps services as a full-stack cloud management platform. It enables you to perform unified operations and management of various cloud resources.",
               "homepage_url": "https://www.h3c.com/en",
@@ -8689,6 +8838,14 @@
               "homepage_url": "https://harmonycloud.cn/",
               "logo": "harmonycloud.svg",
               "crunchbase": "https://www.crunchbase.com/organization/harmony-cloud"
+            },
+            {
+              "item": null,
+              "name": "HPE Ezmeral Runtime Enterprise",
+              "description": "The HPE Ezmeral Runtime Enterprise is a secure, enterprise-grade platform to deploy cloud-native and non-cloud-native applications at scale across your data centers, multiple clouds, and at the edge.",
+              "homepage_url": "https://www.hpe.com/us/en/home.html",
+              "logo": "hpe-member.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/hewlett-packard-enterprise"
             },
             {
               "item": null,
@@ -8849,6 +9006,14 @@
             },
             {
               "item": null,
+              "name": "Palette",
+              "description": "Keep control of your Kubernetes infrastructure stack with Spectro Cloud’s as-a-Service experience for public clouds, private clouds, and bare metal environments",
+              "homepage_url": "https://spectrocloud.com",
+              "logo": "palette.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/spectro-cloud"
+            },
+            {
+              "item": null,
               "name": "Platform9 Managed Kubernetes",
               "description": "Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic, and works across public clouds and on-premises server infrastructure.",
               "homepage_url": "https://platform9.com/managed-kubernetes/",
@@ -8859,9 +9024,9 @@
             {
               "item": null,
               "name": "QBO",
-              "description": "QBO is the fastest and easiest k8s deployment out there. It uses https://kind.sigs.k8s.io/ node images to deploy k8s clusters everywhere. It has a web graphical interface and a Websockets API. It doesn't require virtual machines. It is written in C and runs in docker.",
-              "homepage_url": "https://github.com/alexeadem/qbo-home",
-              "repo_url": "https://github.com/alexeadem/qbo-home",
+              "description": "QBO Kubernetes Engine (QKE) redefines the concept of a Kubernetes node as a container using Kubernetes-in-Docker technology. Streamline the deployment and management of Kubernetes clusters in seconds with QKE and unlock bare-metal performance without virtualization overhead.",
+              "homepage_url": "https://ce.qbo.io/",
+              "repo_url": "https://github.com/alexeadem/qbo-ce",
               "logo": "qbo.svg"
             },
             {
@@ -8927,14 +9092,6 @@
             },
             {
               "item": null,
-              "name": "SmartX SMTX Kubernetes Service",
-              "description": "With pre-loaded Kubernetes plug-ins, industry-leading SmartX virtualization, distributed storage, networking and security as well as other product components, SMTX Kubernetes Service helps IT operations teams easily deploy and manage production-ready Kubernetes clusters.",
-              "homepage_url": "https://www.smartx.com/global/smtx-kubernetes-service/",
-              "logo": "smartx.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/smartx"
-            },
-            {
-              "item": null,
               "name": "TenxCloud Container Enterprise",
               "description": "TenxCloud Container Enterprise is a PaaS product based on Kubernetes.",
               "homepage_url": "https://www.tenxcloud.com/",
@@ -8957,6 +9114,15 @@
               "homepage_url": "https://taikun.cloud",
               "logo": "taikun.svg",
               "crunchbase": "https://www.crunchbase.com/organization/itera-technologies-a-s"
+            },
+            {
+              "item": null,
+              "name": "TKS Enterprise Solution",
+              "description": "TKS Enterprise Solution is a All-in-One Package that provides all-in-one add-ons (CNI, CSI, Ingress Controller, etc.) and services (Monitoring, Service Mesh, Policy, MLOps, etc.) for running Kubernetes Cluster and Kubernetes in a public cloud environment.",
+              "homepage_url": "https://tks.sktenterprise.com/en",
+              "repo_url": "https://github.com/openinfradev/",
+              "logo": "sk-telecom.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/sktelecom"
             },
             {
               "item": null,
@@ -9107,6 +9273,14 @@
             },
             {
               "item": null,
+              "name": "De Novo Kubernetes as a Service (KaaS)",
+              "description": "De Novo's Kubernetes as a Service (KaaS) is a fully-managed K8s container orchestration service; Deploy, Manage, and Scale containerized environments in minutes with KaaS!",
+              "homepage_url": "https://denovo.ua/en/kaas",
+              "logo": "de-novo.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/de-novo"
+            },
+            {
+              "item": null,
               "name": "DigitalOcean Kubernetes",
               "description": "DigitalOcean Kubernetes is designed for developers who want a simple and cost effective way to deploy container workloads to a managed Kubernetes service.",
               "homepage_url": "https://www.digitalocean.com/products/kubernetes/",
@@ -9120,6 +9294,14 @@
               "homepage_url": "https://elastx.se/en/kubernetes/",
               "logo": "elastx.svg",
               "crunchbase": "https://www.crunchbase.com/organization/elastx"
+            },
+            {
+              "item": null,
+              "name": "Enterprise Managed Kubernetes (EMK)",
+              "description": "Simplify your cloud-native journey with Enterprised Managed Kubernetes (EMK). Powered by Gardener, deploy, manage, and scale your containerized apps effortlessly on Fuga Cloud and beyond—all GDPR compliant.",
+              "homepage_url": "https://fuga.cloud/emk/",
+              "logo": "fuga.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/fuga-cloud"
             },
             {
               "item": null,
@@ -9153,6 +9335,14 @@
               "logo": "google-kubernetes-engine.svg",
               "twitter": "https://twitter.com/GCPcloud",
               "crunchbase": "https://www.crunchbase.com/organization/google"
+            },
+            {
+              "item": null,
+              "name": "Hosted Container Infrastructure (HCI)",
+              "description": "De Novo's HCI (Hosted Container Infrastructure) is a Kubernetes cluster orchestration platform based on VMware Tanzu Kubernetes Grid intended for DevOps and PaaS developers in your private cloud resources!",
+              "homepage_url": "https://denovo.ua/en/hci",
+              "logo": "de-novo.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/de-novo"
             },
             {
               "item": null,
@@ -9403,6 +9593,15 @@
             },
             {
               "item": null,
+              "name": "TKS Cloud Service",
+              "description": "TKS Cloud Service is a Managed PaaS service that provides all-in-one add-ons (CNI, CSI, Ingress Controller, etc.) and services (Monitoring, Service Mesh, Policy, MLOps, etc.) for running Kubernetes Cluster and Kubernetes in a public cloud environment.",
+              "homepage_url": "https://tks.sktenterprise.com/en",
+              "repo_url": "https://github.com/openinfradev/",
+              "logo": "sk-telecom.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/sktelecom"
+            },
+            {
+              "item": null,
               "name": "UpCloud Managed Kubernetes",
               "description": "UpCloud Managed Kubernetes automates the deployment, scaling and management of container workloads.",
               "homepage_url": "https://upcloud.com/products/managed-kubernetes",
@@ -9427,27 +9626,11 @@
             },
             {
               "item": null,
-              "name": "Wavestack Kubernetes Engine (WKE)",
-              "description": "Wavestack Kubernetes Engine is a managed service based on Gardener that makes it easy to run Kubernetes clusters on Wavestack and other cloud providers.",
-              "homepage_url": "https://wavestack.cloud",
-              "logo": "wavestack.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/wavecon"
-            },
-            {
-              "item": null,
               "name": "ZStack Edge",
               "description": "ZStack Edge is a Cloud Native application platform based on Kubernetes",
               "homepage_url": "https://www.zstack.io/product/zstack_edge/",
               "logo": "zstack.svg",
               "crunchbase": "https://www.crunchbase.com/organization/zstack"
-            },
-            {
-              "item": null,
-              "name": "ZTE TECS OpenPalette",
-              "description": "The TECS OpenPalette platform is a unified cloud platform oriented to the ICT realm.",
-              "homepage_url": "https://sdnfv.zte.com.cn/en/products",
-              "logo": "zte-tecs.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/zte-corporation"
             }
           ]
         },
@@ -9529,7 +9712,12 @@
               "homepage_url": "https://kubean-io.github.io/kubean/",
               "repo_url": "https://github.com/kubean-io/kubean",
               "logo": "kubean.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/daocloud"
+              "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
+              "project": "sandbox",
+              "extra": {
+                "accepted": "2024-04-16",
+                "clomonitor_name": "kubean"
+              }
             },
             {
               "item": null,
@@ -9625,11 +9813,12 @@
             },
             {
               "item": null,
-              "name": "MoreSec Shangfu",
-              "description": "Shangfu Cloud Native Protection Platform is a security protection model based on the concept of cloud native. In view of the characteristics of cloud native application life-cycle, it involves in many stages of security protection, including R&D construction, security testing, image control, container deployment, container operation, etc.",
-              "homepage_url": "https://www.moresec.cn/scene/devsecops",
-              "logo": "moresec.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/meran-technology"
+              "name": "NKD - NestOS Kubernetes Deployer",
+              "description": "NKD (NestOS Kubernetes Deployer) is a solution specially built for deploying and maintaining Kubernetes clusters on NestOS. Its design goal is to provide a convenient cluster operation experience, allowing users to easily complete complex management tasks, thereby improving the efficiency of overall deployment and maintenance.",
+              "homepage_url": "https://gitee.com/openeuler/nestos-kubernetes-deployer",
+              "repo_url": "https://github.com/openeuler-mirror/nestos-kubernetes-deployer",
+              "logo": "openatom-nestos-kubernetes.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A"
             },
             {
               "item": null,
@@ -10106,7 +10295,7 @@
               "item": null,
               "name": "SST",
               "homepage_url": "https://sst.dev/",
-              "repo_url": "https://github.com/serverless-stack/sst",
+              "repo_url": "https://github.com/sst/sst",
               "logo": "sst.svg",
               "twitter": "https://twitter.com/SST_dev",
               "crunchbase": "https://www.crunchbase.com/organization/sst-c030"
@@ -10765,7 +10954,8 @@
               "extra": {
                 "dev_stats_url": "https://krknchaos.devstats.cncf.io",
                 "slack_url": "https://kubernetes.slack.com/messages/C05SFMHRWK1",
-                "accepted": "2023-12-19"
+                "accepted": "2023-12-19",
+                "clomonitor_name": "krkn"
               }
             }
           ]
@@ -11091,7 +11281,7 @@
               "item": null,
               "name": "Checkmk",
               "homepage_url": "https://checkmk.com/",
-              "repo_url": "https://github.com/tribe29/checkmk",
+              "repo_url": "https://github.com/Checkmk/checkmk",
               "logo": "checkmk.svg",
               "crunchbase": "https://www.crunchbase.com/organization/tribe29"
             },
@@ -11176,6 +11366,14 @@
             },
             {
               "item": null,
+              "name": "Develocity",
+              "description": "Develocity speeds up builds and tests, makes troubleshooting more efficient, and increases toolchain observability with reporting and visualization. Develocity gives developers back at least one day each week in lost productivity, and supports Apache Maven, Bazel, sbt, and Gradle build systems.",
+              "homepage_url": "https://gradle.com/",
+              "logo": "develocity.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/gradle"
+            },
+            {
+              "item": null,
               "name": "Dynatrace",
               "homepage_url": "https://www.dynatrace.com/",
               "logo": "dynatrace.svg",
@@ -11190,6 +11388,15 @@
               "logo": "easeagent.svg",
               "twitter": "https://twitter.com/megaease",
               "crunchbase": "https://www.crunchbase.com/organization/megaease-inc"
+            },
+            {
+              "item": null,
+              "name": "Edge Delta",
+              "description": "Edge Delta is a platform for creating observability pipelines, monitoring Kubernetes resources, and querying large-scale datasets. Edge Delta uniquely processes telemetry as it's created at the source to enable greater scale and cost-effectiveness.",
+              "homepage_url": "https://edgedelta.com/",
+              "logo": "edgedelta.svg",
+              "twitter": "https://twitter.com/edge_delta",
+              "crunchbase": "https://www.crunchbase.com/organization/edge-delta"
             },
             {
               "item": null,
@@ -11254,9 +11461,7 @@
                 "accepted": "2016-11-08",
                 "incubating": "2016-11-08",
                 "graduated": "2019-04-11",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-observability"
-                ],
+                "tag": "observability",
                 "dev_stats_url": "https://fluentd.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#fluentd-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/fluentd",
@@ -11289,8 +11494,7 @@
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
                 "accepted": "2021-03-30",
-                "archived": "2024-01-31",
-                "clomonitor_name": "fonio"
+                "archived": "2024-01-31"
               }
             },
             {
@@ -11313,14 +11517,6 @@
               "logo": "google-stackdriver.svg",
               "twitter": "https://twitter.com/GCPcloud",
               "crunchbase": "https://www.crunchbase.com/organization/google"
-            },
-            {
-              "item": null,
-              "name": "Gradle Enterprise",
-              "description": "Gradle Enterprise provides both acceleration and observability technologies to speed up the software build and test process. Data analytics make benchmarking and  troubleshooting more efficient. It is a key enabling technology for the emerging discipline of Developer Productivity Engineering.",
-              "homepage_url": "https://gradle.com/",
-              "logo": "gradle.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/gradle"
             },
             {
               "item": null,
@@ -11418,11 +11614,11 @@
             {
               "item": null,
               "name": "HertzBeat",
-              "description": "An open-source, real-time monitoring system with custom monitoring, high performance cluster and agentless capabilities.",
-              "homepage_url": "https://hertzbeat.com/",
-              "repo_url": "https://github.com/dromara/hertzbeat",
+              "description": "Apache HertzBeat (Incubating) is an open-source, real-time monitoring system with custom monitoring, high performance cluster and agentless capabilities.",
+              "homepage_url": "https://hertzbeat.apache.org/",
+              "repo_url": "https://github.com/apache/hertzbeat",
               "logo": "hertzbeat.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/tancloud"
+              "crunchbase": "https://www.crunchbase.com/organization/apache"
             },
             {
               "item": null,
@@ -11514,9 +11710,7 @@
                 "accepted": "2017-09-13",
                 "incubating": "2017-09-13",
                 "graduated": "2019-10-31",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-observability"
-                ],
+                "tag": "observability",
                 "dev_stats_url": "https://jaeger.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/jaeger",
@@ -11551,7 +11745,8 @@
               "logo": "k8sgpt.svg",
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
-                "accepted": "2023-12-19"
+                "accepted": "2023-12-19",
+                "clomonitor_name": "k8sgpt"
               }
             },
             {
@@ -11577,7 +11772,8 @@
                 "summary_personas": "Developers, SREs, Sustainability Officers, IT Managers",
                 "summary_tags": "sustainability, power monitoring, observability, metrics, ebpf, machine learning",
                 "summary_use_case": "Enabling workload power monitoring for cloud-native systems.",
-                "summary_integrations": "Kubernetes, Prometheus."
+                "summary_integrations": "Kubernetes, Prometheus.",
+                "clomonitor_name": "kepler"
               }
             },
             {
@@ -11666,12 +11862,10 @@
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
               "extra": {
                 "accepted": "2023-09-19",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-observability"
-                ],
+                "tag": "observability",
                 "dev_stats_url": "https://loggingoperator.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/main/examples/sandbox.md/#logging-operator-logos",
-                "clomonitor_name": "logging-operator"
+                "clomonitor_name": "kube-logging"
               }
             },
             {
@@ -11809,6 +12003,18 @@
               "homepage_url": "https://nodesource.com/",
               "logo": "nodesource.svg",
               "crunchbase": "https://www.crunchbase.com/organization/nodesource"
+            },
+            {
+              "item": null,
+              "name": "OpenLIT",
+              "homepage_url": "https://openlit.io/",
+              "repo_url": "https://github.com/openlit/openlit",
+              "logo": "openlit.svg",
+              "twitter": "https://x.com/openlit_io",
+              "crunchbase": "https://www.crunchbase.com/organization/openlit",
+              "extra": {
+                "slack_url": "https://join.slack.com/t/openlit/shared_invite/zt-2etnfttwg-TjP_7BZXfYg84oAukY8QRQ"
+              }
             },
             {
               "item": null,
@@ -12005,9 +12211,7 @@
                 "accepted": "2016-05-09",
                 "incubating": "2016-05-09",
                 "graduated": "2018-08-09",
-                "cncf_tags": [
-                  "https://github.com/cncf/tag-observability"
-                ],
+                "tag": "observability",
                 "dev_stats_url": "https://prometheus.devstats.cncf.io/",
                 "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#prometheus-logos",
                 "stack_overflow_url": "https://stackoverflow.com/questions/tagged/prometheus",
@@ -12371,6 +12575,14 @@
               "repo_url": "https://github.com/draios/sysdig",
               "logo": "sysdig.svg",
               "crunchbase": "https://www.crunchbase.com/organization/sysdig"
+            },
+            {
+              "item": null,
+              "name": "unryo",
+              "description": "Observability and cross-layer topology correlation on top of CNCF ecosystem: Prometheus, Influx, Kubernetes, Elastic, networks and 5G.",
+              "homepage_url": "https://www.unryo.com/",
+              "logo": "unryo.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/unryo"
             }
           ]
         }
@@ -12632,14 +12844,6 @@
             },
             {
               "item": null,
-              "name": "BoxBoat (KCSP)",
-              "description": "BoxBoat helps global companies develop, integrate, and deploy applications faster with Kubernetes and emerging ecosystem technologies.",
-              "homepage_url": "https://boxboat.com/",
-              "logo": "boxboat.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/boxboat-technologies-llc"
-            },
-            {
-              "item": null,
               "name": "Brobridge (KCSP)",
               "description": "Brobridge provides professional Kubernetes support and microservice-relevant components such as workflow engine, API gateway, queueing system, and orchestration engine to assist your business to move to microservice.",
               "homepage_url": "http://www.brobridge.com",
@@ -12743,19 +12947,19 @@
             },
             {
               "item": null,
-              "name": "CloudCover (KCSP)",
-              "description": "Our Kubernetes practice focuses on designing and delivering Kubernetes as a service (KaaS) based on enterprise-grade management of multi-cluster ecosystems",
-              "homepage_url": "https://cldcvr.com/",
-              "logo": "cloudcover.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/cloudcover-inc"
-            },
-            {
-              "item": null,
               "name": "CloudGeometry (KCSP)",
               "description": "CloudGeometry is an expert managed cloud software engineering consultancy, cloud-native systems integrator, and Kubernetes Certified Service Provider. Our hands-on design and implementation services help our clients achieve Kubernetes success with open-source tooling and commercial cloud platform technologies, including AWS, Azure, and GCP.",
               "homepage_url": "https://www.cloudgeometry.io/blueprints/kubernetes-ci-cd-adoption-blueprint",
               "logo": "cloudgeometry.svg",
               "crunchbase": "https://www.crunchbase.com/organization/cloudgeometry"
+            },
+            {
+              "item": null,
+              "name": "Cloudmate (KCSP)",
+              "description": "Cloudmate provides professional services for Kubernetes. Maximize your business with application modernization.",
+              "homepage_url": "https://www.cloudmt.co.kr/CNCF",
+              "logo": "cloudmate.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/cloudmate-1d80"
             },
             {
               "item": null,
@@ -12793,7 +12997,7 @@
               "item": null,
               "name": "Core 24/7 (KCSP)",
               "description": "CORE 24/7 offers design and implementation of Kubernetes-based infrastructure and integrating DevOps practices. We also offer training, staffing, and cloud infrastructure design services.",
-              "homepage_url": "https://www.core247.io/",
+              "homepage_url": "https://core247.kz/kubernetes",
               "logo": "core247.svg",
               "crunchbase": "https://www.crunchbase.com/organization/core-24-7-llp"
             },
@@ -12804,14 +13008,6 @@
               "homepage_url": "https://coredge.io/kubernetes-services/",
               "logo": "coredge.svg",
               "crunchbase": "https://www.crunchbase.com/organization/coredge"
-            },
-            {
-              "item": null,
-              "name": "CoreHive Computing (KCSP)",
-              "description": "Kubernetes and one-click automated DevSecOps and Microservices Deployments.",
-              "homepage_url": "https://corehive.com/",
-              "logo": "core-hive-computing-member.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/corehive-computing"
             },
             {
               "item": null,
@@ -12966,14 +13162,6 @@
             },
             {
               "item": null,
-              "name": "EdgeRay (KCSP)",
-              "description": "EdgeRay provides comprehensive Kubernetes services, including customised consulting solutions and implementation according to the customer's business attributes, so that you can quickly deploy, manage, and maintain Kubernetes.",
-              "homepage_url": "https://www.edgeray.io/kubernetes-services",
-              "logo": "edgeray.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/edgeray-technologies"
-            },
-            {
-              "item": null,
               "name": "Effectual (KCSP)",
               "description": "Effectual can help you leverage Kubernetes to streamline operations, enhance security, and maintain your competitive edge. Properly implemented Kubernetes solutions provide seamless deployment, scaling, and management of application containerization.",
               "homepage_url": "https://effectual.com/kubernetes/",
@@ -13027,14 +13215,6 @@
               "homepage_url": "https://evonem.com/kubernetes",
               "logo": "evonem.svg",
               "crunchbase": "https://www.crunchbase.com/organization/evonem"
-            },
-            {
-              "item": null,
-              "name": "Expert Thinking (KCSP)",
-              "description": "Expert Thinking provides the right mix of consulting, hands-on delivery, training and support to build dynamic, scalable, cost-optimised Kubernetes solutions that boost our customers' performance and the ability to operate with improved agility and efficiency.",
-              "homepage_url": "https://www.expert-thinking.co.uk/kubernetes/",
-              "logo": "expert-thinking.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/expert-thinking"
             },
             {
               "item": null,
@@ -13277,6 +13457,14 @@
               "homepage_url": "https://itgix.com/kubernetes-services/",
               "logo": "itgix.svg",
               "crunchbase": "https://www.crunchbase.com/organization/itgix"
+            },
+            {
+              "item": null,
+              "name": "ITQ (KCSP)",
+              "description": "ITQ, a European consulting company, specializes in deploying and managing Kubernetes for organizations of all sizes. Our services are designed to help you navigate the complexities of Kubernetes, allowing you to focus on delivering value.",
+              "homepage_url": "https://itq.eu/technology/kubernetes/",
+              "logo": "itq.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/itq"
             },
             {
               "item": null,
@@ -13579,6 +13767,14 @@
             },
             {
               "item": null,
+              "name": "Orange (KCSP)",
+              "description": "Orange Business offers a managed Kubernetes service that grants developers full admin rights. We take care of provisioning and maintenance, allowing developers to focus on developing their applications.",
+              "homepage_url": "https://digital.orange-business.com/en-en/insights/digital-newsroom/managed-kubernetes-service-orange-business",
+              "logo": "orange.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/orange"
+            },
+            {
+              "item": null,
               "name": "Oteemo (KCSP)",
               "description": "Oteemo is a technology solutions provider specializing in helping enterprises with cloud native transformations. Our services include operationalization of Kubernetes platforms, application container migrations and mentoring of client staff on cloud native technologies.",
               "homepage_url": "https://oteemo.com",
@@ -13641,13 +13837,6 @@
               "homepage_url": "https://portworx.com/",
               "logo": "portworx.svg",
               "crunchbase": "https://www.crunchbase.com/organization/portworx"
-            },
-            {
-              "item": null,
-              "name": "Prisma Cloud by Palo Alto Networks (KCSP)",
-              "homepage_url": "https://www.paloaltonetworks.com/prisma/environments/kubernetes",
-              "logo": "prisma-cloud-palo-alto.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/prisma-cloud"
             },
             {
               "item": null,
@@ -13715,19 +13904,19 @@
             },
             {
               "item": null,
-              "name": "Red Kubes (KCSP)",
-              "description": "Red Kubes helps organizations take advantage of Kubernetes in a fast, reliable and secure way. We build and manage Kubernetes on every Cloud with our own curated stack to deliver a full enterprise Kubernetes platform solution. We also offer remote and on-site support.",
-              "homepage_url": "https://redkubes.com/",
-              "logo": "redkubes.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/red-kubes"
-            },
-            {
-              "item": null,
               "name": "Redeploy (KCSP)",
               "description": "We know Azure AKS.",
               "homepage_url": "https://redeploy.com/services/",
               "logo": "redeploy.svg",
               "crunchbase": "https://www.crunchbase.com/organization/redeploy"
+            },
+            {
+              "item": null,
+              "name": "Resolve Technology (KCSP)",
+              "description": "Resolve Technology offers comprehensive cloud-native consultation and implementation services, covering Kubernetes cluster design, cloud-native application deployment, zero-trust security, CI/CD pipeline optimization, and robust monitoring solutions for Kubernetes and related CNCF technologies. From inception to ongoing operations, we ensure seamless integration and optimal performance across the cloud-native ecosystem.",
+              "homepage_url": "https://new.reslv.io/blogs/empowering-enterprises-with-kubernetes/",
+              "logo": "resolve-technology.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/resolve-technology-f441"
             },
             {
               "item": null,
@@ -13775,14 +13964,6 @@
               "homepage_url": "https://www.servicememe.com/services",
               "logo": "servicememe.svg",
               "crunchbase": "https://www.crunchbase.com/organization/servicememe"
-            },
-            {
-              "item": null,
-              "name": "Shanghai HFtech (KCSP)",
-              "description": "Unlock the full potential of your applications with our expert Kubernetes services. Our team of experienced professionals will help you deploy and manage your applications on Kubernetes, ensuring scalability, resilience, and efficiency.",
-              "homepage_url": "https://hftech.com/static/cloud_native.html",
-              "logo": "shanghai-hftech.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/shanghai-hftech"
             },
             {
               "item": null,
@@ -14157,14 +14338,6 @@
             },
             {
               "item": null,
-              "name": "WOQU Tech (KCSP)",
-              "description": "WOQU Tech provides best practices and services for relational and non-relational database clusters in Kubernetes infrastructure.",
-              "homepage_url": "https://www.woqutech.com/",
-              "logo": "woqutech.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/woqu-technology-co-ltd"
-            },
-            {
-              "item": null,
               "name": "WSO2 (KCSP)",
               "homepage_url": "https://wso2.com/strategic-consulting/cloud-native-strategy/",
               "logo": "wso2-member.svg",
@@ -14281,14 +14454,6 @@
               "homepage_url": "https://www.bocloud.com.cn/train/?id=92",
               "logo": "bo-cloud-kcsp.svg",
               "crunchbase": "https://www.crunchbase.com/organization/bocloud"
-            },
-            {
-              "item": null,
-              "name": "BoxBoat (KTP)",
-              "description": "BoxBoat helps global companies develop, integrate, and deploy applications faster with Kubernetes and emerging ecosystem technologies.",
-              "homepage_url": "https://boxboat.com/",
-              "logo": "boxboat.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/boxboat-technologies-llc"
             },
             {
               "item": null,
@@ -14431,7 +14596,7 @@
             {
               "item": null,
               "name": "Elastisys (KTP)",
-              "description": "Elastisys is a Kubernetes Training Partner as well as a Linux Foundation Authorized Training Partner. We offer the official Linux Foundation courses in Kubernetes Administration (LFS458) and Kubernetes for App Developers (LFD459) courses, both on-site and remotely. These are recommended if you want to complete the CKA or CKAD certifications. Additionally, we offer custom courses in cloud native technology fundamentals to suit your organization's needs.",
+              "description": "Elastisys is a Kubernetes Training Partner as well as a Linux Foundation Authorized Training Partner. We offer the official Linux Foundation courses: Kubernetes Administration (LFS458), Kubernetes for App Developers (LFD459) and Kubernetes Security Fundamentals (LFS460), both on-site and remotely. These are recommended if you want to complete the CKA, CKAD or CKS certifications. Additionally, we offer custom courses in cloud native technologies to suit your organization's needs.",
               "homepage_url": "https://elastisys.com/training/",
               "logo": "elastisys.svg",
               "crunchbase": "https://www.crunchbase.com/organization/elastisys",
@@ -14596,7 +14761,11 @@
               "description": "PRODYNA designs, implements, and operates Kubernetes-based custom applications for mid- to large size enterprises in all of Europe.",
               "homepage_url": "https://www.prodyna.com/expertises/it-training-certifications",
               "logo": "prodyna.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/prodyna"
+              "crunchbase": "https://www.crunchbase.com/organization/prodyna",
+              "extra": {
+                "training_certifications": "cka, ckad, cks, kcna",
+                "training_type": "instructor-led"
+              }
             },
             {
               "item": null,
@@ -14871,6 +15040,14 @@
             },
             {
               "item": null,
+              "name": "Heroku (member)",
+              "homepage_url": "https://www.heroku.com",
+              "logo": "heroku.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/heroku",
+              "joined": "2024-06-01"
+            },
+            {
+              "item": null,
               "name": "Huawei (member)",
               "homepage_url": "https://www.huaweicloud.com/intl/en-us",
               "logo": "huawei.svg",
@@ -14945,14 +15122,6 @@
               "logo": "vmware.svg",
               "crunchbase": "https://www.crunchbase.com/organization/vmware",
               "joined": "2016-01-01"
-            },
-            {
-              "item": null,
-              "name": "Volcano Engine (member)",
-              "homepage_url": "https://www.volcengine.com",
-              "logo": "volcano-engine.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/volcano-engine",
-              "joined": "2021-01-01"
             }
           ]
         },
@@ -15026,14 +15195,6 @@
               "logo": "charter.svg",
               "crunchbase": "https://www.crunchbase.com/organization/charter-communications",
               "joined": "2021-12-01"
-            },
-            {
-              "item": null,
-              "name": "China Telecom Cloud Technology Co., Ltd. (member)",
-              "homepage_url": "https://www.ctyun.cn/",
-              "logo": "china-telecom.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/china-telecom-cloud-technology",
-              "joined": "2022-11-01"
             },
             {
               "item": null,
@@ -15177,6 +15338,14 @@
             },
             {
               "item": null,
+              "name": "Volcano Engine (member)",
+              "homepage_url": "https://www.volcengine.com",
+              "logo": "volcano-engine.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/volcano-engine",
+              "joined": "2021-01-01"
+            },
+            {
+              "item": null,
               "name": "ZTE (member)",
               "homepage_url": "https://www.zte.com.cn/global/",
               "logo": "zte-kcsp.svg",
@@ -15212,6 +15381,14 @@
               "logo": "3-shake.svg",
               "crunchbase": "https://www.crunchbase.com/organization/3-shake",
               "joined": "2021-01-01"
+            },
+            {
+              "item": null,
+              "name": "42on (member)",
+              "homepage_url": "https://www.42on.com",
+              "logo": "42on.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/42on",
+              "joined": "2024-05-01"
             },
             {
               "item": null,
@@ -15435,6 +15612,14 @@
             },
             {
               "item": null,
+              "name": "Amnic (member)",
+              "homepage_url": "https://amnic.com",
+              "logo": "amnic.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/amnic",
+              "joined": "2024-06-01"
+            },
+            {
+              "item": null,
               "name": "Ampere Consulting (member)",
               "homepage_url": "https://amperecomputing.com/",
               "logo": "ampere-computing-member.svg",
@@ -15547,6 +15732,14 @@
             },
             {
               "item": null,
+              "name": "Arcjet (member)",
+              "homepage_url": "https://arcjet.com",
+              "logo": "arcjet.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/arcjet",
+              "joined": "2024-06-01"
+            },
+            {
+              "item": null,
               "name": "Armo (member)",
               "homepage_url": "https://www.armosec.io",
               "logo": "armo.svg",
@@ -15601,14 +15794,6 @@
               "logo": "authzed.svg",
               "crunchbase": "https://www.crunchbase.com/organization/authzed",
               "joined": "2022-08-01"
-            },
-            {
-              "item": null,
-              "name": "AutoCloud (member)",
-              "homepage_url": "https://www.autocloud.io/",
-              "logo": "autocloud.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/autocloud",
-              "joined": "2023-02-01"
             },
             {
               "item": null,
@@ -15682,14 +15867,6 @@
               "enduser": true,
               "crunchbase": "https://www.crunchbase.com/organization/back-market",
               "joined": "2023-12-01"
-            },
-            {
-              "item": null,
-              "name": "Backslash Security (member)",
-              "homepage_url": "https://www.backslash.security/",
-              "logo": "backslash.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/backslash-security",
-              "joined": "2023-05-01"
             },
             {
               "item": null,
@@ -15806,18 +15983,6 @@
               "logo": "booz-allen-hamilton-kcsp.svg",
               "crunchbase": "https://www.crunchbase.com/organization/booz-allen-hamilton",
               "joined": "2019-01-01"
-            },
-            {
-              "item": null,
-              "name": "Boxboat (member)",
-              "homepage_url": "https://boxboat.com/",
-              "logo": "boxboat.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/boxboat-technologies-llc",
-              "joined": "2018-08-01",
-              "extra": {
-                "training_certifications": "cka",
-                "training_type": "e-learning, instructor-led"
-              }
             },
             {
               "item": null,
@@ -16087,14 +16252,6 @@
             },
             {
               "item": null,
-              "name": "CloudCover (member)",
-              "homepage_url": "https://cldcvr.com/",
-              "logo": "cloudcover.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/cloudcover-inc",
-              "joined": "2020-06-01"
-            },
-            {
-              "item": null,
               "name": "CloudFerro (member)",
               "homepage_url": "https://cloudferro.com",
               "logo": "cloudferro.svg",
@@ -16223,6 +16380,14 @@
             },
             {
               "item": null,
+              "name": "ConfidentialMind (member)",
+              "homepage_url": "https://www.confidentialmind.com",
+              "logo": "confidentialmind.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/confidentialmind",
+              "joined": "2024-07-01"
+            },
+            {
+              "item": null,
               "name": "Conoa (member)",
               "homepage_url": "https://www.conoa.se/",
               "logo": "conoa.svg",
@@ -16248,7 +16413,7 @@
             {
               "item": null,
               "name": "Core 24/7 (member)",
-              "homepage_url": "https://www.core247.io/",
+              "homepage_url": "https://core247.kz/",
               "logo": "core247.svg",
               "crunchbase": "https://www.crunchbase.com/organization/core-24-7-llp",
               "joined": "2021-07-01"
@@ -16260,14 +16425,6 @@
               "logo": "coredge.svg",
               "crunchbase": "https://www.crunchbase.com/organization/coredge",
               "joined": "2022-07-01"
-            },
-            {
-              "item": null,
-              "name": "CoreHive Computing (member)",
-              "homepage_url": "https://corehive.com/",
-              "logo": "core-hive-computing-member.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/corehive-computing",
-              "joined": "2019-05-01"
             },
             {
               "item": null,
@@ -16350,14 +16507,6 @@
               "twitter": null,
               "crunchbase": "https://www.crunchbase.com/organization/cybozu",
               "joined": "2019-08-01"
-            },
-            {
-              "item": null,
-              "name": "Cycode (member)",
-              "homepage_url": "https://www.cycode.com/",
-              "logo": "cycode.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/cycode",
-              "joined": "2022-04-01"
             },
             {
               "item": null,
@@ -16446,6 +16595,14 @@
               "logo": "de-novo.svg",
               "crunchbase": "https://www.crunchbase.com/organization/de-novo",
               "joined": "2023-11-01"
+            },
+            {
+              "item": null,
+              "name": "DeeperThanBlue (member)",
+              "homepage_url": "https://www.deeperthanblue.co.uk",
+              "logo": "deeperthanblue.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/deeper-than-blue",
+              "joined": "2024-06-01"
             },
             {
               "item": null,
@@ -16561,14 +16718,6 @@
             },
             {
               "item": null,
-              "name": "Direktiv (member)",
-              "homepage_url": "https://direktiv.io",
-              "logo": "direktiv.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/direktiv",
-              "joined": "2021-07-01"
-            },
-            {
-              "item": null,
               "name": "Docker (member)",
               "homepage_url": "https://www.docker.com",
               "logo": "docker-member.svg",
@@ -16602,6 +16751,14 @@
             },
             {
               "item": null,
+              "name": "Draftt (member)",
+              "homepage_url": "https://www.draftt.io",
+              "logo": "draftt.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/draftt",
+              "joined": "2024-06-01"
+            },
+            {
+              "item": null,
               "name": "Dragonflydb (member)",
               "homepage_url": "https://www.dragonflydb.io/",
               "logo": "dragonflydb.svg",
@@ -16615,6 +16772,15 @@
               "logo": "dynatrace-member.svg",
               "crunchbase": "https://www.crunchbase.com/organization/dynatrace-software",
               "joined": "2017-09-01"
+            },
+            {
+              "item": null,
+              "name": "E.ON (member)",
+              "homepage_url": "https://www.eon.com",
+              "logo": "e.on.svg",
+              "enduser": true,
+              "crunchbase": "https://www.crunchbase.com/organization/e-on",
+              "joined": "2024-06-01"
             },
             {
               "item": null,
@@ -16645,7 +16811,7 @@
               "item": null,
               "name": "Edge Delta (member)",
               "homepage_url": "https://www.edgedelta.com/",
-              "logo": "edge-delta.svg",
+              "logo": "edgedelta.svg",
               "crunchbase": "https://www.crunchbase.com/organization/edge-delta",
               "joined": "2021-07-01"
             },
@@ -16664,14 +16830,6 @@
               "logo": "edgenesis.svg",
               "crunchbase": "https://www.crunchbase.com/organization/edgenesis",
               "joined": "2023-04-01"
-            },
-            {
-              "item": null,
-              "name": "EdgeRay (member)",
-              "homepage_url": "https://www.edgeray.cn/",
-              "logo": "edgeray.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/edgeray-technologies",
-              "joined": "2022-05-01"
             },
             {
               "item": null,
@@ -16704,14 +16862,6 @@
               "logo": "elastx-member.svg",
               "crunchbase": "https://www.crunchbase.com/organization/elastx",
               "joined": "2018-07-01"
-            },
-            {
-              "item": null,
-              "name": "Elotl (member)",
-              "homepage_url": "https://www.elotl.co/",
-              "logo": "elotl.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/elotl",
-              "joined": "2020-01-01"
             },
             {
               "item": null,
@@ -16828,14 +16978,6 @@
             },
             {
               "item": null,
-              "name": "Expert Thinking (member)",
-              "homepage_url": "https://www.expert-thinking.co.uk/",
-              "logo": "expert-thinking.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/expert-thinking",
-              "joined": "2022-03-01"
-            },
-            {
-              "item": null,
               "name": "F5 (member)",
               "homepage_url": "https://www.f5.com",
               "logo": "f5-member.svg",
@@ -16858,6 +17000,14 @@
               "logo": "fairwinds.svg",
               "crunchbase": "https://www.crunchbase.com/organization/fairwinds",
               "joined": "2018-01-01"
+            },
+            {
+              "item": null,
+              "name": "Fastly (member)",
+              "homepage_url": "https://www.fastly.com",
+              "logo": "fastly.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/fastly",
+              "joined": "2024-05-01"
             },
             {
               "item": null,
@@ -17217,14 +17367,6 @@
             },
             {
               "item": null,
-              "name": "IGNW (member)",
-              "homepage_url": "https://www.ignw.io/",
-              "logo": "ignw.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/ignw",
-              "joined": "2019-08-01"
-            },
-            {
-              "item": null,
               "name": "IITS Consulting (member)",
               "homepage_url": "https://iits-consulting.de",
               "logo": "iits-consulting.svg",
@@ -17351,6 +17493,14 @@
               "logo": "itq.svg",
               "crunchbase": "https://www.crunchbase.com/organization/itq",
               "joined": "2024-02-01"
+            },
+            {
+              "item": null,
+              "name": "Jetify (member)",
+              "homepage_url": "https://www.jetify.com",
+              "logo": "jetify.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/jetify",
+              "joined": "2024-05-01"
             },
             {
               "item": null,
@@ -17499,11 +17649,11 @@
             },
             {
               "item": null,
-              "name": "Kubeark (member)",
-              "homepage_url": "https://www.kubeark.com/",
-              "logo": "kubeark.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/kubeark-inc",
-              "joined": "2023-06-01"
+              "name": "KTrust (member)",
+              "homepage_url": "https://www.ktrust.io/",
+              "logo": "ktrust.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/ktrust-ltd",
+              "joined": "2024-06-01"
             },
             {
               "item": null,
@@ -17644,7 +17794,7 @@
             {
               "item": null,
               "name": "Lightbend (member)",
-              "homepage_url": "https://www.lightbend.com/",
+              "homepage_url": "https://www.lightbend.com/akka",
               "logo": "lightbend.svg",
               "crunchbase": "https://www.crunchbase.com/organization/typesafe",
               "joined": "2019-05-01"
@@ -17664,6 +17814,14 @@
               "logo": "lightstep.svg",
               "crunchbase": "https://www.crunchbase.com/organization/lightstep",
               "joined": "2018-02-01"
+            },
+            {
+              "item": null,
+              "name": "Like Minds Consulting (member)",
+              "homepage_url": "https://likemindsconsulting.com",
+              "logo": "like-minds-consulting.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/likeminds-consulting",
+              "joined": "2024-07-01"
             },
             {
               "item": null,
@@ -17721,6 +17879,15 @@
               "logo": "LSD-OPEN.svg",
               "crunchbase": "https://www.crunchbase.com/organization/lsd-open",
               "joined": "2021-04-01"
+            },
+            {
+              "item": null,
+              "name": "LSEG (member)",
+              "homepage_url": "https://www.lseg.com/en",
+              "logo": "lseg.svg",
+              "enduser": true,
+              "crunchbase": "https://www.crunchbase.com/organization/london-stock-exchange-group",
+              "joined": "2021-12-01"
             },
             {
               "item": null,
@@ -17839,6 +18006,14 @@
             },
             {
               "item": null,
+              "name": "MetalBear (member)",
+              "homepage_url": "https://metalbear.co",
+              "logo": "metalbear.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/metalbear",
+              "joined": "2024-07-01"
+            },
+            {
+              "item": null,
               "name": "MetroStar Systems (member)",
               "homepage_url": "https://www.metrostar.com",
               "logo": "metrostar.svg",
@@ -17933,14 +18108,6 @@
               "logo": "moonlight-marketing.svg",
               "crunchbase": "https://www.crunchbase.com/organization/moonlight-marketing",
               "joined": "2024-03-01"
-            },
-            {
-              "item": null,
-              "name": "MoreSec (member)",
-              "homepage_url": "https://www.moresec.cn/",
-              "logo": "moresec.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/meran-technology",
-              "joined": "2022-03-01"
             },
             {
               "item": null,
@@ -18162,6 +18329,14 @@
             },
             {
               "item": null,
+              "name": "NuNet (member)",
+              "homepage_url": "https://www.nunet.io",
+              "logo": "nunet.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/nunet-dedc",
+              "joined": "2024-05-01"
+            },
+            {
+              "item": null,
               "name": "Nutanix (member)",
               "homepage_url": "https://www.nutanix.com",
               "logo": "nutanix.svg",
@@ -18241,14 +18416,6 @@
             },
             {
               "item": null,
-              "name": "OPENFLAME (member)",
-              "homepage_url": "https://www.openfla.me/",
-              "logo": "openflame.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/openflame-inc",
-              "joined": "2022-12-01"
-            },
-            {
-              "item": null,
               "name": "OpenMetal.io (member)",
               "homepage_url": "https://openmetal.io/",
               "logo": "openmetal.svg",
@@ -18294,14 +18461,6 @@
               "logo": "opsmx.svg",
               "crunchbase": "https://www.crunchbase.com/organization/opsmx",
               "joined": "2019-09-01"
-            },
-            {
-              "item": null,
-              "name": "Opus Security (member)",
-              "homepage_url": "https://www.opus.security/",
-              "logo": "opus.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/opus-security",
-              "joined": "2023-05-01"
             },
             {
               "item": null,
@@ -18629,6 +18788,14 @@
             },
             {
               "item": null,
+              "name": "Quality Cloud (member)",
+              "homepage_url": "https://qualitycloud.com",
+              "logo": "quality-cloud.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/quality-cloud",
+              "joined": "2024-06-01"
+            },
+            {
+              "item": null,
               "name": "QualitySoft (member)",
               "homepage_url": "https://www.qualitysoft.com/",
               "logo": "qualitysoft.svg",
@@ -18637,11 +18804,27 @@
             },
             {
               "item": null,
+              "name": "QUANTUM C&S (member)",
+              "homepage_url": "https://www.quantumcns.ai",
+              "logo": "quantumcns.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/quantum-c-s",
+              "joined": "2024-04-01"
+            },
+            {
+              "item": null,
               "name": "Qubex (member)",
               "homepage_url": "https://www.qubex.ai",
               "logo": "qubex.svg",
               "crunchbase": "https://www.crunchbase.com/organization/qubex-e181",
               "joined": "2024-01-01"
+            },
+            {
+              "item": null,
+              "name": "Quesma (member)",
+              "homepage_url": "https://quesma.com",
+              "logo": "quesma.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/quesma",
+              "joined": "2024-05-01"
             },
             {
               "item": null,
@@ -18694,14 +18877,6 @@
             },
             {
               "item": null,
-              "name": "Red Kubes (member)",
-              "homepage_url": "https://redkubes.com/",
-              "logo": "redkubes.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/red-kubes",
-              "joined": "2019-11-01"
-            },
-            {
-              "item": null,
               "name": "Redeploy (member)",
               "homepage_url": "https://redeploy.com/",
               "logo": "redeploy.svg",
@@ -18726,15 +18901,6 @@
             },
             {
               "item": null,
-              "name": "Refinitiv (member)",
-              "homepage_url": "https://www.refinitiv.com/en",
-              "logo": "refinitiv.svg",
-              "enduser": true,
-              "crunchbase": "https://www.crunchbase.com/organization/refinitiv",
-              "joined": "2021-12-01"
-            },
-            {
-              "item": null,
               "name": "ReleaseHub (member)",
               "homepage_url": "https://www.releasehub.com/",
               "logo": "releasehub.svg",
@@ -18756,6 +18922,22 @@
               "logo": "resolve-technology.svg",
               "crunchbase": "https://www.crunchbase.com/organization/resolve-technology-f441",
               "joined": "2024-03-01"
+            },
+            {
+              "item": null,
+              "name": "Restate (member)",
+              "homepage_url": "https://restate.dev",
+              "logo": "restate.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/restate-5a05",
+              "joined": "2024-04-01"
+            },
+            {
+              "item": null,
+              "name": "Rig (member)",
+              "homepage_url": "https://rig.dev",
+              "logo": "rig.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/rig-dev",
+              "joined": "2024-06-01"
             },
             {
               "item": null,
@@ -18881,14 +19063,6 @@
             },
             {
               "item": null,
-              "name": "Scribe Security (member)",
-              "homepage_url": "https://www.scribesecurity.com/",
-              "logo": "scribe-security.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/scribe-security",
-              "joined": "2022-02-01"
-            },
-            {
-              "item": null,
               "name": "Seal (member)",
               "homepage_url": "https://www.seal.io/",
               "logo": "seal-sotware.svg",
@@ -18942,14 +19116,6 @@
               "logo": "shandong-cvicse-middleware.svg",
               "crunchbase": "https://www.crunchbase.com/organization/infors",
               "joined": "2023-12-01"
-            },
-            {
-              "item": null,
-              "name": "Shanghai HFtech (member)",
-              "homepage_url": "https://www.hftech.com/",
-              "logo": "shanghai-hftech.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/shanghai-hftech",
-              "joined": "2023-04-01"
             },
             {
               "item": null,
@@ -19057,14 +19223,6 @@
             },
             {
               "item": null,
-              "name": "SmartX (member)",
-              "homepage_url": "https://www.smartx.com/global/",
-              "logo": "smartx.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/smartx",
-              "joined": "2021-09-01"
-            },
-            {
-              "item": null,
               "name": "Snyk (member)",
               "homepage_url": "https://snyk.io/",
               "logo": "snyk.svg",
@@ -19103,14 +19261,6 @@
               "logo": "solo-io-member.svg",
               "crunchbase": "https://www.crunchbase.com/organization/solo-io",
               "joined": "2018-10-01"
-            },
-            {
-              "item": null,
-              "name": "Sonar (member)",
-              "homepage_url": "https://www.sonarsource.com",
-              "logo": "sonarsource.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/sonarsource",
-              "joined": "2023-04-01"
             },
             {
               "item": null,
@@ -19619,14 +19769,6 @@
             },
             {
               "item": null,
-              "name": "Uffizzi (member)",
-              "homepage_url": "https://www.uffizzi.com/",
-              "logo": "uffizzi.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/uffizzi",
-              "joined": "2022-01-01"
-            },
-            {
-              "item": null,
               "name": "UMB (member)",
               "homepage_url": "https://www.umb.ch/",
               "logo": "umb-ag.svg",
@@ -19656,14 +19798,6 @@
               "logo": "unryo.svg",
               "crunchbase": "https://www.crunchbase.com/organization/unryo",
               "joined": "2024-04-01"
-            },
-            {
-              "item": null,
-              "name": "unSkript (member)",
-              "homepage_url": "https://www.unskript.com/",
-              "logo": "unskript.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/unskript-inc",
-              "joined": "2022-07-01"
             },
             {
               "item": null,
@@ -19863,14 +19997,6 @@
             },
             {
               "item": null,
-              "name": "WOQU Tech (member)",
-              "homepage_url": "http://www.woqutech.com/",
-              "logo": "woqutech.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/woqu-technology-co-ltd",
-              "joined": "2021-02-01"
-            },
-            {
-              "item": null,
               "name": "WSO2 (member)",
               "homepage_url": "https://wso2.com/",
               "logo": "wso2-member.svg",
@@ -19900,14 +20026,6 @@
               "logo": "xgeeks.svg",
               "crunchbase": "https://www.crunchbase.com/organization/xgeeks",
               "joined": "2024-01-01"
-            },
-            {
-              "item": null,
-              "name": "XigXog (member)",
-              "homepage_url": "https://www.xigxog.io/",
-              "logo": "xigxog.svg",
-              "crunchbase": "https://www.crunchbase.com/organization/xigxog",
-              "joined": "2023-06-01"
             },
             {
               "item": null,
@@ -20520,6 +20638,14 @@
             },
             {
               "item": null,
+              "name": "MasterControl (supporter)",
+              "homepage_url": "https://www.mastercontrol.com",
+              "logo": "mastercontrol.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/master-control-inc",
+              "joined": "2024-06-01"
+            },
+            {
+              "item": null,
               "name": "Meltwater (supporter)",
               "homepage_url": "https://www.meltwater.com/en",
               "logo": "meltwater-supporter.svg",
@@ -20881,6 +21007,14 @@
             },
             {
               "item": null,
+              "name": "Wehkamp Retail Group (supporter)",
+              "homepage_url": "https://www.wehkamp.nl",
+              "logo": "wehkamp.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/wehkamp",
+              "joined": "2024-04-01"
+            },
+            {
+              "item": null,
               "name": "William Hill (supporter)",
               "homepage_url": "https://corporate.888.com/",
               "logo": "william-hill.svg",
@@ -20953,8 +21087,8 @@
               "item": null,
               "name": "componentize-js",
               "description": "Scripting languages that support Wasm",
-              "homepage_url": "https://github.com/bytecodealliance/componentize-js",
-              "repo_url": "https://github.com/bytecodealliance/componentize-js",
+              "homepage_url": "https://github.com/bytecodealliance/ComponentizeJS",
+              "repo_url": "https://github.com/bytecodealliance/ComponentizeJS",
               "logo": "bytecode_alliance.svg",
               "crunchbase": "https://www.crunchbase.com/organization/bytecode-alliance"
             },
@@ -21028,6 +21162,15 @@
               "repo_url": "https://github.com/rust-lang/rust",
               "logo": "rust.svg",
               "crunchbase": "https://www.crunchbase.com/organization/rust"
+            },
+            {
+              "item": null,
+              "name": "TinyGo",
+              "description": "Compiled language to Wasm",
+              "homepage_url": "https://tinygo.org/",
+              "repo_url": "https://github.com/tinygo-org/tinygo",
+              "logo": "tinygo.svg",
+              "unnamed_organization": true
             },
             {
               "item": null,
@@ -21241,6 +21384,13 @@
             },
             {
               "item": null,
+              "name": "Metatype",
+              "homepage_url": "https://metatype.dev",
+              "logo": "metatype.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/metatype"
+            },
+            {
+              "item": null,
               "name": "Scale",
               "homepage_url": "https://scale.sh/",
               "repo_url": "https://github.com/loopholelabs/scale",
@@ -21343,6 +21493,30 @@
               "repo_url": "https://github.com/genodelabs/genode",
               "logo": "wasm.svg",
               "crunchbase": "https://www.crunchbase.com/organization/genode-labs"
+            },
+            {
+              "item": null,
+              "name": "Kairos",
+              "homepage_url": "https://kairos.io",
+              "project": "sandbox",
+              "repo_url": "https://github.com/kairos-io/kairos",
+              "logo": "kairos.svg",
+              "twitter": "https://twitter.com/Kairos_OSS",
+              "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
+              "extra": {
+                "accepted": "2024-04-13",
+                "summary_personas": "Cluster admins, SREs, Cloud Architects, Platform Engineers, DevOps Engineer, DevOps practitioners, DevSecOps practitioners",
+                "summary_tags": "security, Go, DevOps, DevSecOps, container, Cloud Native, Kubernetes, Runtime, Kubernetes, baremetal",
+                "summary_use_case": "Transform any Linux system into a secure, customizable, and easily managed platform for edge computing with or without Kubernetes.",
+                "summary_business_use_case": "Kairos can be utilized by businesses to deploy secure, consistent, and easily managed edge computing platforms across multiple locations. For instance, a retail chain can transform its in-store Linux systems into customized, secure, and uniform environments. This setup ensures seamless deployment and management of applications, enhances data security through immutable images and encryption, and reduces maintenance overhead. The system's compatibility with Kubernetes and ease of installation make it an optimal choice for scalable and automated edge computing solutions.",
+                "summary_release_rate": "At least one minor release per quarter",
+                "summary_integrations": "K3s, Kubeadm, rke2, microk8s, Calico, Cert-manager, Flux, Kyverno, Kubevirt, Longhorn, MetalLB, Multus, Nginx, System upgrade controller, EdgeVPN",
+                "summary_intro_url": "https://www.youtube.com/watch?v=WzKf6WrL3nE",
+                "blog_url": "https://kairos.io/blog/",
+                "slack_url": "https://cloud-native.slack.com/archives/C0707M8UEU8",
+                "youtube_url": "https://www.youtube.com/@kairos_oss",
+                "clomonitor_name": "kairos"
+              }
             },
             {
               "item": null,
@@ -21502,13 +21676,16 @@
               "logo": "kubewarden.svg",
               "twitter": "https://twitter.com/kubewarden",
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
-              "allow_duplicate_repo": true
+              "allow_duplicate_repo": true,
+              "extra": {
+                "clomonitor_name": "kubewarden"
+              }
             },
             {
               "item": null,
               "name": "libSQL",
               "homepage_url": "https://libsql.org/",
-              "repo_url": "https://github.com/libsql/libsql",
+              "repo_url": "https://github.com/tursodatabase/libsql",
               "logo": "libsql.svg",
               "crunchbase": "https://www.crunchbase.com/organization/chiselstrike"
             },
@@ -21539,7 +21716,10 @@
               "logo": "openfunction.svg",
               "twitter": "https://twitter.com/openfunctiondev",
               "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
-              "allow_duplicate_repo": true
+              "allow_duplicate_repo": true,
+              "extra": {
+                "clomonitor_name": "openfunction"
+              }
             },
             {
               "item": null,
@@ -21980,7 +22160,7 @@
               "item": null,
               "name": "NEAR",
               "homepage_url": "https://near.org/",
-              "repo_url": "https://github.com/nearprotocol/nearcore",
+              "repo_url": "https://github.com/near/nearcore",
               "logo": "near.svg",
               "crunchbase": "https://www.crunchbase.com/organization/near-protocol"
             },
@@ -22081,6 +22261,864 @@
               "homepage_url": "https://wasmer.io/products/registry",
               "logo": "wasmer.svg",
               "crunchbase": "https://www.crunchbase.com/organization/wasmer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "name": "CNAI",
+      "subcategories": [
+        {
+          "subcategory": null,
+          "name": "General Orchestration",
+          "items": [
+            {
+              "item": null,
+              "name": "Kubernetes",
+              "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
+              "homepage_url": "https://kubernetes.io/",
+              "project": "graduated",
+              "repo_url": "https://github.com/kubernetes/kubernetes",
+              "logo": "kubernetes.svg",
+              "twitter": "https://twitter.com/kubernetesio",
+              "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
+              "allow_duplicate_repo": true,
+              "extra": {
+                "accepted": "2016-03-10",
+                "incubating": "2016-03-10",
+                "graduated": "2018-03-06",
+                "cncf_tags": [
+                  "https://github.com/cncf/tag-runtime"
+                ],
+                "dev_stats_url": "https://k8s.devstats.cncf.io/",
+                "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/graduated.md#kubernetes-logos",
+                "stack_overflow_url": "https://stackoverflow.com/questions/tagged/kubernetes",
+                "blog_url": "http://blog.kubernetes.io/",
+                "mailing_list_url": "https://groups.google.com/forum/#!forum/kubernetes-dev",
+                "slack_url": "http://slack.k8s.io/",
+                "youtube_url": "https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg",
+                "clomonitor_name": "kubernetes",
+                "audits": [
+                  {
+                    "date": "2019-08-06",
+                    "type": "security",
+                    "url": "https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2019/findings",
+                    "vendor": "Trail of Bits and Atredis Partners"
+                  },
+                  {
+                    "date": "2023-04-19",
+                    "type": "security",
+                    "url": "https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings",
+                    "vendor": "NCC Group"
+                  }
+                ]
+              }
+            },
+            {
+              "item": null,
+              "name": "Volcano",
+              "description": "Cloud native batch scheduling system for compute-intensive workloads",
+              "homepage_url": "https://volcano.sh/",
+              "repo_url": "https://github.com/volcano-sh/volcano",
+              "logo": "./volcano_logo.svg",
+              "crunchbase": null,
+              "unnamed_organization": true
+            },
+            {
+              "item": null,
+              "name": "Armada",
+              "description": "Armada is a multi-kubernetes-cluster batch job meta-scheduler.",
+              "homepage_url": "https://armadaproject.io/",
+              "repo_url": "https://github.com/armadaproject/armada",
+              "logo": "./armada.svg",
+              "crunchbase": null,
+              "unnamed_organization": true
+            },
+            {
+              "item": null,
+              "name": "Kuberay",
+              "description": "A toolkit to run Ray applications on Kubernetes",
+              "homepage_url": "https://github.com/ray-project/kuberay",
+              "repo_url": "https://github.com/ray-project/kuberay",
+              "logo": "./ray_logo.svg",
+              "crunchbase": null,
+              "unnamed_organization": true
+            },
+            {
+              "item": null,
+              "name": "Nivida NeMo",
+              "description": "A framework for generative AI",
+              "homepage_url": "https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/index.html",
+              "repo_url": "https://github.com/NVIDIA/NeMo",
+              "logo": "./Nemo.svg",
+              "crunchbase": null,
+              "unnamed_organization": true
+            },
+            {
+              "item": null,
+              "name": "Yunikorn",
+              "description": "Unleash the power of resource scheduling for running Batch, Data & ML on Kubernetes!",
+              "repo_url": "https://github.com/apache/yunikorn-core/",
+              "logo": "./yunikorn.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://yunikorn.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Kueue",
+              "description": "Cloud-native job queueing system for batch, HPC, AI/ML, and similar applications in a Kubernetes cluster.",
+              "repo_url": "https://github.com/kubernetes-sigs/kueue",
+              "logo": "./kueue.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://kueue.sigs.k8s.io/"
+            },
+            {
+              "item": null,
+              "name": "HAMi",
+              "description": "Heterogeneous AI Computing Virtualization (vGPU)",
+              "homepage_url": "https://github.com/Project-HAMi/HAMi",
+              "repo_url": "https://github.com/Project-HAMi/HAMi",
+              "logo": "./hami.svg",
+              "crunchbase": null,
+              "unnamed_organization": true
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "ML Serving",
+          "items": [
+            {
+              "item": null,
+              "name": "Kserve",
+              "description": "Highly scalable and standards based Model Inference Platform on Kubernetes for Trusted AI",
+              "repo_url": "https://github.com/kserve/kserve",
+              "logo": "./k-serve-color.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://kserve.github.io/website/0.11/"
+            },
+            {
+              "item": null,
+              "name": "Seldon",
+              "description": null,
+              "repo_url": "https://github.com/SeldonIO/seldon-core",
+              "logo": "./Seldon_idWf-VLClV_10.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.seldon.io/"
+            },
+            {
+              "item": null,
+              "name": "vLLM",
+              "description": "vLLM is a fast and easy-to-use library for LLM inference and serving.",
+              "repo_url": "https://github.com/vllm-project/vllm",
+              "logo": "./vllm-logo-text-light.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://docs.vllm.ai/en/latest/"
+            },
+            {
+              "item": null,
+              "name": "text-generation-inference (TGI)",
+              "description": "Large Language Model Text Generation Inference",
+              "repo_url": "https://github.com/huggingface/text-generation-inference",
+              "logo": "./huggingface.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://huggingface.co/docs/text-generation-inference/index"
+            },
+            {
+              "item": null,
+              "name": "WasmEdge Runtime",
+              "homepage_url": "https://llamaedge.com/docs/intro/",
+              "project": "sandbox",
+              "repo_url": "https://github.com/WasmEdge/WasmEdge",
+              "logo": "wasmedge.svg",
+              "twitter": "https://twitter.com/realwasmedge",
+              "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
+              "allow_duplicate_repo": true,
+              "extra": {
+                "accepted": "2021-04-28",
+                "annual_review_url": "https://github.com/cncf/toc/pull/1109",
+                "annual_review_date": "2023-07-04",
+                "dev_stats_url": "https://wasmedge.devstats.cncf.io/",
+                "artwork_url": "https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos",
+                "summary_personas": "Developers, DevOps Engineers",
+                "summary_tags": "Edge Cloud, Edge Devices, Container, Embedded runtime, Serverless, UDF, Microservices, Streaming data, OCI Runtime,SaaS",
+                "summary_use_case": "WasmEdge provides a high-performance, lightweight, secure, and extensible WebAssembly runtime for cloud-native applications. It is an OCI compliant container that is integrated into Docker, containerd, crun and many Kubernetes projects.  Compared with traditional Linux container apps, WasmEdge apps are more secure, more portable, cold-start 100x faster and only take 1/10 of the space.\n",
+                "summary_business_use_case": "WasmEdge improves cloud app’s operational efficiency by providing a secure, portable, fast, and lightweight alternative to traditional Linux containers. It allows microservice or servelsss applications to “scale to zero” — all computing resources can be made available on-demand, and “write once run anywhere”. It also works with existing container management infra and programming languages, and hence minimizing the cost of adoption and migration. It is great for running microservices and serverless functions embedded in data pipelines or SaaS platforms.",
+                "summary_release_rate": "Every 3 months",
+                "summary_integrations": "Crun, Runwasi, Youki, Docker Desktop, Kubernetes, WebAssembly Languages Runtime maintained by VMWare, Proxy-wasm, Knative, SuperEdge, OpenYurt, KubeEdge, Fedora Linux",
+                "summary_intro_url": "https://youtu.be/Kg5z5A5wH0A",
+                "clomonitor_name": "wasm-edge"
+              }
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "CI/CD - Delivery",
+          "items": [
+            {
+              "item": null,
+              "name": "Kubeflow Pipelines",
+              "description": "Machine Learning Pipelines for Kubeflow",
+              "repo_url": "https://github.com/kubeflow/pipelines",
+              "logo": "./kubeflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.kubeflow.org/docs/components/pipelines/v1/introduction/"
+            },
+            {
+              "item": null,
+              "name": "Mlflow",
+              "description": null,
+              "repo_url": "https://github.com/mlflow/mlflow",
+              "logo": "./mlflow-white.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://mlflow.org/"
+            },
+            {
+              "item": null,
+              "name": "TensorFlow Extended (TFX)",
+              "description": "TFX is an end-to-end platform for deploying production ML pipelines",
+              "repo_url": "https://github.com/tensorflow/tfx",
+              "logo": "./tensorflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.tensorflow.org/tfx"
+            },
+            {
+              "item": null,
+              "name": "BentoML",
+              "description": "Build Production-Grade AI Applications",
+              "repo_url": "https://github.com/bentoml/BentoML",
+              "logo": "./bentoml.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://bentoml.com"
+            },
+            {
+              "item": null,
+              "name": "MLRun",
+              "description": "Machine Learning automation and tracking",
+              "repo_url": "https://github.com/mlrun/mlrun",
+              "logo": "./mlrun.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.mlrun.org"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "Data Science",
+          "items": [
+            {
+              "item": null,
+              "name": "Project Jupyter",
+              "description": "Interactive Computing",
+              "repo_url": "https://github.com/jupyter",
+              "logo": "./jupyter_logo.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://jupyter.org"
+            },
+            {
+              "item": null,
+              "name": "Kubeflow Notebooks",
+              "description": "Machine Learning Toolkit for Kubernetes",
+              "repo_url": "https://github.com/kubeflow/kubeflow",
+              "logo": "./kubeflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.kubeflow.org/docs/components/notebooks"
+            },
+            {
+              "item": null,
+              "name": "PyTorch",
+              "description": "About Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+              "repo_url": null,
+              "logo": "./pytorch.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://pytorch.org"
+            },
+            {
+              "item": null,
+              "name": "TensorFlow",
+              "description": "An Open Source Machine Learning Framework for Everyone",
+              "repo_url": "https://github.com/tensorflow",
+              "logo": "./tensorflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.tensorflow.org"
+            },
+            {
+              "item": null,
+              "name": "XGBoost",
+              "description": "An optimized distributed gradient boosting library for machine learning.",
+              "repo_url": "https://github.com/dmlc/xgboost",
+              "logo": "./xgboost.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://xgboost.readthedocs.io/en/stable/"
+            },
+            {
+              "item": null,
+              "name": "Apache Zeppelin",
+              "description": "Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",
+              "repo_url": "https://github.com/apache/zeppelin",
+              "logo": "./apache-zeppelin.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://zeppelin.apache.org"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "Distributed Training",
+          "items": [
+            {
+              "item": null,
+              "name": "Kubeflow Training Operator",
+              "description": "Training operators on Kubernetes",
+              "repo_url": "https://github.com/kubeflow/training-operator",
+              "logo": "./kubeflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.kubeflow.org/docs/components/training"
+            },
+            {
+              "item": null,
+              "name": "Pytorch DistributedDataParallel (DDP)",
+              "description": "DistributedDataParallel (DDP) implements data parallelism at the module level which can run across multiple machines.",
+              "repo_url": "https://github.com/pytorch/pytorch",
+              "logo": "./pytorch.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://pytorch.org/tutorials/intermediate/ddp_tutorial.html"
+            },
+            {
+              "item": null,
+              "name": "Torchx",
+              "description": "Universal job launcher for PyTorch applications. TorchX is designed to have fast iteration time for training/research and support for E2E production ML pipelines when you're ready.",
+              "repo_url": null,
+              "logo": "./pytorch.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://pytorch.org/torchx/latest"
+            },
+            {
+              "item": null,
+              "name": "Tensorflow Distributed",
+              "description": "TensorFlow API to distribute training across multiple GPUs, multiple machines, or TPUs. Using this API, you can distribute your existing models and training code with minimal code changes.",
+              "repo_url": null,
+              "logo": "./tensorflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.tensorflow.org/guide/distributed_training"
+            },
+            {
+              "item": null,
+              "name": "Open MPI",
+              "description": "A High Performance Message Passing Library",
+              "repo_url": null,
+              "logo": "./Open_MPI_logo.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www-lb.open-mpi.org/"
+            },
+            {
+              "item": null,
+              "name": "DeepSpeed",
+              "description": "Deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+              "repo_url": "https://github.com/microsoft/DeepSpeed",
+              "logo": "./deepspeed.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/microsoft/DeepSpeed"
+            },
+            {
+              "item": null,
+              "name": "Megatron-LM",
+              "description": "GPU optimized techniques for training transformer models at-scale",
+              "repo_url": "https://github.com/NVIDIA/Megatron-LM",
+              "logo": "./megatron.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/NVIDIA/Megatron-LM"
+            },
+            {
+              "item": null,
+              "name": "Horovod",
+              "description": "Distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.",
+              "repo_url": "https://github.com/horovod/horovod",
+              "logo": "./horovod.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://horovod.ai/"
+            },
+            {
+              "item": null,
+              "name": "Alpa",
+              "description": "Alpa is a system for training and serving large-scale neural networks.",
+              "repo_url": "https://github.com/alpa-projects/alpa",
+              "logo": "./alpa-logo-cropped.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/alpa-projects/alpa"
+            },
+            {
+              "item": null,
+              "name": "Kubeflow MPI Operator",
+              "description": "MPI Operator to manage all-reduce distributed training and HPC workloads.",
+              "logo": "./kubeflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/kubeflow/mpi-operator"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "Workload Observability",
+          "items": [
+            {
+              "item": null,
+              "name": "Prometheus",
+              "description": "An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.",
+              "repo_url": null,
+              "logo": "./prometheus-icon-color.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://prometheus.io/"
+            },
+            {
+              "item": null,
+              "name": "Influxdb",
+              "description": "InfluxDB is an open source time series database written in Rust, using Apache Arrow, Apache Parquet, and Apache DataFusion as its foundational building blocks.",
+              "repo_url": "https://github.com/influxdata/influxdb",
+              "logo": "./influxdb.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/influxdata/influxdb"
+            },
+            {
+              "item": null,
+              "name": "Grafana",
+              "description": "The open-source platform for monitoring and observability",
+              "repo_url": "https://github.com/grafana/grafana",
+              "logo": "./grafana.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/grafana/grafana"
+            },
+            {
+              "item": null,
+              "name": "Weight and Biases (wandb)",
+              "description": "A tool for visualizing and tracking your machine learning experiments. This repo contains the CLI and Python API",
+              "repo_url": "https://github.com/wandb/wandb",
+              "logo": "./wandb-logo-yellow-dots-black-wb.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://wandb.ai/"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "Model/LLM Observability",
+          "items": [
+            {
+              "item": null,
+              "name": "Trulens",
+              "description": "TruLens is a powerful open source library for evaluating and tracking large language model-based applications.",
+              "repo_url": "https://github.com/truera/trulens",
+              "logo": "./trulens.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.trulens.org/"
+            },
+            {
+              "item": null,
+              "name": "Langfuse",
+              "description": "Open source LLM engineering platform - Observability, metrics, evals, prompt management, playground, datasets.",
+              "repo_url": "https://github.com/langfuse/langfuse",
+              "logo": "./lanfuse.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/langfuse/langfuse"
+            },
+            {
+              "item": null,
+              "name": "Deepchecks",
+              "description": "Tests for Continuous Validation of ML Models & Data. Deepchecks is a holistic open-source solution for all of your AI & ML validation needs, enabling to thoroughly test your data and models from research to production.",
+              "repo_url": "https://github.com/deepchecks/deepchecks",
+              "logo": "./deepchecks_logo.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/deepchecks/deepchecks"
+            },
+            {
+              "item": null,
+              "name": "OpenLLMetry",
+              "description": "Open-source observability for your LLM application, based on OpenTelemetry.",
+              "repo_url": "https://github.com/traceloop/openllmetry",
+              "logo": "./open-ll-metry.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/traceloop/openllmetry"
+            },
+            {
+              "item": null,
+              "name": "OpenLIT",
+              "description": "OpenTelemetry-native LLM and GenAI Application Observability",
+              "repo_url": "https://github.com/openlit/openlit",
+              "logo": "./openlit.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/openlit/openlit"
+            },
+            {
+              "item": null,
+              "name": "DeepFlow",
+              "description": "DeepFlow leverages eBPF to collect signals such as performance metrics, distributed tracing, and CPU & GPU profiling. Its goal is to provide zero-code observability for complex cloud-native and AI applications, particularly those involving LLM training and inference using frameworks like PyTorch.",
+              "homepage_url": "https://deepflow.io/",
+              "repo_url": "https://github.com/deepflowio/deepflow",
+              "logo": "./deepflow.svg",
+              "crunchbase": "https://www.crunchbase.com/organization/yunshan-networks"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "AutoML",
+          "items": [
+            {
+              "item": null,
+              "name": "Hyperopt",
+              "description": "Distributed Asynchronous Hyper-parameter Optimization",
+              "repo_url": "https://github.com/hyperopt/hyperopt/",
+              "logo": "./hyperopt.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://hyperopt.github.io/hyperopt/"
+            },
+            {
+              "item": null,
+              "name": "Optuna",
+              "description": "A hyperparameter optimization framework",
+              "repo_url": "https://github.com/optuna/optuna",
+              "logo": "./optuna.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://optuna.org/"
+            },
+            {
+              "item": null,
+              "name": "Kubeflow Katib",
+              "description": "Automated Machine Learning on Kubernetes",
+              "repo_url": "https://github.com/kubeflow/katib",
+              "logo": "./katib.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.kubeflow.org/docs/components/katib/overview/"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "Vector Databases",
+          "note": "Vector extensions are also found in Redis, Postgres SQL, ElasticSearch, etc.",
+          "items": [
+            {
+              "item": null,
+              "name": "Milvus",
+              "description": "A cloud-native vector database, storage for next generation AI applications.",
+              "repo_url": "https://github.com/milvus-io/milvus",
+              "logo": "./milvus.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://milvus.io/"
+            },
+            {
+              "item": null,
+              "name": "Chroma",
+              "description": "The AI-native open-source embedding database.",
+              "repo_url": "https://github.com/chroma-core/chroma",
+              "logo": "./chroma.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/chroma-core/chroma"
+            },
+            {
+              "item": null,
+              "name": "Weaviate",
+              "description": "Open source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+              "repo_url": "https://github.com/weaviate/weaviate",
+              "logo": "./weaviate-nav-logo-dark.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/weaviate/weaviate"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "Data Architecture",
+          "items": [
+            {
+              "item": null,
+              "name": "ClickHouse",
+              "description": "Free analytics DBMS for big data.",
+              "repo_url": "https://github.com/ClickHouse/ClickHouse",
+              "logo": "./clickhouse.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/ClickHouse/ClickHouse"
+            },
+            {
+              "item": null,
+              "name": "Apache Pinot",
+              "description": "A realtime distributed OLAP datastore.",
+              "repo_url": "https://github.com/apache/pinot",
+              "logo": "./pinot.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://pinot.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Apache Druid",
+              "description": "A high performance real-time analytics database.",
+              "repo_url": "https://github.com/apache/druid",
+              "logo": "./apache-druid.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://druid.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Cassandra",
+              "description": "A free and open source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.",
+              "repo_url": "https://github.com/apache/cassandra",
+              "logo": "./cassandra.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://cassandra.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "ScyllaDB",
+              "description": "NoSQL data store using the seastar framework, compatible with Apache Cassandra.",
+              "repo_url": "https://github.com/scylladb/scylladb",
+              "logo": "./scylla.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/scylladb/scylladb"
+            },
+            {
+              "item": null,
+              "name": "Hadoop HDFS",
+              "description": "Open source framework works by rapidly transferring data between nodes. It's often used by companies who need to handle and store big data.",
+              "repo_url": "https://github.com/apache/hadoop",
+              "logo": "./hadoop.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://hadoop.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Apache HBase",
+              "description": "Open source, distributed, versioned, column-oriented store modeled after Google' Bigtable.",
+              "repo_url": "https://github.com/apache/hbase",
+              "logo": "./hbase.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://hbase.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Presto",
+              "description": "A distributed SQL query engine for big data.",
+              "repo_url": "https://github.com/prestodb/presto",
+              "logo": "./presto.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/prestodb/presto"
+            },
+            {
+              "item": null,
+              "name": "Trino",
+              "description": "The distributed SQL query engine for big data, formerly known as PrestoSQL.",
+              "repo_url": "https://github.com/trinodb/trino",
+              "logo": "./trino.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://trino.io/"
+            },
+            {
+              "item": null,
+              "name": "Apache Spark",
+              "description": "A unified analytics engine for large-scale data processing.",
+              "repo_url": "https://github.com/apache/spark",
+              "logo": "./spark.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://spark.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Kubeflow Spark Operator",
+              "description": "Operator to manage Apache Spark applications on Kubernetes.",
+              "repo_url": null,
+              "logo": "./kubeflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/kubeflow/spark-operator"
+            },
+            {
+              "item": null,
+              "name": "Apache Flink",
+              "description": "Open source stream processing framework with powerful stream- and batch-processing capabilities.",
+              "repo_url": "https://github.com/apache/flink",
+              "logo": "./apache-flink.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://flink.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Kafka",
+              "description": "Open source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.",
+              "repo_url": "https://github.com/apache/kafka",
+              "logo": "./apache-kafka.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://flink.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Pulsar",
+              "description": "A distributed pub-sub messaging system.",
+              "repo_url": "https://github.com/apache/pulsar",
+              "logo": "./pulsar.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://pulsar.apache.org/"
+            },
+            {
+              "item": null,
+              "name": "Fluid",
+              "description": "elastic data abstraction and acceleration for BigData/AI applications in the cloud.",
+              "repo_url": "https://github.com/fluid-cloudnative/fluid",
+              "logo": "./fluid-icon-color.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://fluid-cloudnative.github.io/"
+            },
+            {
+              "item": null,
+              "name": "Memcached",
+              "description": "A high performance multithreaded event-based key/value cache store intended to be used in a distributed system.",
+              "repo_url": "https://github.com/memcached/memcached",
+              "logo": "./memcached.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://memcached.org/"
+            },
+            {
+              "item": null,
+              "name": "Redis",
+              "description": "In-memory database that persists on disk.",
+              "repo_url": "https://github.com/redis/redis",
+              "logo": "./redis.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/redis/redis"
+            },
+            {
+              "item": null,
+              "name": "Alluxio",
+              "description": "Data orchestration for analytics and machine learning in the cloud.",
+              "repo_url": "https://github.com/Alluxio/alluxio",
+              "logo": "./alluxio.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/Alluxio/alluxio"
+            },
+            {
+              "item": null,
+              "name": "Kubeflow Model Registry",
+              "description": "Model Registry to store and manage models, versions, and artifacts metadata.",
+              "logo": "./kubeflow.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://github.com/kubeflow/model-registry"
+            },
+            {
+              "item": null,
+              "name": "FEAST",
+              "description": "Feature Store to manage machine learning features.",
+              "repo_url": "https://github.com/feast-dev/feast",
+              "logo": "./feast.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://feast.dev/"
+            }
+          ]
+        },
+        {
+          "subcategory": null,
+          "name": "Governance, Policy & Security",
+          "items": [
+            {
+              "item": null,
+              "name": "Kyverno",
+              "description": "A policy engine designed for Kubernetes platform engineering teams.",
+              "repo_url": "https://github.com/kyverno/kyverno",
+              "logo": "./kyverno-icon-color.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://kyverno.io"
+            },
+            {
+              "item": null,
+              "name": "OPA/Gatekeeper",
+              "description": "An admission controller that validates requests to create and update Pods on Kubernetes clusters, using the Open Policy Agent (OPA).",
+              "repo_url": "https://github.com/open-policy-agent/gatekeeper",
+              "logo": "./opa-icon-color.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://www.openpolicyagent.org/"
+            },
+            {
+              "item": null,
+              "name": "Kyverno-JSON",
+              "description": "Use Kyverno's powerful, declarative, low-code policies to validate any runtime or configuration data that can be converted to JSON.",
+              "repo_url": "https://github.com/kyverno/kyverno-json",
+              "logo": "./kyverno-json-logo.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://kyverno.github.io/kyverno-json/latest/"
+            },
+            {
+              "item": null,
+              "name": "Stacklock Minder",
+              "description": "Software Supply Chain Security Platform",
+              "repo_url": "https://github.com/stacklok/minder",
+              "logo": "./stacklock.svg",
+              "crunchbase": null,
+              "unnamed_organization": true,
+              "homepage_url": "https://stacklok.com/minder"
             }
           ]
         }

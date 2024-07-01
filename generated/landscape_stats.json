@@ -1,28 +1,27 @@
 {
   "cncfProjectsSummary": {
-    "count": 191,
+    "count": 200,
     "commonKeys": [
       "item",
       "name",
       "homepage_url",
       "project",
       "logo",
-      "crunchbase",
       "extra",
-      "extra.accepted",
       "subcategory",
       "category"
     ],
-    "uniqueKeys": "additional_repos,additional_repos.0,additional_repos.0.repo_url,additional_repos.1,additional_repos.1.repo_url,additional_repos.10,additional_repos.10.repo_url,additional_repos.11,additional_repos.11.repo_url,additional_repos.12,additional_repos.12.repo_url,additional_repos.13,additional_repos.13.repo_url,additional_repos.14,additional_repos.14.repo_url,additional_repos.15,additional_repos.15.repo_url,additional_repos.16,additional_repos.16.repo_url,additional_repos.2,additional_repos.2.repo_url,additional_repos.3,additional_repos.3.repo_url,additional_repos.4,additional_repos.4.repo_url,additional_repos.5,additional_repos.5.repo_url,additional_repos.6,additional_repos.6.repo_url,additional_repos.7,additional_repos.7.repo_url,additional_repos.8,additional_repos.8.repo_url,additional_repos.9,additional_repos.9.repo_url,allow_duplicate_repo,description,enduser,extra.annual_review_date,extra.annual_review_url,extra.archived,extra.artwork_url,extra.audits,extra.audits.0,extra.audits.0.date,extra.audits.0.type,extra.audits.0.url,extra.audits.0.vendor,extra.audits.1,extra.audits.1.date,extra.audits.1.type,extra.audits.1.url,extra.audits.1.vendor,extra.audits.2,extra.audits.2.date,extra.audits.2.type,extra.audits.2.url,extra.audits.2.vendor,extra.blog_url,extra.chat_channel,extra.clomonitor_name,extra.cncf_tags,extra.cncf_tags.0,extra.dev_stats_url,extra.devstats,extra.docker_url,extra.github_discussions_url,extra.gitter_url,extra.graduated,extra.incubating,extra.linkedin_url,extra.mailing_list_url,extra.slack_url,extra.specification,extra.stack_overflow_url,extra.summary_business_use_case,extra.summary_integration,extra.summary_integrations,extra.summary_intro_url,extra.summary_languages,extra.summary_personas,extra.summary_release_rate,extra.summary_tags,extra.summary_use_case,extra.url_for_bestpractices,extra.youtube_url,joined,open_source,project_org,repo_url,second_path,second_path.0,second_path.1,twitter,url_for_bestpractices",
+    "uniqueKeys": "additional_repos,additional_repos.0,additional_repos.0.repo_url,additional_repos.1,additional_repos.1.repo_url,additional_repos.10,additional_repos.10.repo_url,additional_repos.11,additional_repos.11.repo_url,additional_repos.12,additional_repos.12.repo_url,additional_repos.13,additional_repos.13.repo_url,additional_repos.14,additional_repos.14.repo_url,additional_repos.15,additional_repos.15.repo_url,additional_repos.16,additional_repos.16.repo_url,additional_repos.2,additional_repos.2.repo_url,additional_repos.3,additional_repos.3.repo_url,additional_repos.4,additional_repos.4.repo_url,additional_repos.5,additional_repos.5.repo_url,additional_repos.6,additional_repos.6.repo_url,additional_repos.7,additional_repos.7.repo_url,additional_repos.8,additional_repos.8.repo_url,additional_repos.9,additional_repos.9.repo_url,allow_duplicate_repo,crunchbase,description,enduser,extra.accepted,extra.annual_review_date,extra.annual_review_url,extra.archived,extra.artwork_url,extra.audits,extra.audits.0,extra.audits.0.date,extra.audits.0.type,extra.audits.0.url,extra.audits.0.vendor,extra.audits.1,extra.audits.1.date,extra.audits.1.type,extra.audits.1.url,extra.audits.1.vendor,extra.audits.2,extra.audits.2.date,extra.audits.2.type,extra.audits.2.url,extra.audits.2.vendor,extra.blog_url,extra.chat_channel,extra.clomonitor_name,extra.cncf_tags,extra.cncf_tags.0,extra.dev_stats_url,extra.devstats,extra.docker_url,extra.github_discussions_url,extra.gitter_url,extra.graduated,extra.incubating,extra.linkedin_url,extra.mailing_list_url,extra.slack_url,extra.specification,extra.stack_overflow_url,extra.summary_business_use_case,extra.summary_integration,extra.summary_integrations,extra.summary_intro_url,extra.summary_languages,extra.summary_personas,extra.summary_release_rate,extra.summary_tags,extra.summary_use_case,extra.tag,extra.url_for_bestpractices,extra.youtube_url,joined,open_source,project_org,repo_url,second_path,second_path.0,second_path.1,twitter,url_for_bestpractices",
     "categoryBreakdown": {
       "Provisioning": 46,
       "Runtime": 31,
-      "Orchestration & Management": 41,
-      "App Definition and Development": 39,
-      "Platform": 2,
+      "Orchestration & Management": 43,
+      "App Definition and Development": 40,
+      "Platform": 3,
       "Serverless": 6,
       "Observability and Analysis": 24,
-      "Wasm": 2
+      "Wasm": 5,
+      "CNAI": 2
     },
     "subcategoryBreakdown": {
       "Provisioning": {
@@ -37,9 +36,9 @@
         "Cloud Native Network": 10
       },
       "Orchestration & Management": {
-        "Scheduling & Orchestration": 21,
+        "Scheduling & Orchestration": 22,
         "Coordination & Service Discovery": 4,
-        "Remote Procedure Call": 1,
+        "Remote Procedure Call": 2,
         "Service Proxy": 5,
         "API Gateway": 2,
         "Service Mesh": 8
@@ -47,12 +46,12 @@
       "App Definition and Development": {
         "Database": 3,
         "Streaming & Messaging": 5,
-        "Application Definition & Image Build": 22,
+        "Application Definition & Image Build": 23,
         "Continuous Integration & Delivery": 9
       },
       "Platform": {
         "Certified Kubernetes - Distribution": 1,
-        "Certified Kubernetes - Installer": 1
+        "Certified Kubernetes - Installer": 2
       },
       "Serverless": {
         "Tools": 1,
@@ -66,18 +65,24 @@
         "Observability": 18
       },
       "Wasm": {
-        "Runtimes": 2
+        "Runtimes": 2,
+        "Edge/Bare metal": 1,
+        "Embedded Functions": 2
+      },
+      "CNAI": {
+        "General Orchestration": 1,
+        "ML Serving": 1
       }
     }
   },
   "cncfProjectMaturitySummary": {
-    "sandbox": 117,
-    "incubating": 38,
-    "graduated": 27,
+    "sandbox": 125,
+    "incubating": 39,
+    "graduated": 28,
     "archived": 8
   },
   "cncfSpecialSummary": {
-    "count": 290,
+    "count": 284,
     "commonKeys": [
       "item",
       "name",
@@ -89,18 +94,18 @@
     ],
     "uniqueKeys": "description,extra,extra.training_certifications,extra.training_type,joined,project,twitter",
     "categoryBreakdown": {
-      "Special": 290
+      "Special": 284
     },
     "subcategoryBreakdown": {
       "Special": {
-        "Kubernetes Certified Service Provider": 229,
-        "Kubernetes Training Partner": 55,
+        "Kubernetes Certified Service Provider": 224,
+        "Kubernetes Training Partner": 54,
         "Certified CNFs": 6
       }
     }
   },
   "cncfMembersSummary": {
-    "count": 752,
+    "count": 748,
     "commonKeys": [
       "item",
       "name",
@@ -109,23 +114,23 @@
       "subcategory",
       "category"
     ],
-    "uniqueKeys": "crunchbase,description,enduser,extra,extra.training_certifications,extra.training_type,joined,stock_ticker,twitter,unnamed_organization",
+    "uniqueKeys": "crunchbase,description,enduser,joined,stock_ticker,twitter,unnamed_organization",
     "categoryBreakdown": {
-      "CNCF Members": 752
+      "CNCF Members": 748
     },
     "subcategoryBreakdown": {
       "CNCF Members": {
         "Platinum": 19,
         "Gold": 27,
-        "Silver": 593,
+        "Silver": 587,
         "Academic": 4,
         "Nonprofit": 18,
-        "End User Supporter": 91
+        "End User Supporter": 93
       }
     }
   },
   "cncfWasmSummary": {
-    "count": 128,
+    "count": 131,
     "commonKeys": [
       "item",
       "name",
@@ -134,16 +139,16 @@
       "subcategory",
       "category"
     ],
-    "uniqueKeys": "allow_duplicate_repo,crunchbase,description,extra,extra.accepted,extra.annual_review_date,extra.annual_review_url,extra.artwork_url,extra.blog_url,extra.chat_channel,extra.clomonitor_name,extra.dev_stats_url,extra.mailing_list_url,extra.slack_url,extra.youtube_url,project,repo_url,twitter,unnamed_organization",
+    "uniqueKeys": "allow_duplicate_repo,crunchbase,description,extra,extra.accepted,extra.annual_review_date,extra.annual_review_url,extra.artwork_url,extra.blog_url,extra.chat_channel,extra.clomonitor_name,extra.dev_stats_url,extra.mailing_list_url,extra.slack_url,extra.summary_business_use_case,extra.summary_integrations,extra.summary_intro_url,extra.summary_personas,extra.summary_release_rate,extra.summary_tags,extra.summary_use_case,extra.youtube_url,project,repo_url,twitter,unnamed_organization",
     "categoryBreakdown": {
-      "Wasm": 128
+      "Wasm": 131
     },
     "subcategoryBreakdown": {
       "Wasm": {
-        "Languages": 16,
+        "Languages": 17,
         "Runtimes": 12,
-        "Application Frameworks": 15,
-        "Edge/Bare metal": 4,
+        "Application Frameworks": 16,
+        "Edge/Bare metal": 5,
         "AI/Machine Learning": 7,
         "Embedded Functions": 17,
         "Tooling": 13,
@@ -156,7 +161,7 @@
     }
   },
   "nonCncfProjectsSummary": {
-    "count": 882,
+    "count": 971,
     "commonKeys": [
       "item",
       "name",
@@ -165,22 +170,23 @@
       "subcategory",
       "category"
     ],
-    "uniqueKeys": "additional_repos,additional_repos.0,additional_repos.0.repo_url,additional_repos.1,additional_repos.1.repo_url,additional_repos.2,additional_repos.2.repo_url,additional_repos.3,additional_repos.3.repo_url,additional_repos.4,additional_repos.4.repo_url,additional_repos.5,additional_repos.5.repo_url,additional_repos.6,additional_repos.6.repo_url,additional_repos.7,additional_repos.7.repo_url,allow_duplicate_repo,branch,crunchbase,description,extra,extra.accepted,extra.artwork_url,extra.blog_jp_url,extra.blog_url,extra.clomonitor_name,extra.dev_stats_url,extra.discord_url,extra.docker_url,extra.github_discussions_url,extra.helm_chart_url,extra.kubernetes_url,extra.linkedin_url,extra.mailing_list_url,extra.operator_chart_url,extra.parent_project,extra.slack_url,extra.stack_overflow_url,extra.summary_business_use_case,extra.summary_integration,extra.summary_integrations,extra.summary_intro_url,extra.summary_personas,extra.summary_release_rate,extra.summary_tags,extra.summary_use_case,extra.youtube_url,joined,open_source,organization,organization.name,project_org,repo_url,stock_ticker,twitter,url_for_bestpractices",
+    "uniqueKeys": "additional_repos,additional_repos.0,additional_repos.0.repo_url,additional_repos.1,additional_repos.1.repo_url,additional_repos.2,additional_repos.2.repo_url,additional_repos.3,additional_repos.3.repo_url,additional_repos.4,additional_repos.4.repo_url,additional_repos.5,additional_repos.5.repo_url,additional_repos.6,additional_repos.6.repo_url,additional_repos.7,additional_repos.7.repo_url,allow_duplicate_repo,branch,crunchbase,description,extra,extra.accepted,extra.artwork_url,extra.blog_jp_url,extra.blog_url,extra.chat_channel,extra.clomonitor_name,extra.dev_stats_url,extra.discord_url,extra.docker_url,extra.github_discussions_url,extra.helm_chart_url,extra.kubernetes_url,extra.linkedin_url,extra.mailing_list_url,extra.operator_chart_url,extra.parent_project,extra.slack_url,extra.stack_overflow_url,extra.summary_business_use_case,extra.summary_integration,extra.summary_integrations,extra.summary_intro_url,extra.summary_personas,extra.summary_release_rate,extra.summary_tags,extra.summary_use_case,extra.youtube_url,joined,open_source,organization,organization.name,project_org,repo_url,stock_ticker,twitter,unnamed_organization,url_for_bestpractices",
     "categoryBreakdown": {
-      "Provisioning": 134,
+      "Provisioning": 137,
       "Runtime": 87,
-      "Orchestration & Management": 88,
-      "App Definition and Development": 206,
-      "Platform": 154,
+      "Orchestration & Management": 90,
+      "App Definition and Development": 210,
+      "Platform": 159,
       "Serverless": 60,
-      "Observability and Analysis": 153
+      "Observability and Analysis": 156,
+      "CNAI": 72
     },
     "subcategoryBreakdown": {
       "Provisioning": {
-        "Automation & Configuration": 34,
+        "Automation & Configuration": 35,
         "Container Registry": 9,
-        "Security & Compliance": 81,
-        "Key Management": 10
+        "Security & Compliance": 84,
+        "Key Management": 9
       },
       "Runtime": {
         "Cloud Native Storage": 60,
@@ -188,23 +194,23 @@
         "Cloud Native Network": 17
       },
       "Orchestration & Management": {
-        "Scheduling & Orchestration": 20,
+        "Scheduling & Orchestration": 21,
         "Coordination & Service Discovery": 5,
         "Remote Procedure Call": 12,
         "Service Proxy": 17,
         "API Gateway": 21,
-        "Service Mesh": 13
+        "Service Mesh": 14
       },
       "App Definition and Development": {
         "Database": 76,
-        "Streaming & Messaging": 33,
-        "Application Definition & Image Build": 45,
+        "Streaming & Messaging": 34,
+        "Application Definition & Image Build": 48,
         "Continuous Integration & Delivery": 52
       },
       "Platform": {
-        "Certified Kubernetes - Distribution": 58,
-        "Certified Kubernetes - Hosted": 55,
-        "Certified Kubernetes - Installer": 21,
+        "Certified Kubernetes - Distribution": 62,
+        "Certified Kubernetes - Hosted": 57,
+        "Certified Kubernetes - Installer": 20,
         "PaaS/Container Service": 20
       },
       "Serverless": {
@@ -218,12 +224,25 @@
         "Feature Flagging": 6,
         "Chaos Engineering": 7,
         "Continuous Optimization": 20,
-        "Observability": 120
+        "Observability": 123
+      },
+      "CNAI": {
+        "General Orchestration": 7,
+        "ML Serving": 4,
+        "CI/CD - Delivery": 5,
+        "Data Science": 6,
+        "Distributed Training": 10,
+        "Workload Observability": 4,
+        "Model/LLM Observability": 6,
+        "AutoML": 3,
+        "Vector Databases": 3,
+        "Data Architecture": 20,
+        "Governance, Policy & Security": 4
       }
     }
   },
-  "duplicateNames": "Upbound (member)",
+  "duplicateNames": "Upbound (member) ,Kubernetes ,Volcano ,Armada ,WasmEdge Runtime ,Prometheus ,Grafana ,OpenLLMetry ,OpenLIT ,DeepFlow ,Weaviate ,ClickHouse ,Cassandra ,Presto ,Apache Spark ,Kafka ,Pulsar ,Fluid ,Redis ,Alluxio ,Kyverno",
   "notes": [
-    "The following projects do not have 'extra.accepted' specified: Kubewarden (Wasm), OpenFunction (Wasm)"
+    "The following projects do not have 'extra.accepted' specified: "
   ]
 }

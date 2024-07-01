@@ -10,7 +10,7 @@ metadata:
     - title: Twitter
       url: https://twitter.com/megaease
   annotations:
-    backstage.io/source-location: $url:https://github.com/megaease/easegress
+    backstage.io/source-location: $url:https://github.com/easegress-io/easegress
 spec:
   type: service
   lifecycle: production
