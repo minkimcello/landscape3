@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Podman-Container-Tools
+  description: A set of tools providing full management of container lifecycle,
+    including Podman, Buildah, and Skopeo,  which manage containers and images
+    without requiring a daemon or root privileges.
+  links:
+    - title: Homepage
+      url: https://podman.io/
+    - title: Crunchbase
+  annotations:
+    backstage.io/source-location: $url:https://github.com/containers/podman
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: Runtime
+  subcategory: Container Runtime
+  status: sandbox
+  logo: podman.svg
+  maturity:
+    sandbox_date: 2025-01-21

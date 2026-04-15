@@ -17,10 +17,10 @@ spec:
   type: service
   lifecycle: production
   owner: CNCF
-  accepted: 2019-05-14
+  accepted: 2024-10-10
   category: Runtime
   subcategory: Cloud Native Storage
-  status: archived
+  status: sandbox
   logo: openebs.svg
   maturity:
-    sandbox_date: 2019-05-14
+    sandbox_date: 2024-10-10

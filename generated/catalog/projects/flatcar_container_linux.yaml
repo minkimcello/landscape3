@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Flatcar-Container-Linux
+  description: A community Linux distribution designed for container workloads,
+    with high security and low maintenance
+  links:
+    - title: Homepage
+      url: https://www.flatcar.org/
+    - title: Crunchbase
+    - title: Twitter
+      url: https://twitter.com/flatcar
+  annotations:
+    backstage.io/source-location: $url:https://github.com/flatcar/Flatcar
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-08-02
+  category: Platform
+  subcategory: Certified Kubernetes - Distribution
+  status: incubating
+  logo: flatcar.svg
+  maturity:
+    sandbox_date: 2024-08-02
+    incubation_date: 2024-08-02

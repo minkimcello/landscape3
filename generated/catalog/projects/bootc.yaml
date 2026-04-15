@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bootc
+  description: The bootc provides transactional, in-place operating system images
+    and updates using OCI/Docker container images. This project applies the
+    Docker container layering model to bootable host systems, using standard
+    OCI/Docker containers as a transport and delivery format for base operating
+    system updates.
+  links:
+    - title: Homepage
+      url: https://bootc-dev.github.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/bootc-dev/bootc
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: Runtime
+  subcategory: Container Runtime
+  status: sandbox
+  logo: bootc.svg
+  maturity:
+    sandbox_date: 2025-01-21

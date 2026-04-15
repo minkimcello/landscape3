@@ -11,6 +11,13 @@ metadata:
       url: https://twitter.com/mesheryio
     - title: Slack/Discord
       url: https://slack.meshery.io
+  tags:
+    - collaboration
+    - configurationmanagement
+    - devops
+    - gitops
+    - automation
+    - visualtopology
   annotations:
     backstage.io/source-location: $url:https://github.com/meshery/meshery
 spec:

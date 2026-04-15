@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Shipwright
+  links:
+    - title: Homepage
+      url: https://shipwright.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/shipwrightio
+  annotations:
+    backstage.io/source-location: $url:https://github.com/shipwright-io/build
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-08-19
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: shipwright.svg
+  maturity:
+    sandbox_date: 2024-08-19

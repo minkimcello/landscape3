@@ -1,24 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Krustlet-Wasm
+  name: Higress
   links:
     - title: Homepage
-      url: https://krustlet.dev
+      url: https://higress.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-    - title: Twitter
-      url: https://twitter.com/krustlet
   annotations:
-    backstage.io/source-location: $url:https://github.com/krustlet/krustlet
+    backstage.io/source-location: $url:https://github.com/alibaba/higress
 spec:
   type: service
   lifecycle: production
   owner: CNCF
-  accepted: 2021-07-13
-  category: Wasm
-  subcategory: Runtimes
+  accepted: 2026-03-15
+  category: Orchestration & Management
+  subcategory: API Gateway
   status: sandbox
-  logo: krustlet.svg
+  logo: higress.svg
   maturity:
-    sandbox_date: 2021-07-13
+    sandbox_date: 2026-03-15

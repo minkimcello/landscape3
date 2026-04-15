@@ -20,7 +20,7 @@ spec:
   accepted: 2022-06-17
   category: Runtime
   subcategory: Cloud Native Storage
-  status: sandbox
+  status: archived
   logo: curve.svg
   maturity:
     sandbox_date: 2022-06-17

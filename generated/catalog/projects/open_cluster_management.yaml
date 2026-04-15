@@ -12,7 +12,7 @@ metadata:
     - title: Slack/Discord
       url: https://kubernetes.slack.com/archives/C01GE7YSUUF
   annotations:
-    backstage.io/source-location: $url:https://github.com/open-cluster-management-io/api
+    backstage.io/source-location: $url:https://github.com/open-cluster-management-io/ocm
 spec:
   type: service
   lifecycle: production

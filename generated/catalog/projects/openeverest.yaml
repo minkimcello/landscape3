@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenEverest
+  description: The open-source platform for automated database provisioning and
+    management. It supports multiple database technologies and can be hosted on
+    any Kubernetes infrastructure, in the cloud or on-premises.
+  links:
+    - title: Homepage
+      url: https://openeverest.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/openeverest/openeverest
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2026-03-15
+  category: App Definition and Development
+  subcategory: Database
+  status: sandbox
+  logo: openeverest.svg
+  maturity:
+    sandbox_date: 2026-03-15

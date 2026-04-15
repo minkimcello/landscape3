@@ -8,6 +8,8 @@ metadata:
       url: https://github.com/lima-vm/lima
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://x.com/TheLimaProject
     - title: Slack/Discord
       url: https://slack.cncf.io/
   annotations:
@@ -19,7 +21,8 @@ spec:
   accepted: 2022-09-14
   category: Runtime
   subcategory: Container Runtime
-  status: sandbox
+  status: incubating
   logo: lima.svg
   maturity:
     sandbox_date: 2022-09-14
+    incubation_date: 2025-10-14

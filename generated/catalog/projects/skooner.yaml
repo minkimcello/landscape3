@@ -16,7 +16,7 @@ spec:
   accepted: 2021-01-26
   category: Observability and Analysis
   subcategory: Observability
-  status: sandbox
+  status: archived
   logo: skooner.svg
   maturity:
     sandbox_date: 2021-01-26

@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KAITO
+  description: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference,
+    tuning, and RAG workloads on Kubernetes.
+  links:
+    - title: Homepage
+      url: https://kaito-project.netlify.app/
+    - title: Crunchbase
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kaito-project/kaito
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-10-17
+  category: CNAI
+  subcategory: ML Serving
+  status: sandbox
+  logo: kaito.svg
+  maturity:
+    sandbox_date: 2024-10-17

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OAuth2-Proxy
+  description: A generic reverse proxy that provides authentication with Google,
+    Azure, OpenID Connect and many more identity providers.
+  links:
+    - title: Homepage
+      url: https://oauth2-proxy.github.io/oauth2-proxy/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/oauth2-proxy/oauth2-proxy
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-10-02
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: oauth2-proxy.svg
+  maturity:
+    sandbox_date: 2025-10-02

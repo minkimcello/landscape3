@@ -23,8 +23,9 @@ spec:
   accepted: 2019-08-14
   category: Provisioning
   subcategory: Security & Compliance
-  status: incubating
+  status: graduated
   logo: in-toto.svg
   maturity:
     sandbox_date: 2019-08-14
     incubation_date: 2022-03-10
+    graduation_date: 2025-02-10

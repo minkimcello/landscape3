@@ -1,24 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Virtual-Kubelet-Serverless
+  name: SlimFaaS
+  description: The slimest and simplest Function As A Service
   links:
     - title: Homepage
-      url: https://virtual-kubelet.io/
+      url: https://github.com/SlimPlanet/SlimFaas
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-    - title: Twitter
-      url: https://twitter.com/virtualkubelet
   annotations:
-    backstage.io/source-location: ""
+    backstage.io/source-location: $url:https://github.com/SlimPlanet/SlimFaas
 spec:
   type: service
   lifecycle: production
   owner: CNCF
-  accepted: 2018-12-04
+  accepted: 2025-01-21
   category: Serverless
   subcategory: Installable Platform
   status: sandbox
-  logo: virtual-kubelet.svg
+  logo: slimfaas.svg
   maturity:
-    sandbox_date: 2018-12-04
+    sandbox_date: 2025-01-21

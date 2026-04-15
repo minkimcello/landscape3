@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: NMstate
+  description: NMstate is a library with an accompanying command line tool that
+    manages host networking settings in a declarative manner. When used in the
+    Kubernetes environment it allows for declarative node network configuration
+    through the Kubernetes API.
+  links:
+    - title: Homepage
+      url: https://nmstate.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/nmstate/nmstate
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2026-03-12
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: nmstate.svg
+  maturity:
+    sandbox_date: 2026-03-12

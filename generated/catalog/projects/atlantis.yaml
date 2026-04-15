@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Atlantis
+  description: Terraform Pull Request Automation for Teams
+  links:
+    - title: Homepage
+      url: https://www.runatlantis.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/runatlantis/atlantis
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-06-18
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: atlantis.svg
+  maturity:
+    sandbox_date: 2024-06-18

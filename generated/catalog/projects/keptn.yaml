@@ -37,7 +37,7 @@ spec:
   accepted: 2020-06-25
   category: App Definition and Development
   subcategory: Continuous Integration & Delivery
-  status: incubating
+  status: archived
   logo: keptn.svg
   maturity:
     sandbox_date: 2020-06-25

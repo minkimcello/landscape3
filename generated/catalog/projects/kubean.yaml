@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubean
+  description: Product ready cluster lifecycle management toolchains based on
+    kubespray and other cluster LCM engine.
+  links:
+    - title: Homepage
+      url: https://kubean-io.github.io/kubean/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kubean-io/kubean
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-04-16
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: kubean.svg
+  maturity:
+    sandbox_date: 2024-04-16

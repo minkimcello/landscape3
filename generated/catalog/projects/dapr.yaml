@@ -34,8 +34,9 @@ spec:
   accepted: 2021-11-09
   category: App Definition and Development
   subcategory: Application Definition & Image Build
-  status: incubating
+  status: graduated
   logo: dapr.svg
   maturity:
     sandbox_date: 2021-11-09
     incubation_date: 2021-11-09
+    graduation_date: 2024-10-30

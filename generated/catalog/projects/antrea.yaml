@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Antrea
+  description: Kubernetes networking based on Open vSwitch
   links:
     - title: Homepage
       url: https://antrea.io/

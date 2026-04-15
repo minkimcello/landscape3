@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Metal
+  name: metal3-io
   links:
     - title: Homepage
       url: https://metal3.io/
@@ -24,7 +24,8 @@ spec:
   accepted: 2020-09-08
   category: Provisioning
   subcategory: Automation & Configuration
-  status: sandbox
+  status: incubating
   logo: metal3.svg
   maturity:
     sandbox_date: 2020-09-08
+    incubation_date: 2025-08-14

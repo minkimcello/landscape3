@@ -18,7 +18,7 @@ spec:
   accepted: 2021-11-16
   category: App Definition and Development
   subcategory: Application Definition & Image Build
-  status: sandbox
+  status: archived
   logo: nocalhost.svg
   maturity:
     sandbox_date: 2021-11-16

@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Agones
+  description: Agones is a library for hosting, running, and scaling dedicated
+    game servers on Kubernetes.
+  links:
+    - title: Homepage
+      url: https://agones.dev/site/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/agonesdev
+  annotations:
+    backstage.io/source-location: $url:https://github.com/agones-dev/agones
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-12-21
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: cncf.svg
+  maturity:
+    sandbox_date: 2025-12-21

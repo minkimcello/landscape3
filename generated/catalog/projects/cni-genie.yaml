@@ -16,7 +16,7 @@ spec:
   accepted: 2020-06-25
   category: Runtime
   subcategory: Cloud Native Network
-  status: sandbox
+  status: archived
   logo: cni-genie.svg
   maturity:
     sandbox_date: 2020-06-25

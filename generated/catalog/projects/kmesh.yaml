@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kmesh
+  description: Kmesh is a high-performance and low overhead service mesh data
+    plane based on eBPF and programmable kernel. Kmesh brings traffic
+    management, security and monitoring to service communication without needing
+    application code changes. It is natively sidecarless, zero intrusion and
+    without adding any resource cost to application container.
+  links:
+    - title: Homepage
+      url: https://kmesh.net
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/Kmesh_net
+    - title: Slack/Discord
+      url: https://slack.cncf.io/
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kmesh-net/kmesh
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-10-17
+  category: Orchestration & Management
+  subcategory: Service Mesh
+  status: sandbox
+  logo: kmesh.svg
+  maturity:
+    sandbox_date: 2024-10-17

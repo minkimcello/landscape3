@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cadence-Workflow
+  description: Cadence is a distributed, scalable, durable, and highly available
+    fault-oblivious stateful code platform.
+  links:
+    - title: Homepage
+      url: https://cadenceworkflow.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/CloudNativeFdn
+  annotations:
+    backstage.io/source-location: $url:https://github.com/cadence-workflow/cadence
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-05-22
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: cadenceworkflow.svg
+  maturity:
+    sandbox_date: 2025-05-22

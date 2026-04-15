@@ -10,7 +10,7 @@ metadata:
     - title: Twitter
       url: https://twitter.com/curiefense
   annotations:
-    backstage.io/source-location: $url:https://github.com/curiefense/curiefense
+    backstage.io/source-location: ""
 spec:
   type: service
   lifecycle: production
@@ -18,7 +18,7 @@ spec:
   accepted: 2021-01-26
   category: Provisioning
   subcategory: Security & Compliance
-  status: sandbox
+  status: archived
   logo: curiefense.svg
   maturity:
     sandbox_date: 2021-01-26

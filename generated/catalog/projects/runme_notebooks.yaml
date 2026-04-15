@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Runme-Notebooks
+  description: A toolchain that turns Markdown into interactive, cloud-native,
+    runnable Notebook experiences for DevOps.
+  links:
+    - title: Homepage
+      url: https://runme.dev/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  tags:
+    - devops
+    - notebooks
+    - markdown
+    - automation
+    - gitops
+  annotations:
+    backstage.io/source-location: $url:https://github.com/runmedev/runme
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: runme-notebooks.svg
+  maturity:
+    sandbox_date: 2025-01-21

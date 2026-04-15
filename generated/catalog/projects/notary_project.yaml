@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Notary
+  name: Notary-Project
   links:
     - title: Homepage
       url: https://notaryproject.dev/
@@ -17,7 +17,7 @@ spec:
   category: Provisioning
   subcategory: Security & Compliance
   status: incubating
-  logo: notary.svg
+  logo: notary-project.svg
   maturity:
     sandbox_date: 2017-10-24
     incubation_date: 2017-10-24

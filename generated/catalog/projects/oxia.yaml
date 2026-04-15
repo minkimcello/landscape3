@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Oxia
+  description: Oxia is a scalable metadata store and coordination system
+  links:
+    - title: Homepage
+      url: https://oxia-db.github.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/oxia-db/oxia
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-10-06
+  category: Orchestration & Management
+  subcategory: Coordination & Service Discovery
+  status: sandbox
+  logo: oxia.svg
+  maturity:
+    sandbox_date: 2025-10-06

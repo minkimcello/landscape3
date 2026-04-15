@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Tokenetes
+  description: Tokenetes implements Transaction Tokens (TraTs) for microservices
+    call chains.  It's a Kubernetes-native framework providing immutable
+    identity and context in  service-to-service communication to prevent attacks
+    like software supply chain  or privileged user compromise.
+  links:
+    - title: Homepage
+      url: https://tokenetes.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/tokenetes/tokenetes
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: tokenetes.svg
+  maturity:
+    sandbox_date: 2025-01-21

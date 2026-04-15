@@ -17,7 +17,8 @@ spec:
   accepted: 2020-09-08
   category: Provisioning
   subcategory: Automation & Configuration
-  status: sandbox
+  status: incubating
   logo: openyurt.svg
   maturity:
     sandbox_date: 2020-09-08
+    incubation_date: 2025-01-10

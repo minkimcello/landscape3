@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Spin
+  description: Spin is a framework for building and deploying serverless
+    applications in WebAssembly.
+  links:
+    - title: Homepage
+      url: https://spinframework.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/spinframework/spin
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: Wasm
+  subcategory: Application Frameworks
+  status: sandbox
+  logo: spin.svg
+  maturity:
+    sandbox_date: 2025-01-21

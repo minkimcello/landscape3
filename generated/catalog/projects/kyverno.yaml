@@ -25,8 +25,9 @@ spec:
   accepted: 2020-11-10
   category: Provisioning
   subcategory: Security & Compliance
-  status: incubating
+  status: graduated
   logo: kyverno.svg
   maturity:
     sandbox_date: 2020-11-10
     incubation_date: 2022-07-13
+    graduation_date: 2026-03-16

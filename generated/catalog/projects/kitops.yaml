@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KitOps
+  description: An open standard for packaging, managing, and deploying ML models
+    and artifacts across different systems
+  links:
+    - title: Homepage
+      url: https://kitops.org/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kitops-ml/kitops
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-03-04
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: kitops.svg
+  maturity:
+    sandbox_date: 2025-03-04

@@ -16,7 +16,7 @@ spec:
   accepted: 2022-04-26
   category: Provisioning
   subcategory: Key Management
-  status: sandbox
+  status: archived
   logo: teller.svg
   maturity:
     sandbox_date: 2022-04-26

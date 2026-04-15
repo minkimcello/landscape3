@@ -4,7 +4,7 @@ metadata:
   name: Operator-Framework
   links:
     - title: Homepage
-      url: https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators
+      url: https://operatorframework.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:

@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OVN-Kubernetes
+  links:
+    - title: Homepage
+      url: https://ovn-kubernetes.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/C08452HR8V6/details/
+  tags:
+    - cni
+    - networking
+    - loadbalancing
+    - networksecurity
+    - observability
+    - multicloud
+  annotations:
+    backstage.io/source-location: $url:https://github.com/ovn-kubernetes/ovn-kubernetes
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-10-17
+  category: Runtime
+  subcategory: Cloud Native Network
+  status: sandbox
+  logo: ovn-kubernetes.svg
+  maturity:
+    sandbox_date: 2024-10-17

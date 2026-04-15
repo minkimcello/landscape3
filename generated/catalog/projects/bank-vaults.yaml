@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Bank-Vaults
+  description: "Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client
+    with automatic token renewal, automatic configuration, multiple unseal
+    options and more. A CLI tool to init, unseal and configure Vault (auth
+    methods, secret engines). Direct secret injection into Pods."
+  links:
+    - title: Homepage
+      url: https://bank-vaults.dev/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/bank-vaults/bank-vaults
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-06-18
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: bank-vaults.svg
+  maturity:
+    sandbox_date: 2024-06-18

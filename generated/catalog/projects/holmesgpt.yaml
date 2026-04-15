@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HolmesGPT
+  description: HolmesGPT is an AI agent that automates cloud-native
+    troubleshooting, bridging knowledge gaps by investigating alerts, executing
+    runbooks, and correlating observability data in cloud-native platforms.
+  links:
+    - title: Homepage
+      url: https://holmesgpt.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/HolmesGPT/holmesgpt
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-10-08
+  category: Observability and Analysis
+  subcategory: Observability
+  status: sandbox
+  logo: holmesgpt.svg
+  maturity:
+    sandbox_date: 2025-10-08

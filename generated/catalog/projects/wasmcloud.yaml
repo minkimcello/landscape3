@@ -25,7 +25,8 @@ spec:
   accepted: 2021-07-13
   category: Orchestration & Management
   subcategory: Scheduling & Orchestration
-  status: sandbox
+  status: incubating
   logo: wasmcloud.svg
   maturity:
     sandbox_date: 2021-07-13
+    incubation_date: 2024-11-08
