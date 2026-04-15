@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KubeFleet
+  description: A multi-cluster solution that enables users to effectively manage
+    their applications running in multiple Kubernetes clusters.
+  links:
+    - title: Homepage
+      url: https://kubefleet.dev/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: http://slack.cncf.io/
+  tags:
+    - multicluster
+    - kubernetes
+    - orchestration
+    - fleetmanagement
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kubefleet-dev/kubefleet
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: kubefleet.svg
+  maturity:
+    sandbox_date: 2025-01-21

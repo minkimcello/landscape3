@@ -26,7 +26,8 @@ spec:
   accepted: 2022-12-13
   category: Provisioning
   subcategory: Security & Compliance
-  status: sandbox
+  status: incubating
   logo: kubescape.svg
   maturity:
     sandbox_date: 2022-12-13
+    incubation_date: 2025-01-13

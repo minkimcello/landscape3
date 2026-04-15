@@ -18,7 +18,7 @@ spec:
   accepted: 2023-06-30
   category: Orchestration & Management
   subcategory: Coordination & Service Discovery
-  status: sandbox
+  status: archived
   logo: xline.svg
   maturity:
     sandbox_date: 2023-06-30

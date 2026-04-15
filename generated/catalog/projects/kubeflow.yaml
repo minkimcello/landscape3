@@ -2,10 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Kubeflow
-  description: The Kubeflow project is dedicated to making deployments of machine
-    learning workflows on Kubernetes simple, portable and scalable by providing
-    a straightforward way to deploy best-of-breed open-source systems for ML to
-    diverse infrastructures.
+  description: Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
   links:
     - title: Homepage
       url: https://kubeflow.org
@@ -14,7 +11,7 @@ metadata:
     - title: Twitter
       url: https://twitter.com/kubeflow
     - title: Slack/Discord
-      url: https://kubeflow.slack.com
+      url: http://slack.cncf.io/
   annotations:
     backstage.io/source-location: $url:https://github.com/kubeflow/kubeflow
 spec:

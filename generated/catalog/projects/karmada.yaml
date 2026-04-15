@@ -7,8 +7,13 @@ metadata:
       url: https://karmada.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://x.com/karmada_io
     - title: Slack/Discord
       url: https://cloud-native.slack.com/messages/karmada
+  tags:
+    - multicloud
+    - hybridcloud
   annotations:
     backstage.io/source-location: $url:https://github.com/karmada-io/karmada
 spec:

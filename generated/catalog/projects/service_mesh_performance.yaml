@@ -20,7 +20,7 @@ spec:
   accepted: 2021-06-22
   category: Orchestration & Management
   subcategory: Service Mesh
-  status: sandbox
+  status: archived
   logo: service-mesh-performance.svg
   maturity:
     sandbox_date: 2021-06-22

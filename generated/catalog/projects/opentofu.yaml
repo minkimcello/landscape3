@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenTofu
+  description: OpenTofu is an open source infrastructure as code tool that enables
+    users to safely and predictably provision and manage cloud and on-prem
+    infrastructure. It's a community-driven fork of Terraform that maintains
+    backward compatibility while offering enhanced features, stability.
+  links:
+    - title: Homepage
+      url: https://opentofu.org/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://twitter.com/opentofuorg
+  annotations:
+    backstage.io/source-location: $url:https://github.com/opentofu/opentofu
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-04-23
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: opentofu.svg
+  maturity:
+    sandbox_date: 2025-04-23

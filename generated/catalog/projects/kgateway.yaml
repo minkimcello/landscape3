@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kgateway
+  description: An Envoy-powered, Kubernetes-native API Gateway that integrates
+    Kubernetes Gateway API with a control plane for API connectivity in any
+    cloud environment.
+  links:
+    - title: Homepage
+      url: https://kgateway.dev/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  tags:
+    - apigateway
+    - envoy
+    - kubernetes
+    - gatewayapi
+    - cloudnative
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kgateway-dev/kgateway
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-03-04
+  category: Orchestration & Management
+  subcategory: API Gateway
+  status: sandbox
+  logo: kgateway.svg
+  maturity:
+    sandbox_date: 2025-03-04

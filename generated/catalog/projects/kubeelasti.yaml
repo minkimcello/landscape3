@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KubeElasti
+  description: Auto scale-to-zero pods when idle and scale up pods when traffic
+    arrives, without losing any requests. KubeElasti uses a smart proxy that
+    queues incoming requests while scaling up targets, ensuring no request loss.
+    It works with existing Kubernetes services and deployments without requiring
+    code changes.
+  links:
+    - title: Homepage
+      url: https://kubeelasti.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/truefoundry/KubeElasti
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2026-01-03
+  category: Serverless
+  subcategory: Framework
+  status: sandbox
+  logo: cncf.svg
+  maturity:
+    sandbox_date: 2026-01-03

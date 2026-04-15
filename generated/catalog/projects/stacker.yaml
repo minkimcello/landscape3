@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Stacker
+  description: Stacker is a tool for building OCI images and related artifacts
+    such as SBOMs natively via a declarative yaml format.
+  links:
+    - title: Homepage
+      url: https://stackerbuild.io
+    - title: Crunchbase
+  annotations:
+    backstage.io/source-location: $url:https://github.com/project-stacker/stacker
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-06-19
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: stacker.svg
+  maturity:
+    sandbox_date: 2024-06-19

@@ -2,6 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Kubewarden
+  description: "Kubewarden is a Policy Engine powered by WebAssembly policies. Its
+    policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go,
+    YAML, and others. Kubewarden simplifies Policy-As-Code by allowing policy
+    authors and consumers to use their preferred tooling and stack, develop and
+    test policies out of cluster. "
   links:
     - title: Homepage
       url: https://www.kubewarden.io
@@ -11,6 +16,16 @@ metadata:
       url: https://twitter.com/kubewarden
     - title: Slack/Discord
       url: https://kubernetes.slack.com/
+  tags:
+    - wasm
+    - webassembly
+    - webassembly
+    - policy
+    - policyascode
+    - governance
+    - softwaresupplychain
+    - podsecurity
+    - compliance
   annotations:
     backstage.io/source-location: $url:https://github.com/kubewarden/kubewarden-controller
 spec:

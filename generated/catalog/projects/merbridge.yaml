@@ -20,7 +20,7 @@ spec:
   accepted: 2022-12-14
   category: Orchestration & Management
   subcategory: Service Mesh
-  status: sandbox
+  status: archived
   logo: merbridge.svg
   maturity:
     sandbox_date: 2022-12-14

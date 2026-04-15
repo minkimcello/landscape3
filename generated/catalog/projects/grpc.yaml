@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: gRPC
+  description: A high performance, open source universal RPC framework.
   links:
     - title: Homepage
-      url: https://grpc.io/
+      url: https://grpc.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
     - title: Twitter

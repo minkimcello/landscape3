@@ -1,0 +1,45 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OSCAL-COMPASS
+  description: The OSCAL COMPASS project is set of tools that enable the creation,
+    validation, and governance of documentation artifacts for compliance needs.
+    It leverages NIST's OSCAL (Open Security Controls Assessment Language) as a
+    standard data format for interchange between tools and people, and provides
+    an opinionated approach to OSCAL SDK and adoption by policy engines.
+  links:
+    - title: Homepage
+      url: https://github.com/oscal-compass/community
+    - title: Crunchbase
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/archives/C06F3PEPNBW
+  tags:
+    - compliance
+    - security
+    - risk
+    - oscal
+    - catalog
+    - profile
+    - componentdefinition
+    - systemsecurityplan
+    - systemassessmentplan
+    - automation
+    - devsecops
+    - vulnerability
+    - cloud
+    - opensource
+    - nist
+    - fedramp
+  annotations:
+    backstage.io/source-location: $url:https://github.com/oscal-compass/compliance-trestle
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-06-21
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: oscal-compass-color-stacked.svg
+  maturity:
+    sandbox_date: 2024-06-21

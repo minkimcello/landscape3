@@ -16,7 +16,7 @@ spec:
   accepted: 2022-03-08
   category: Runtime
   subcategory: Cloud Native Network
-  status: sandbox
+  status: archived
   logo: fabedge.svg
   maturity:
     sandbox_date: 2022-03-08

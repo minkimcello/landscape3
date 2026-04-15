@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: LoxiLB
+  description: eBPF based cloud-native load-balancer. Powering
+    Kubernetes|Edge|5G|IoT|XaaS Apps.
+  links:
+    - title: Homepage
+      url: https://loxilb.io
+    - title: Crunchbase
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/loxilb
+  annotations:
+    backstage.io/source-location: $url:https://github.com/loxilb-io/loxilb
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-08-30
+  category: Orchestration & Management
+  subcategory: Service Proxy
+  status: sandbox
+  logo: loxilb.svg
+  maturity:
+    sandbox_date: 2024-08-30

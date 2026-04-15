@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k0s
+  links:
+    - title: Homepage
+      url: https://k0sproject.io/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Twitter
+      url: https://x.com/k0sproject
+    - title: Slack/Discord
+      url: http://slack.k8s.io/
+  tags:
+    - k0s
+    - cloud
+    - orchestration
+    - controlplane
+    - multitenancy
+  annotations:
+    backstage.io/source-location: $url:https://github.com/k0sproject/k0s
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-19
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: k0s-logo-2025.svg
+  maturity:
+    sandbox_date: 2025-01-19

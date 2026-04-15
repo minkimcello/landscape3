@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: container2wasm
+  description: A tool to run containers on Wasm-enabled environments.
+  links:
+    - title: Homepage
+      url: https://github.com/container2wasm/container2wasm
+    - title: Crunchbase
+  annotations:
+    backstage.io/source-location: $url:https://github.com/container2wasm/container2wasm
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: Wasm
+  subcategory: Orchestration & Management
+  status: sandbox
+  logo: container2wasm.svg
+  maturity:
+    sandbox_date: 2025-01-21

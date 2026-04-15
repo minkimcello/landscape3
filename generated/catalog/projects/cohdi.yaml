@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CoHDI
+  description: Enables dynamic device scaling using Composable Hardware
+    Disaggregated Infrastructure (CoHDI). CoHDI is a community-driven,
+    standards-based open ecosystem for next-generation architectures and
+    frameworks built on Composable Hardware Disaggregated Infrastructure. The
+    objective is to bridge the gap between Kubernetes and CoHDI by collaborating
+    with the Dynamic Resource Allocation, Autoscaler, and Scheduler projects.
+    This enables data center operators to realize the benefits of cost
+    efficiency, high availability, and sustainability through a disaggregated
+    computing system.
+  links:
+    - title: Homepage
+      url: https://github.com/CoHDI
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  tags:
+    - composablehardwareindisaggregatedinfrastructure
+    - kubernetes
+    - dra
+    - dynamicresourceallocation
+    - gpu
+    - pcie
+    - cxl
+    - baremetal
+    - hotplug
+    - dynamicdevicescaling
+  annotations:
+    backstage.io/source-location: $url:https://github.com/CoHDI
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-12-19
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: cncf.svg
+  maturity:
+    sandbox_date: 2025-12-19

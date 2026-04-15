@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cartography
+  description: Cartography is a Python tool that consolidates infrastructure
+    assets and the relationships between them in an intuitive graph view.
+  links:
+    - title: Homepage
+      url: https://cartography.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/cartography-cncf/cartography
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-08-23
+  category: Provisioning
+  subcategory: Security & Compliance
+  status: sandbox
+  logo: cartography.svg
+  maturity:
+    sandbox_date: 2024-08-23

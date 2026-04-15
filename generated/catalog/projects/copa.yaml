@@ -2,13 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Copa
+  description: CLI tool for directly patching container image vulnerabilities
   links:
     - title: Homepage
-      url: https://github.com/project-copacetic/copacetic
+      url: https://project-copacetic.github.io/copacetic/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
     - title: Slack/Discord
-      url: https://cloud-native.slack.com/
+      url: https://cloud-native.slack.com/archives/C071UU5QDKJ
   annotations:
     backstage.io/source-location: $url:https://github.com/project-copacetic/copacetic
 spec:

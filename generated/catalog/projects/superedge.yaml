@@ -19,7 +19,7 @@ spec:
   accepted: 2021-09-14
   category: Provisioning
   subcategory: Automation & Configuration
-  status: sandbox
+  status: archived
   logo: superedge.svg
   maturity:
     sandbox_date: 2021-09-14

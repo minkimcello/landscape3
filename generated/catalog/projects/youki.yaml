@@ -1,24 +1,24 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: WasmEdge-Wasm
+  name: youki
   links:
     - title: Homepage
-      url: https://wasmedge.org/
+      url: https://youki-dev.github.io/youki/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
     - title: Slack/Discord
-      url: https://cloud-native.slack.com/
+      url: https://slack.cncf.io/
   annotations:
-    backstage.io/source-location: $url:https://github.com/WasmEdge/WasmEdge
+    backstage.io/source-location: $url:https://github.com/youki-dev/youki
 spec:
   type: service
   lifecycle: production
   owner: CNCF
-  accepted: 2021-04-28
-  category: Wasm
-  subcategory: Runtimes
+  accepted: 2024-10-17
+  category: Runtime
+  subcategory: Container Runtime
   status: sandbox
-  logo: wasm-edge.svg
+  logo: youki.svg
   maturity:
-    sandbox_date: 2021-04-28
+    sandbox_date: 2024-10-17

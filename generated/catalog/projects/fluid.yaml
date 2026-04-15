@@ -6,7 +6,7 @@ metadata:
     acceleration in cloud native environment.
   links:
     - title: Homepage
-      url: http://pasa-bigdata.nju.edu.cn/fluid/index.html
+      url: https://fluid-cloudnative.github.io/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   annotations:
@@ -18,7 +18,8 @@ spec:
   accepted: 2021-04-28
   category: Orchestration & Management
   subcategory: Scheduling & Orchestration
-  status: sandbox
+  status: incubating
   logo: fluid.svg
   maturity:
     sandbox_date: 2021-04-28
+    incubation_date: 2026-01-08

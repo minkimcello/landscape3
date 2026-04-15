@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Clusternet
+  description: "[CNCF Sandbox Project] Managing your Kubernetes clusters
+    (including public, private, edge, etc.) as easily as visiting the Internet"
   links:
     - title: Homepage
       url: https://clusternet.io

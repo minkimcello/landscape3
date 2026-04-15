@@ -22,7 +22,7 @@ spec:
   accepted: 2021-11-09
   category: Orchestration & Management
   subcategory: Service Proxy
-  status: sandbox
+  status: archived
   logo: openelb-io.svg
   maturity:
     sandbox_date: 2021-11-09

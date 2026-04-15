@@ -12,7 +12,7 @@ metadata:
     - title: Slack/Discord
       url: https://app.slack.com/client/T08PSQ7BQ/C01SRB41GMT
   annotations:
-    backstage.io/source-location: $url:https://github.com/tinkerbell/tink
+    backstage.io/source-location: $url:https://github.com/tinkerbell/tinkerbell
 spec:
   type: service
   lifecycle: production

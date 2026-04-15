@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CloudNativePG
+  description: CloudNativePG is a comprehensive platform designed to seamlessly
+    manage PostgreSQL databases within Kubernetes environments, covering the
+    entire operational lifecycle from initial deployment to ongoing maintenance
+  links:
+    - title: Homepage
+      url: https://www.cloudnative-pg.io/
+    - title: Crunchbase
+    - title: Twitter
+      url: https://x.com/CloudNativePg
+  tags:
+    - postgresql
+    - postgres
+    - rdbms
+    - database
+    - transactionaldatabase
+    - microservicedatabase
+    - oltp
+    - aiml
+  annotations:
+    backstage.io/source-location: $url:https://github.com/cloudnative-pg/cloudnative-pg
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-01-21
+  category: App Definition and Development
+  subcategory: Database
+  status: sandbox
+  logo: cloudnative-pg.svg
+  maturity:
+    sandbox_date: 2025-01-21

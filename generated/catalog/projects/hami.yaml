@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hami
+  description: Heterogeneous AI Computing Virtualization Middleware
+  links:
+    - title: Homepage
+      url: https://project-hami.github.io/HAMi/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/Project-HAMi/HAMi
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-08-21
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: hami.svg
+  maturity:
+    sandbox_date: 2024-08-21

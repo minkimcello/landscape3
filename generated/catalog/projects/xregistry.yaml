@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: xRegistry
+  description: The xRegistry project defines an abstract model for managing
+    metadata about resources and provides a REST-based interface to discover,
+    create, modify and delete those resources.
+  links:
+    - title: Homepage
+      url: https://xregistry.io
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/xregistry/server
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-06-05
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: xregistry.svg
+  maturity:
+    sandbox_date: 2025-06-05

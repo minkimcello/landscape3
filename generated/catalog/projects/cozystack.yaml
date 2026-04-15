@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cozystack
+  description: Cozystack is a free PaaS platform and framework for building
+    private clouds and providing users/customers with managed
+    Kubernetes,  KubeVirt-based VMs, databases as a service, NATS, message
+    brokers, etc. with GPU support in VMs and Kubernetes clusters.
+  links:
+    - title: Homepage
+      url: https://cozystack.io
+    - title: Crunchbase
+  tags:
+    - baremetal
+    - platform
+    - cloud
+    - privatecloud
+    - managedservices
+    - managedkubernetes
+    - kubevirt
+  annotations:
+    backstage.io/source-location: $url:https://github.com/cozystack/cozystack
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-03-04
+  category: Platform
+  subcategory: PaaS/Container Service
+  status: sandbox
+  logo: cozystack.svg
+  maturity:
+    sandbox_date: 2025-03-04

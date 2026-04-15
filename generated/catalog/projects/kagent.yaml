@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kagent
+  description: Kagent is an open source programming framework designed for DevOps
+    and platform engineers to run AI agents in Kubernetes
+  links:
+    - title: Homepage
+      url: https://kagent.dev/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kagent-dev/kagent
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-05-22
+  category: Provisioning
+  subcategory: Automation & Configuration
+  status: sandbox
+  logo: kagent.svg
+  maturity:
+    sandbox_date: 2025-05-22

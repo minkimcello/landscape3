@@ -33,8 +33,9 @@ spec:
   accepted: 2022-03-02
   category: Orchestration & Management
   subcategory: Scheduling & Orchestration
-  status: incubating
+  status: graduated
   logo: knative.svg
   maturity:
     sandbox_date: 2022-03-02
     incubation_date: 2022-03-02
+    graduation_date: 2025-09-11

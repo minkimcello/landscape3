@@ -20,7 +20,7 @@ spec:
   accepted: 2020-11-10
   category: App Definition and Development
   subcategory: Streaming & Messaging
-  status: sandbox
+  status: archived
   logo: pravega.svg
   maturity:
     sandbox_date: 2020-11-10

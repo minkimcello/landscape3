@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Perses
+  description: Perses is a dashboard tool to visualize observability data from
+    Prometheus/Thanos/Jaeger.
+  links:
+    - title: Homepage
+      url: https://perses.dev
+    - title: Crunchbase
+    - title: Twitter
+      url: https://x.com/PersesDev
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/messages/C07KQR95WBE
+  tags:
+    - dashboard
+    - observability
+    - monitoring
+  annotations:
+    backstage.io/source-location: $url:https://github.com/perses/perses
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-08-29
+  category: Observability and Analysis
+  subcategory: Observability
+  status: sandbox
+  logo: perses.svg
+  maturity:
+    sandbox_date: 2024-08-29

@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dalec
+  description: Dalec provides a declarative format for building system packages
+    and containers from those packages in a secure way for supply chain
+    security.
+  links:
+    - title: Homepage
+      url: https://project-dalec.github.io/dalec/
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    - title: Slack/Discord
+      url: https://cloud-native.slack.com/archives/dalec
+  annotations:
+    backstage.io/source-location: $url:https://github.com/project-dalec/dalec
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-10-08
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: dalec.svg
+  maturity:
+    sandbox_date: 2025-10-08

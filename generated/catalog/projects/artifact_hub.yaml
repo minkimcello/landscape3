@@ -4,7 +4,7 @@ metadata:
   name: Artifact-Hub
   links:
     - title: Homepage
-      url: https://artifacthub.io/
+      url: https://artifacthub.io
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
     - title: Twitter
@@ -18,7 +18,8 @@ spec:
   accepted: 2020-06-25
   category: App Definition and Development
   subcategory: Application Definition & Image Build
-  status: sandbox
+  status: incubating
   logo: artifact-hub.svg
   maturity:
     sandbox_date: 2020-06-25
+    incubation_date: 2024-05-30

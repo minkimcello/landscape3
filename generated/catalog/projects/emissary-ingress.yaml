@@ -4,7 +4,7 @@ metadata:
   name: Emissary-Ingress
   links:
     - title: Homepage
-      url: https://www.getambassador.io/
+      url: https://emissary-ingress.dev/
     - title: Crunchbase
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   tags:

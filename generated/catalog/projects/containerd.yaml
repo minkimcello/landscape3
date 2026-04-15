@@ -11,6 +11,13 @@ metadata:
       url: https://twitter.com/containerd
     - title: Slack/Discord
       url: https://slack.cncf.io/
+  tags:
+    - containerruntime
+    - oci
+    - cri
+    - dataplane
+    - cloudnative
+    - crossplatform
   annotations:
     backstage.io/source-location: $url:https://github.com/containerd/containerd
 spec:

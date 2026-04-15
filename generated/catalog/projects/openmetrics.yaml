@@ -20,7 +20,7 @@ spec:
   accepted: 2018-08-10
   category: Observability and Analysis
   subcategory: Observability
-  status: incubating
+  status: archived
   logo: openmetrics.svg
   maturity:
     sandbox_date: 2018-08-10

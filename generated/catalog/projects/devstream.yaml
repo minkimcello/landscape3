@@ -18,7 +18,7 @@ spec:
   accepted: 2022-06-17
   category: Provisioning
   subcategory: Automation & Configuration
-  status: sandbox
+  status: archived
   logo: devstream.svg
   maturity:
     sandbox_date: 2022-06-17

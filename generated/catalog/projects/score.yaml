@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Score
+  description: Score is an open-source workload specification designed to simplify
+    development for cloud-native developers.
+  links:
+    - title: Homepage
+      url: https://score.dev/
+    - title: Crunchbase
+  annotations:
+    backstage.io/source-location: $url:https://github.com/score-spec/spec
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2024-07-08
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: score.svg
+  maturity:
+    sandbox_date: 2024-07-08

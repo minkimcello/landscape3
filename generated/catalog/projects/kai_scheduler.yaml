@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KAI-Scheduler
+  description: KAI Scheduler is a robust, efficient, and scalable Kubernetes
+    scheduler that optimizes GPU resource allocation for AI workloads in
+    large-scale clusters.
+  links:
+    - title: Homepage
+      url: https://github.com/kai-scheduler/KAI-Scheduler
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/kai-scheduler/KAI-Scheduler
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-12-21
+  category: Orchestration & Management
+  subcategory: Scheduling & Orchestration
+  status: sandbox
+  logo: cncf.svg
+  maturity:
+    sandbox_date: 2025-12-21

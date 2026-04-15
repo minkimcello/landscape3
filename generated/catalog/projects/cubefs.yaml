@@ -26,8 +26,9 @@ spec:
   accepted: 2019-12-16
   category: Runtime
   subcategory: Cloud Native Storage
-  status: incubating
+  status: graduated
   logo: cubefs.svg
   maturity:
     sandbox_date: 2019-12-16
     incubation_date: 2022-07-03
+    graduation_date: 2024-12-11

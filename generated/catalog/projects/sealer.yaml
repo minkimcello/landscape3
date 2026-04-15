@@ -20,7 +20,7 @@ spec:
   accepted: 2022-04-26
   category: App Definition and Development
   subcategory: Application Definition & Image Build
-  status: sandbox
+  status: archived
   logo: sealer_logo.svg
   maturity:
     sandbox_date: 2022-04-26

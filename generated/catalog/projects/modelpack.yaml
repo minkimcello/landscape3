@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ModelPack
+  description: The project establishes open standards for packaging, distributing
+    and running AI artifacts in the cloud-native environment.
+  links:
+    - title: Homepage
+      url: https://github.com/modelpack/model-spec
+    - title: Crunchbase
+  annotations:
+    backstage.io/source-location: $url:https://github.com/modelpack/model-spec
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2025-05-13
+  category: App Definition and Development
+  subcategory: Application Definition & Image Build
+  status: sandbox
+  logo: modelpack.svg
+  maturity:
+    sandbox_date: 2025-05-13

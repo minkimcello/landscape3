@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenChoreo
+  description: OpenChoreo is a developer platform for Kubernetes offering
+    development and architecture abstractions, a Backstage-powered developer
+    portal, application CI/CD, GitOps, and observability. It composes CNCF and
+    complementary projects into a modular, extensible framework that provides
+    both strong governance for platform engineers and simplified abstractions
+    for developers.
+  links:
+    - title: Homepage
+      url: https://openchoreo.dev
+    - title: Crunchbase
+      url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  annotations:
+    backstage.io/source-location: $url:https://github.com/openchoreo/openchoreo
+spec:
+  type: service
+  lifecycle: production
+  owner: CNCF
+  accepted: 2026-01-06
+  category: App Definition and Development
+  subcategory: Continuous Integration & Delivery
+  status: sandbox
+  logo: openchoreo.svg
+  maturity:
+    sandbox_date: 2026-01-06

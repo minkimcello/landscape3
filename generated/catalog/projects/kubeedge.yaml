@@ -23,8 +23,9 @@ spec:
   accepted: 2019-03-18
   category: Provisioning
   subcategory: Automation & Configuration
-  status: incubating
+  status: graduated
   logo: kube-edge.svg
   maturity:
     sandbox_date: 2019-03-18
     incubation_date: 2020-09-16
+    graduation_date: 2024-09-11

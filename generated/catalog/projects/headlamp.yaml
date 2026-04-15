@@ -10,8 +10,10 @@ metadata:
       url: https://www.crunchbase.com/organization/cloud-native-computing-foundation
     - title: Twitter
       url: https://twitter.com/headlamp_ui
+    - title: Slack/Discord
+      url: https://kubernetes.slack.com/messages/headlamp
   annotations:
-    backstage.io/source-location: $url:https://github.com/headlamp-k8s/headlamp
+    backstage.io/source-location: $url:https://github.com/kubernetes-sigs/headlamp
 spec:
   type: service
   lifecycle: production
